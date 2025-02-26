@@ -458,7 +458,9 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "unconnected-(RBAT_UP-Pad2)": "BATT_UP"
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
