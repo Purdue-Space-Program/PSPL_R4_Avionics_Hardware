@@ -13991,7 +13991,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 182.88 50.8 90)
+		(at 182.88 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14000,7 +14000,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2ae1aae-8019-4377-bcf1-33786787c268")
 		(property "Reference" "#PWR015"
-			(at 187.96 50.8 0)
+			(at 182.88 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14009,15 +14009,16 @@
 			)
 		)
 		(property "Value" "GNDESD"
-			(at 186.69 50.927 0)
+			(at 185.42 51.8667 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 50.8 0)
+			(at 182.88 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14026,7 +14027,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 50.8 0)
+			(at 182.88 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
