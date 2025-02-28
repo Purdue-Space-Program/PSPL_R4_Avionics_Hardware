@@ -3642,6 +3642,128 @@
 		)
 		(uuid "fef14d77-e7fe-4b85-be4a-4fd153d62743")
 	)
+	(rectangle
+		(start 172.72 102.87)
+		(end 203.2 118.11)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 08c64705-a8e1-499f-aea2-cb6b797ff964)
+	)
+	(rectangle
+		(start 60.96 110.49)
+		(end 67.31 116.84)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0c14a62b-7266-4833-8cab-7829e851c942)
+	)
+	(rectangle
+		(start 27.94 163.83)
+		(end 58.42 168.91)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 45e4ede1-9dbb-4d40-89ce-6725286f1484)
+	)
+	(rectangle
+		(start 43.18 44.45)
+		(end 85.09 52.07)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 65b50a46-d44c-4e1a-a503-dd968cc136bf)
+	)
+	(rectangle
+		(start 168.91 30.48)
+		(end 175.26 36.83)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 99fcf0d0-a609-4404-bd5f-c15d12f38764)
+	)
+	(rectangle
+		(start 163.83 99.06)
+		(end 170.18 106.68)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9c7e55fb-1a86-41b9-8ae0-843607f5ff3c)
+	)
+	(text "bad practice "
+		(exclude_from_sim no)
+		(at 43.18 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "13490164-3c3d-46d8-a155-64f3b54224fd")
+	)
+	(text "TaylorD : dont have wires overlap like this "
+		(exclude_from_sim no)
+		(at 190.5 114.808 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "8215b86c-7585-4e0a-88c7-18ded9ad8101")
+	)
+	(text "bad practice "
+		(exclude_from_sim no)
+		(at 62.23 49.022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9bc298b4-d72c-40f8-a9f0-c7af50a42739")
+	)
+	(text "bad practice "
+		(exclude_from_sim no)
+		(at 167.894 99.822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c2b7dad9-a85e-4bd9-8e3e-0649b61e916b")
+	)
+	(text "bad practice "
+		(exclude_from_sim no)
+		(at 65.024 115.316 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c6c23ab6-5088-44b0-8979-3a62f70f088e")
+	)
 	(label "+"
 		(at 46.99 101.6 0)
 		(fields_autoplaced yes)
