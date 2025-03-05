@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=L9963E-TR
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat Packages
+PinCount=65
+Version=1.1
+Released=2021-03-25 09:26:52
+Downloaded=2025-02-20 01:52:39
+3D=Y

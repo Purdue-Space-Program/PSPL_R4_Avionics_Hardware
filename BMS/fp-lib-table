@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "R4_standard_footprints")(type "KiCad")(uri "C:/Users/idkra/OneDrive/Documents/GitHub/PSPL_R4_Avionics_Hardware/libs/R4_standard_footprints.pretty")(options "")(descr ""))
+)
