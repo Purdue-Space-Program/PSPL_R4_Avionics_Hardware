@@ -5,329 +5,6 @@
 	(uuid "f80f938a-6d18-43c0-9c0c-cde2e6b97c6c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "39R0603:RC0603FR-0739RL"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 5.715 3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "RC0603FR-0739RL"
-				(at 6.35 -3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "RC0603N_YAG"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "RC0603FR-0739RL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "RC0603FR-0739RL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "RC0603N_YAG RC0603N_YAG-M RC0603N_YAG-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RC0603FR-0739RL_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.175 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 1.27) (xy 4.445 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -1.27) (xy 5.715 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.715 1.27) (xy 6.985 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 -1.27) (xy 8.255 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 1.27) (xy 9.525 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 -1.27) (xy 10.16 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "RC0603FR-0739RL_1_2"
-				(polyline
-					(pts
-						(xy -1.27 3.175) (xy 1.27 4.445)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.715) (xy 1.27 6.985)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 8.255) (xy 1.27 9.525)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -1.27 3.175)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 4.445) (xy -1.27 5.715)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 6.985) (xy -1.27 8.255)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 9.525) (xy 0 10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -3755,329 +3432,6 @@
 				)
 			)
 		)
-		(symbol "test:RC0603FR-07100RL"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 5.715 3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "RC0603FR-07100RL"
-				(at 6.35 -3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "RC0603N_YAG"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "RC0603FR-07100RL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "RC0603FR-07100RL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "RC0603N_YAG RC0603N_YAG-M RC0603N_YAG-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RC0603FR-07100RL_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.175 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 1.27) (xy 4.445 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -1.27) (xy 5.715 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.715 1.27) (xy 6.985 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 -1.27) (xy 8.255 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 1.27) (xy 9.525 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 -1.27) (xy 10.16 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "RC0603FR-07100RL_1_2"
-				(polyline
-					(pts
-						(xy -1.27 3.175) (xy 1.27 4.445)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.715) (xy 1.27 6.985)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 8.255) (xy 1.27 9.525)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -1.27 3.175)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 4.445) (xy -1.27 5.715)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 6.985) (xy -1.27 8.255)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 9.525) (xy 0 10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 35.56 142.24)
@@ -6489,7 +5843,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 60.96) (xy 138.43 60.96)
+			(xy 118.11 60.96) (xy 143.51 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6749,7 +6103,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 55.88) (xy 137.16 55.88)
+			(xy 120.65 55.88) (xy 142.24 55.88)
 		)
 		(stroke
 			(width 0)
@@ -8549,7 +7903,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 50.8) (xy 137.16 50.8)
+			(xy 121.92 50.8) (xy 142.24 50.8)
 		)
 		(stroke
 			(width 0)
@@ -9781,7 +9135,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R4_standard_footprints:100R-RC0603N_YAG"
 			(at 143.764 171.704 90)
 			(effects
 				(font
@@ -9848,7 +9202,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R4_standard_footprints:100R-RC0603N_YAG"
 			(at 147.574 142.494 90)
 			(effects
 				(font
@@ -10947,7 +10301,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R4_standard_footprints:100R-RC0603N_YAG"
 			(at 147.574 112.014 90)
 			(effects
 				(font
@@ -11752,7 +11106,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R4_standard_footprints:39R-RC0603N_YAG"
 			(at 147.574 109.474 90)
 			(effects
 				(font
@@ -12022,7 +11376,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R4_standard_footprints:39R-RC0603N_YAG"
 			(at 147.574 152.654 90)
 			(effects
 				(font
@@ -12424,7 +11778,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R4_standard_footprints:100R-RC0603N_YAG"
 			(at 147.574 156.464 90)
 			(effects
 				(font
@@ -12491,7 +11845,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R4_standard_footprints:39R-RC0603N_YAG"
 			(at 147.574 68.834 90)
 			(effects
 				(font
@@ -12733,6 +12087,73 @@
 			(project "BMS"
 				(path "/f80f938a-6d18-43c0-9c0c-cde2e6b97c6c"
 					(reference "RVTREF3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 147.32 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51656421-f613-4061-bc29-74c86dabd8bb")
+		(property "Reference" "RLPF1"
+			(at 140.97 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 151.638 59.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "R4_standard_footprints:100R-RC0603N_YAG"
+			(at 147.574 59.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 147.32 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc1188d1-6b6e-4231-8ed5-aaf35516e8b6")
+		)
+		(pin "2"
+			(uuid "93bdf130-a22f-471a-82ba-62ca1fd03a69")
+		)
+		(instances
+			(project "BMS"
+				(path "/f80f938a-6d18-43c0-9c0c-cde2e6b97c6c"
+					(reference "RLPF1")
 					(unit 1)
 				)
 			)
@@ -13251,7 +12672,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R4_standard_footprints:100R-RC0603N_YAG"
 			(at 147.574 128.524 90)
 			(effects
 				(font
@@ -13384,7 +12805,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R4_standard_footprints:39R-RC0603N_YAG"
 			(at 147.574 84.074 90)
 			(effects
 				(font
@@ -13585,7 +13006,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R4_standard_footprints:39R-RC0603N_YAG"
 			(at 147.574 125.984 90)
 			(effects
 				(font
@@ -13652,7 +13073,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R4_standard_footprints:39R-RC0603N_YAG"
 			(at 147.574 77.724 90)
 			(effects
 				(font
@@ -13789,7 +13210,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R4_standard_footprints:39R-RC0603N_YAG"
 			(at 147.574 131.064 90)
 			(effects
 				(font
@@ -13926,7 +13347,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R4_standard_footprints:39R-RC0603N_YAG"
 			(at 147.574 63.754 90)
 			(effects
 				(font
@@ -14060,7 +13481,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R4_standard_footprints:100R-RC0603N_YAG"
 			(at 147.574 73.914 90)
 			(effects
 				(font
@@ -14466,7 +13887,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R4_standard_footprints:100R-RC0603N_YAG"
 			(at 148.844 89.154 90)
 			(effects
 				(font
@@ -15426,7 +14847,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R4_standard_footprints:100R-RC0603N_YAG"
 			(at 147.574 136.144 90)
 			(effects
 				(font
@@ -15673,75 +15094,6 @@
 		)
 	)
 	(symbol
-		(lib_id "39R0603:RC0603FR-0739RL")
-		(at 149.86 55.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "92f73be1-f249-4837-9e8c-4caf34ac733a")
-		(property "Reference" "R3"
-			(at 143.256 53.594 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "39"
-			(at 148.59 57.15 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "R4_standard_footprints:39R-RC0603N_YAG"
-			(at 149.86 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "RC0603FR-0739RL"
-			(at 149.86 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "158a7c4f-268a-47e0-90c6-4228f2856fc3")
-		)
-		(pin "2"
-			(uuid "286c73dc-8d8f-47eb-81a4-aff2dd4d3717")
-		)
-		(instances
-			(project ""
-				(path "/f80f938a-6d18-43c0-9c0c-cde2e6b97c6c"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 72.39 143.51 0)
 		(unit 1)
@@ -15900,7 +15252,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R4_standard_footprints:100R-RC0603N_YAG"
 			(at 143.764 162.814 90)
 			(effects
 				(font
@@ -16003,75 +15355,6 @@
 			(project "BMS"
 				(path "/f80f938a-6d18-43c0-9c0c-cde2e6b97c6c"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "test:RC0603FR-07100RL")
-		(at 151.13 60.96 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9a94767e-921d-458b-930f-c77e210cf7ca")
-		(property "Reference" "R2"
-			(at 145.288 59.436 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 150.368 61.976 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "R4_standard_footprints:100R-RC0603N_YAG"
-			(at 151.13 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "RC0603FR-07100RL"
-			(at 151.13 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 151.13 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8fa898ed-3ac3-4426-85ea-7c70239f9929")
-		)
-		(pin "1"
-			(uuid "778af980-9143-4543-af41-777808d0ebd7")
-		)
-		(instances
-			(project "BMS"
-				(path "/f80f938a-6d18-43c0-9c0c-cde2e6b97c6c"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -16509,6 +15792,73 @@
 			(project ""
 				(path "/f80f938a-6d18-43c0-9c0c-cde2e6b97c6c"
 					(reference "MREG1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 146.05 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aba114f1-3a1e-414a-afb7-048c804b6e53")
+		(property "Reference" "RLPF15"
+			(at 139.7 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 149.86 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "R4_standard_footprints:100R-RC0603N_YAG"
+			(at 146.304 49.784 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 146.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1c036db-43af-40c5-ad49-eeac3653d1ff")
+		)
+		(pin "2"
+			(uuid "e2776769-7482-40fd-a190-89cfccf62681")
+		)
+		(instances
+			(project "BMS"
+				(path "/f80f938a-6d18-43c0-9c0c-cde2e6b97c6c"
+					(reference "RLPF15")
 					(unit 1)
 				)
 			)
@@ -17059,7 +16409,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R4_standard_footprints:100R-RC0603N_YAG"
 			(at 147.574 104.394 90)
 			(effects
 				(font
@@ -17194,7 +16544,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R4_standard_footprints:100R-RC0603N_YAG"
 			(at 147.574 66.294 90)
 			(effects
 				(font
@@ -18275,7 +17625,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R4_standard_footprints:100R-RC0603N_YAG"
 			(at 147.574 96.774 90)
 			(effects
 				(font
@@ -18312,6 +17662,73 @@
 			(project "BMS"
 				(path "/f80f938a-6d18-43c0-9c0c-cde2e6b97c6c"
 					(reference "RLPF5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 146.05 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb9c6d22-754b-4b77-b885-92f49a529864")
+		(property "Reference" "RDIS1"
+			(at 139.7 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "39"
+			(at 149.86 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "R4_standard_footprints:39R-RC0603N_YAG"
+			(at 146.304 54.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 146.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "127dd896-cdc5-4042-9153-e0a1d8718443")
+		)
+		(pin "2"
+			(uuid "d9a3209f-dfdc-4e6a-98ac-3658d57d633a")
+		)
+		(instances
+			(project "BMS"
+				(path "/f80f938a-6d18-43c0-9c0c-cde2e6b97c6c"
+					(reference "RDIS1")
 					(unit 1)
 				)
 			)
@@ -18481,7 +17898,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R4_standard_footprints:39R-RC0603N_YAG"
 			(at 147.574 139.954 90)
 			(effects
 				(font
@@ -18685,7 +18102,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R4_standard_footprints:100R-RC0603N_YAG"
 			(at 147.574 119.634 90)
 			(effects
 				(font
@@ -18891,7 +18308,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R4_standard_footprints:39R-RC0603N_YAG"
 			(at 147.574 114.554 90)
 			(effects
 				(font
@@ -19244,7 +18661,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R4_standard_footprints:39R-RC0603N_YAG"
 			(at 147.574 94.234 90)
 			(effects
 				(font
@@ -19355,75 +18772,6 @@
 		)
 	)
 	(symbol
-		(lib_id "test:RC0603FR-07100RL")
-		(at 149.86 50.8 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e1e44b8a-b884-4007-93b3-0faf625cfcde")
-		(property "Reference" "R1"
-			(at 143.002 48.514 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 149.352 52.324 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "R4_standard_footprints:100R-RC0603N_YAG"
-			(at 149.86 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "RC0603FR-07100RL"
-			(at 149.86 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4885c743-d0dd-42f7-be31-c036368e4964")
-		)
-		(pin "1"
-			(uuid "e95fd78c-fbea-4f2b-a60c-b0f51a870e6e")
-		)
-		(instances
-			(project ""
-				(path "/f80f938a-6d18-43c0-9c0c-cde2e6b97c6c"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 147.32 100.33 90)
 		(unit 1)
@@ -19448,7 +18796,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R4_standard_footprints:39R-RC0603N_YAG"
 			(at 147.574 99.314 90)
 			(effects
 				(font
@@ -19786,7 +19134,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R4_standard_footprints:39R-RC0603N_YAG"
 			(at 147.574 145.034 90)
 			(effects
 				(font
@@ -19985,7 +19333,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R4_standard_footprints:100R-RC0603N_YAG"
 			(at 147.574 81.534 90)
 			(effects
 				(font
@@ -20255,7 +19603,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "R4_standard_footprints:100R-RC0603N_YAG"
 			(at 147.574 148.844 90)
 			(effects
 				(font
