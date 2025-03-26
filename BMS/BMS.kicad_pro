@@ -460,6 +460,7 @@
     "net_colors": null,
     "netclass_assignments": {
       "AGND": "Cell 1-",
+      "GND": "Cell 1-",
       "Net-(CESD10-Pad1)": "Cell 12+",
       "Net-(CESD11-Pad1)": "Cell 6+",
       "Net-(CESD12-Pad1)": "Cell 14+",
