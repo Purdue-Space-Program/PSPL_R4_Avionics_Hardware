@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ADS1158")(type "KiCad")(uri "${KIPRJMOD}/ul_ADS1158IRTCR/KiCADv6/2025-03-27_20-43-44.kicad_sym")(options "")(descr ""))
+)
