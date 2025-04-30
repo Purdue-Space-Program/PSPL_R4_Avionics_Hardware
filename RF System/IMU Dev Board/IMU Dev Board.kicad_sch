@@ -423,251 +423,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x04_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04_Pin"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_Pin_1_1"
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x16_Socket"
 			(pin_names
 				(offset 1.016)
@@ -1560,6 +1315,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Zener"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2023,12 +1928,6 @@
 		(uuid "e48e222f-aacc-41f6-a7cf-c5e33736239d")
 	)
 	(junction
-		(at 114.3 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21077e58-80f5-4a17-a5a7-f48459fd5a61")
-	)
-	(junction
 		(at 194.31 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2070,16 +1969,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 27.94) (xy 114.3 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a01dab3-96e8-4acb-8561-8b749459d364")
-	)
-	(wire
-		(pts
 			(xy 129.54 110.49) (xy 129.54 115.57)
 		)
 		(stroke
@@ -2097,6 +1986,16 @@
 			(type default)
 		)
 		(uuid "2429d527-51c4-4a65-a5f1-211cb6a8adc4")
+	)
+	(wire
+		(pts
+			(xy 123.19 48.26) (xy 132.08 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d15530b-21a5-4165-ba32-88da806149f0")
 	)
 	(wire
 		(pts
@@ -2120,13 +2019,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 48.26) (xy 132.08 48.26)
+			(xy 72.39 45.72) (xy 74.93 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ac2c8f1-b2ad-4546-8c2c-a99ec1a0628a")
+		(uuid "50ad45cb-7a92-4640-b34b-a04138aad445")
 	)
 	(wire
 		(pts
@@ -2170,6 +2069,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 43.18) (xy 96.52 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c5439c9-d1af-4ddf-9fc3-fdbbd826dd43")
+	)
+	(wire
+		(pts
 			(xy 179.07 116.84) (xy 181.61 116.84)
 		)
 		(stroke
@@ -2200,6 +2109,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 45.72) (xy 132.08 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abcdd7c0-eca9-4818-992c-80dd0ce2f748")
+	)
+	(wire
+		(pts
 			(xy 194.31 91.44) (xy 194.31 100.33)
 		)
 		(stroke
@@ -2217,6 +2136,26 @@
 			(type default)
 		)
 		(uuid "af521cf9-a661-4c48-8aa8-3e8ce4d8a045")
+	)
+	(wire
+		(pts
+			(xy 123.19 40.64) (xy 132.08 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b49d1a35-efc9-4c12-8cc3-51f9bf083f9b")
+	)
+	(wire
+		(pts
+			(xy 104.14 43.18) (xy 132.08 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbafbadc-7503-4681-b259-ac71dc8a50c1")
 	)
 	(wire
 		(pts
@@ -2240,6 +2179,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 58.42) (xy 114.3 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce032e2b-cbcd-4a70-b6fb-ebf251d31027")
+	)
+	(wire
+		(pts
 			(xy 114.3 27.94) (xy 132.08 27.94)
 		)
 		(stroke
@@ -2247,6 +2196,16 @@
 			(type default)
 		)
 		(uuid "da3ee3ac-0559-4952-bc64-3e296c7a780f")
+	)
+	(wire
+		(pts
+			(xy 121.92 58.42) (xy 132.08 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc7ae521-6b92-4470-a3f2-902b12f43f3f")
 	)
 	(wire
 		(pts
@@ -2320,7 +2279,7 @@
 			)
 		)
 	)
-	(global_label "SDO"
+	(global_label "SDO1"
 		(shape input)
 		(at 181.61 81.28 0)
 		(fields_autoplaced yes)
@@ -2332,12 +2291,34 @@
 		)
 		(uuid "371feb5e-14d6-4d47-bb76-5d74d651aeaa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.4052 81.28 0)
+			(at 189.6147 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL{slash}SCK"
+		(shape input)
+		(at 115.57 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "395cf914-8f01-4146-91e1-151c3ea3c170")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.9972 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2355,6 +2336,28 @@
 		(uuid "3c4764a3-6823-4283-a646-ce87620c2664")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 124.9824 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA{slash}SDI"
+		(shape input)
+		(at 95.25 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c50083a-a69b-4099-a0f5-9a8c7be692f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.2819 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2518,9 +2521,9 @@
 			)
 		)
 	)
-	(global_label "SDO"
+	(global_label "SDO1"
 		(shape input)
-		(at 132.08 45.72 180)
+		(at 102.87 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2528,9 +2531,9 @@
 			)
 			(justify right)
 		)
-		(uuid "9b826632-3757-4d7e-b028-55dfefd67aba")
+		(uuid "ad7e50ff-430e-405d-8d31-a139bf96cf4e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.2848 45.72 0)
+			(at 94.8653 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2584,51 +2587,7 @@
 			)
 		)
 	)
-	(global_label "SDA{slash}SDI"
-		(shape input)
-		(at 132.08 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c1b21807-ed1f-44a7-817f-8671c3e20d6e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.1119 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDO"
-		(shape input)
-		(at 132.08 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c6a249e4-4b70-4ac7-8a7b-7fc1983d0b1c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.2848 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDO"
+	(global_label "SDO2"
 		(shape input)
 		(at 181.61 93.98 0)
 		(fields_autoplaced yes)
@@ -2640,12 +2599,34 @@
 		)
 		(uuid "c84109fd-fee9-4ea7-a4a5-a76ffad89061")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.4052 93.98 0)
+			(at 189.6147 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDO2"
+		(shape input)
+		(at 72.39 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb335c7f-f03a-4742-833b-7eca270db9f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.3853 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2685,28 +2666,6 @@
 		(uuid "d26032ae-a3d9-4114-94f7-23e695c25468")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 124.1358 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL{slash}SCK"
-		(shape input)
-		(at 132.08 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e28482f5-06ec-4b87-b378-6ea6b668d043")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.5072 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2843,6 +2802,71 @@
 			(project "IMU Dev Board"
 				(path "/4221b7f7-e99a-4b14-8f0b-1e51b0a97db4"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 123.19 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1043ee06-37a4-4984-8887-970e569e6cb7")
+		(property "Reference" "#PWR07"
+			(at 123.19 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 117.856 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 123.19 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb948dfd-153c-4711-aa78-c7b402123c66")
+		)
+		(instances
+			(project "IMU Dev Board"
+				(path "/4221b7f7-e99a-4b14-8f0b-1e51b0a97db4"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3049,6 +3073,74 @@
 			(project "IMU Dev Board"
 				(path "/4221b7f7-e99a-4b14-8f0b-1e51b0a97db4"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 119.38 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b006d45-053b-4fa8-a4c5-2dca92a4aa19")
+		(property "Reference" "D2"
+			(at 119.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Zener"
+			(at 119.38 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 119.38 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dbc6952-d336-4c08-8759-27f2701d2fc5")
+		)
+		(pin "2"
+			(uuid "39ef039b-d3b0-4596-9fe3-55c2de99e3ab")
+		)
+		(instances
+			(project "IMU Dev Board"
+				(path "/4221b7f7-e99a-4b14-8f0b-1e51b0a97db4"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -3363,80 +3455,6 @@
 			(project ""
 				(path "/4221b7f7-e99a-4b14-8f0b-1e51b0a97db4"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 173.99 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9800acbb-4d03-483f-9142-bf6456226995")
-		(property "Reference" "J2"
-			(at 174.625 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 174.625 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 173.99 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fbce137-24d2-45da-a3c1-5e824a5bb1cf")
-		)
-		(pin "2"
-			(uuid "b55d4310-2a63-402f-ad2c-4caea7207201")
-		)
-		(pin "3"
-			(uuid "079761ee-0625-44ce-9aa6-d98fe26df85b")
-		)
-		(pin "4"
-			(uuid "b0a2f80a-6a0d-47d1-9b74-9282a829cf7f")
-		)
-		(instances
-			(project ""
-				(path "/4221b7f7-e99a-4b14-8f0b-1e51b0a97db4"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3883,6 +3901,210 @@
 			(project "IMU Dev Board"
 				(path "/4221b7f7-e99a-4b14-8f0b-1e51b0a97db4"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 78.74 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df5cfa4d-6964-4894-b693-404dcd812986")
+		(property "Reference" "D3"
+			(at 78.74 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Zener"
+			(at 78.74 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 78.74 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bee45ce4-d3f6-4d5d-9683-9aa8b3177b8a")
+		)
+		(pin "2"
+			(uuid "14fe8273-9384-476a-8f03-c6d7b936f733")
+		)
+		(instances
+			(project "IMU Dev Board"
+				(path "/4221b7f7-e99a-4b14-8f0b-1e51b0a97db4"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 118.11 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2d67e08-3cdd-4979-a2f0-fcf15ecb6486")
+		(property "Reference" "D4"
+			(at 118.11 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Zener"
+			(at 118.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 118.11 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f772c14f-6cad-4d90-a48f-4cf016dc5ceb")
+		)
+		(pin "2"
+			(uuid "2fe46dc8-09f6-4bbc-b514-124ebc2444c0")
+		)
+		(instances
+			(project "IMU Dev Board"
+				(path "/4221b7f7-e99a-4b14-8f0b-1e51b0a97db4"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 100.33 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8024458-7355-4efc-803c-b22fc0cbd3b3")
+		(property "Reference" "D1"
+			(at 100.33 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Zener"
+			(at 100.33 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 100.33 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ca49b94-afc2-4dd6-982d-c08db401d759")
+		)
+		(pin "2"
+			(uuid "190f8351-489f-4a4e-9d99-2c654b3fdcb8")
+		)
+		(instances
+			(project ""
+				(path "/4221b7f7-e99a-4b14-8f0b-1e51b0a97db4"
+					(reference "D1")
 					(unit 1)
 				)
 			)
