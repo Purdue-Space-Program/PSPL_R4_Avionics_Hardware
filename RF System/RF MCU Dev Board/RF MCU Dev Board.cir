@@ -1,0 +1,27 @@
+.title KiCad schematic
+C3 GND PWRU_IN 0.01u
+FB1 __FB1
+F1 __F1
+C4 GND Net-_C4-Pad1_ 0.01u
+C5 GND Net-_C4-Pad1_ 4.7u
+R3 Net-_U1-ADJ_ +3.3V 121
+U1 __U1
+C1 GND +5V 10u
+C2 GND +3.3V 0.1u
+R4 GND Net-_U1-ADJ_ 200
+D2 __D2
+J1 __J1
+R1 GND Net-_J1-CC1_ 5.1k
+D1 __D1
+R2 GND Net-_J1-CC2_ 5.1k
+R6 Net-_D4-A_ +3.3V 70
+R5 Net-_D3-A_ +5V 155
+D3 GND Net-_D3-A_ LED
+D4 GND Net-_D4-A_ LED
+C6 Net-_U2-3V3OUT_ GND 0.1u
+U2 __U2
+D6 Net-_D6-K_ Net-_D6-A_ LED
+D5 Net-_D5-K_ Net-_D5-A_ LED
+R8 +5V Net-_D6-A_ 155
+R7 +5V Net-_D5-A_ 155
+.end
