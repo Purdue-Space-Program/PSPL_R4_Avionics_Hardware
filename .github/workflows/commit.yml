@@ -1,0 +1,15 @@
+name: Export Schematics on Push
+
+on:
+  push:
+    branches:
+      - '**'
+    tags-ignore:
+      - '*'
+
+jobs:
+  export:
+    uses: ./.github/workflows/export-schematics.yml
+    with:
+      schematics: '**/*.kicad_sch'
+      artifact-name: schematics-pdfs-${{ github.sha }}

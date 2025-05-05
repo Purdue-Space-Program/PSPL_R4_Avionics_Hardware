@@ -1,13 +1,20 @@
-name: Export & Publish Schematic PDFs
+name: Export Schematics to PDF
+
 on:
   workflow_call:
     inputs:
       schematics:
-        required: true
         type: string
+        required: true
+      artifact-name:
+        type: string
+        required: false
+        default: schematics-pdfs
+
 jobs:
-  export-publish:
+  export:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -30,11 +37,11 @@ jobs:
             [ -z "$sch" ] && continue
             base=$(basename "$sch" .kicad_sch)
             echo "→ Exporting $sch → pdfs/${base}.pdf"
-            kicad-cli sch export pdf --output pdfs/"${base}.pdf" "$sch"
+            kicad-cli sch export pdf --output "pdfs/${base}.pdf" "$sch"
           done <<< "${{ inputs.schematics }}"
 
-      - name: Upload schematic PDFs
+      - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
         with:
-          name: schematic-pdfs-${{ github.sha }}
+          name: ${{ inputs.artifact-name }}
           path: pdfs/*.pdf
