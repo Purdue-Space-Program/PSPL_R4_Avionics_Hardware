@@ -6,9 +6,8 @@ on:
       - '*'
 
 permissions:
-  id-token: write
   contents: read
-  pull-requests: write
+  pull-requests: read
   actions: read
 
 jobs:
