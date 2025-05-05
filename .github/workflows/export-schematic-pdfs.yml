@@ -33,19 +33,8 @@ jobs:
             kicad-cli sch export pdf --output pdfs/"${base}.pdf" "$sch"
           done <<< "${{ inputs.schematics }}"
 
-      - name: Zip PDFs
-        run: |
-          # ensure output directory exists
-          mkdir -p out
-          # get short git hash
-          hash=$(git rev-parse --short HEAD)
-          # move into pdfs directory to zip only PDFs
-          pushd pdfs
-          zip -j "../out/schematic-pdfs-${hash}.zip" *.pdf
-          popd
-
-      - name: Upload zipped PDFs
+      - name: Upload schematic PDFs
         uses: actions/upload-artifact@v4
         with:
-          name: schematic-pdfs
-          path: out/schematic-pdfs-*.zip
+          name: schematic-pdfs-${{ github.sha }}
+          path: pdfs/*.pdf
