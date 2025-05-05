@@ -9,20 +9,18 @@ permissions:
   contents: write
 
 jobs:
-  export:
-    uses: ./.github/workflows/export-schematic-pdfs.yml
-    with:
-      schematics: '**/*.kicad_sch'
-
   release:
-    needs: export
     runs-on: ubuntu-latest
 
     steps:
-      - name: Download exported PDFs
-        uses: actions/download-artifact@v4
+      - name: Download PDFs from CI
+        uses: dawidd6/action-download-artifact@v7
         with:
-          name: schematics-pdfs
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          workflow: commit.yml
+          branch: main
+          name: schematics-pdfs-${{ github.sha }}
+          path: pdfs
 
       - name: Create GitHub Release & upload assets
         uses: ncipollo/release-action@v1
@@ -30,4 +28,4 @@ jobs:
           tag: ${{ github.ref_name }}
           artifacts: "pdfs/*.pdf"
           body: |
-            Auto‐generated schematic PDFs for **${{ github.ref_name }}**
+            Auto-generated schematic PDFs for **${{ github.ref_name }}**
