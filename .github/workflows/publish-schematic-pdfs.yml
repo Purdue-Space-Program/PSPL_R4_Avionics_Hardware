@@ -1,0 +1,49 @@
+name: Publish Matching Schematic PDFs on Push
+on:
+  push:
+    branches:
+      - 'main'
+jobs:
+  call-export:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install KiCad CLI
+        uses: ./.github/actions/install-kicad-cli
+
+      - name: Determine matching schematics
+        id: find_schematics
+        run: |
+          matches=()
+          for dir in */; do
+            dir=${dir%/}
+          #
+            # skip hidden and action folders
+            [[ "$dir" = ".github" ]] && continue
+
+            path="$dir/${dir}.kicad_sch"
+            if [ -f "$path" ]; then
+              matches+=("$path")
+            fi
+          done
+          echo "schematics<<EOF" >> $GITHUB_OUTPUT
+          printf "%s\n" "${matches[@]}" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Export schematics to PDF
+        uses: ./.github/workflows/export-schematic-pdfs.yml
+        with:
+          schematics: ${{ steps.find_schematics.outputs.schematics }}
+
+      - name: Zip PDFs
+        run: |
+          cd out
+          zip -r schematic-pdfs.zip pdfs
+
+      - name: Upload zipped PDFs
+        uses: actions/upload-artifact@v3
+        with:
+          name: schematic-pdfs
+          path: out/schematic-pdfs.zip

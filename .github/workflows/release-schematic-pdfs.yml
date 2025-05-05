@@ -1,0 +1,54 @@
+# .github/workflows/publish-all-schematic-pdfs.yml
+name: Publish All Schematic PDFs on Push
+
+on:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  export-schematics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Install KiCad CLI
+        uses: actions/checkout@v4
+
+      # 2. Find all schematic files
+      - name: List all .kicad_sch files
+        id: find_schematics
+        run: |
+          files=$(find . -type f -name '*.kicad_sch')
+          echo "schematics<<EOF" >> $GITHUB_OUTPUT
+          echo "$files"       >> $GITHUB_OUTPUT
+          echo "EOF"           >> $GITHUB_OUTPUT
+
+      # 3. Install KiCad CLI
+      - name: Install KiCad CLI
+        run: |
+          sudo add-apt-repository --yes ppa:kicad/kicad-7.0-releases
+          sudo apt-get update
+          sudo apt-get install --yes --no-install-recommends kicad-cli
+
+      # 4. Export every schematic found to PDF
+      - name: Export schematics to PDF
+        run: |
+          mkdir -p out/pdfs
+          # iterate over each file in the multi-line output
+          while IFS= read -r sch; do
+            # skip empty lines
+            [ -z "$sch" ] && continue
+            base=$(basename "$sch" .kicad_sch)
+            echo "→ Exporting $sch → out/pdfs/${base}.pdf"
+            kicad-cli sch export pdf \
+              --output "out/pdfs/${base}.pdf" \
+              "$sch"
+          done <<< "${{ steps.find_schematics.outputs.schematics }}"
+
+      # 5. Upload all PDFs as a single artifact
+      - name: Upload schematic PDFs
+        uses: actions/upload-artifact@v3
+        with:
+          name: schematic-pdfs
+          path: out/pdfs/*.pdf
