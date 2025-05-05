@@ -25,7 +25,7 @@ jobs:
 
       - name: Export schematics to PDF
         run: |
-          mkdir -p out/
+          mkdir -p pdfs
           while IFS= read -r sch; do
             [ -z "$sch" ] && continue
             base=$(basename "$sch" .kicad_sch)
@@ -37,7 +37,7 @@ jobs:
         run: |
           mkdir -p out
           hash=$(git rev-parse --short HEAD)
-          zip -j out/schematic-pdfs-${hash}.zip *.pdf
+          zip -j out/schematic-pdfs-${hash}.zip pdfs/*.pdf
 
       - name: Upload zipped PDFs
         uses: actions/upload-artifact@v4
