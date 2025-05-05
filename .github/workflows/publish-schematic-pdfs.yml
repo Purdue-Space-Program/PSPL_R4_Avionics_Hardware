@@ -43,7 +43,7 @@ jobs:
           zip -r schematic-pdfs.zip pdfs
 
       - name: Upload zipped PDFs
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: schematic-pdfs
           path: out/schematic-pdfs.zip
