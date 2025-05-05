@@ -12,10 +12,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Cache KiCad CLI packages
+      - name: Cache KiCad CLI .deb packages
         uses: actions/cache@v4
         with:
-          path: /var/cache/apt/archives
+          path: /var/cache/apt/archives/*.deb
           key: ${{ runner.os }}-kicad-cli-ppa-${{ hashFiles('.github/actions/install-kicad-cli/action.yml') }}
           restore-keys: |
             ${{ runner.os }}-kicad-cli-ppa-
@@ -43,4 +43,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: schematic-pdfs
-          path: out/schematic-pdfs.zip
+          path: out/schematic-pdfs-*.zip
