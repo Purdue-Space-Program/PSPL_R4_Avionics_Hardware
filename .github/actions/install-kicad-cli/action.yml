@@ -7,5 +7,5 @@ runs:
       shell: bash
     - run: sudo apt-get update
       shell: bash
-    - run: sudo apt-get install --yes --no-install-recommends kicad-cli
+    - run: sudo apt-get install --yes --no-install-recommends kicad
       shell: bash
