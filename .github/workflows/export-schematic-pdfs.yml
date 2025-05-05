@@ -12,6 +12,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Cache KiCad CLI packages
+        uses: actions/cache@v4
+        with:
+          path: /var/cache/apt/archives
+          key: ${{ runner.os }}-kicad-cli-ppa-${{ hashFiles('.github/actions/install-kicad-cli/action.yml') }}
+          restore-keys: |
+            ${{ runner.os }}-kicad-cli-ppa-
+
       - name: Install KiCad CLI
         uses: ./.github/actions/install-kicad-cli
 
@@ -29,7 +37,7 @@ jobs:
         run: |
           mkdir -p out
           hash=$(git rev-parse --short HEAD)
-          zip -j out/schematic-pdfs-${hash}.zip out/*.pdf
+          zip -j out/schematic-pdfs-${hash}.zip *.pdf
 
       - name: Upload zipped PDFs
         uses: actions/upload-artifact@v4
