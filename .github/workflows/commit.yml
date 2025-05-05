@@ -9,7 +9,7 @@ on:
 
 jobs:
   export:
-    uses: ./.github/workflows/export-schematics.yml
+    uses: ./.github/workflows/export-schematic-pdfs.yml
     with:
       schematics: '**/*.kicad_sch'
       artifact-name: schematics-pdfs-${{ github.sha }}
