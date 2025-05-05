@@ -33,12 +33,16 @@ jobs:
       - name: Export schematics to PDF
         run: |
           mkdir -p pdfs
-          while IFS= read -r sch; do
-            [ -z "$sch" ] && continue
-            base=$(basename "$sch" .kicad_sch)
-            echo "→ Exporting $sch → pdfs/${base}.pdf"
-            kicad-cli sch export pdf --output "pdfs/${base}.pdf" "$sch"
-          done <<< "${{ inputs.schematics }}"
+          # inputs.schematics can be one or more glob patterns (e.g. "**/*.kicad_sch")
+          for pattern in ${{ inputs.schematics }}; do
+            for sch in $pattern; do
+              # skip if glob didn’t match anything
+              [ -e "$sch" ] || continue
+              base=$(basename "$sch" .kicad_sch)
+              echo "→ Exporting $sch → pdfs/${base}.pdf"
+              kicad-cli sch export pdf --output "pdfs/${base}.pdf" "$sch"
+            done
+          done
 
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4

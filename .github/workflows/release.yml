@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   export:
-    uses: ./.github/workflows/export-schematics.yml@main
+    uses: ./.github/workflows/export-schematic-pdfs.yml
     with:
       schematics: '**/*.kicad_sch'
 
