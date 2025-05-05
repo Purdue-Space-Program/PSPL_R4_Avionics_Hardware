@@ -16,7 +16,7 @@ jobs:
       - name: Download PDFs from CI
         uses: dawidd6/action-download-artifact@v7
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.CI_TOKEN }}
           workflow: commit.yml
           branch: main
           name: schematics-pdfs-${{ github.sha }}
