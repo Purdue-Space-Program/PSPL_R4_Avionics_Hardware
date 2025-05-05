@@ -17,14 +17,12 @@ jobs:
 
       - name: Export schematics to PDF
         run: |
-          mkdir -p 
+          mkdir -p out/pdfs
           while IFS= read -r sch; do
             [ -z "$sch" ] && continue
-
             base=$(basename "$sch" .kicad_sch)
-            echo "→ Exporting $sch → ${base}.pdf"
-
-            kicad-cli sch export pdf --output "${base}.pdf" "$sch"
+            echo "→ Exporting $sch → out/pdfs/${base}.pdf"
+            kicad-cli sch export pdf --output out/pdfs/"${base}.pdf" "$sch"
           done <<< "${{ inputs.schematics }}"
 
       - name: Zip PDFs
