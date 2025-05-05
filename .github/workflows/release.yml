@@ -28,6 +28,6 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           tag: ${{ github.ref_name }}
-          artifacts: "schematics-pdfs/*.pdf"
+          artifacts: "pdfs/*.pdf"
           body: |
             Auto‐generated schematic PDFs for **${{ github.ref_name }}**
