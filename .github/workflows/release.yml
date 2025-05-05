@@ -17,7 +17,7 @@ jobs:
       - name: Download PDFs from CI
         uses: dawidd6/action-download-artifact@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.CI_TOKEN }}
           workflow: commit.yml
           workflow_conclusion: success
           branch: main
