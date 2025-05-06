@@ -30,19 +30,34 @@ jobs:
       - name: Install KiCad CLI
         uses: ./.github/actions/install-kicad-cli
 
-      - name: Export schematics to PDF
+      - name: Export selected schematics to PDF
+        shell: bash
         run: |
           mkdir -p pdfs
-          # inputs.schematics can be one or more glob patterns (e.g. "**/*.kicad_sch")
-          for pattern in ${{ inputs.schematics }}; do
-            for sch in $pattern; do
-              # skip if glob didn’t match anything
-              [ -e "$sch" ] || continue
+
+          # Read the input as a literal here-string, line by line
+          schematics_list="${{ inputs.schematics }}"
+          while IFS= read -r name; do
+            # skip empty lines
+            [ -z "$name" ] && continue
+
+            echo "🔍 Looking for '${name}.kicad_sch'…"
+            # find all matching files (handles spaces/newlines safely)
+            mapfile -d '' -t matches < <(
+              find . -type f -name "${name}.kicad_sch" -print0
+            )
+
+            if [ ${#matches[@]} -eq 0 ]; then
+              echo "⚠️  No schematic found for '${name}', skipping."
+              continue
+            fi
+
+            for sch in "${matches[@]}"; do
               base=$(basename "$sch" .kicad_sch)
               echo "→ Exporting $sch → pdfs/${base}.pdf"
               kicad-cli sch export pdf --output "pdfs/${base}.pdf" "$sch"
             done
-          done
+          done <<< "$schematics_list"
 
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4

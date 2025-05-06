@@ -11,5 +11,10 @@ jobs:
   export:
     uses: ./.github/workflows/export-schematic-pdfs.yml
     with:
-      schematics: '**/*.kicad_sch'
       artifact-name: schematics-pdfs-${{ github.sha }}
+      schematics: |
+        stm
+        RF System
+        power_systems
+        DAQ_dev_board
+        Data Storage and Recovery Dev Circuit
