@@ -6,6 +6,48 @@
 	(paper "A")
 	(lib_symbols)
 	(sheet
+		(at 123.19 93.98)
+		(size 52.07 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2bc018ee-2cce-4689-b37f-298321e25f19")
+		(property "Sheetname" "peripherals"
+			(at 123.19 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 123.19 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm"
+				(path "/8c38e4ab-00b4-41d2-ba83-c24ee9e4f60d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 57.15 49.53)
 		(size 53.34 36.83)
 		(exclude_from_sim no)
@@ -127,6 +169,48 @@
 			(project "stm"
 				(path "/8c38e4ab-00b4-41d2-ba83-c24ee9e4f60d"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 93.98)
+		(size 44.45 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f758c19f-a19d-4214-8717-e2817252528b")
+		(property "Sheetname" "usb to uart"
+			(at 181.61 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_to_uart.kicad_sch"
+			(at 181.61 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm"
+				(path "/8c38e4ab-00b4-41d2-ba83-c24ee9e4f60d"
+					(page "6")
 				)
 			)
 		)

@@ -624,6 +624,14 @@
     [
       "791837e1-0a88-4cee-9e08-e44e0b3e2001",
       "power"
+    ],
+    [
+      "2bc018ee-2cce-4689-b37f-298321e25f19",
+      "peripherals"
+    ],
+    [
+      "f758c19f-a19d-4214-8717-e2817252528b",
+      "usb to uart"
     ]
   ],
   "text_variables": {}
