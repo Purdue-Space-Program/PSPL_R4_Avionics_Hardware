@@ -5,9 +5,69 @@
 	(uuid "8c38e4ab-00b4-41d2-ba83-c24ee9e4f60d")
 	(paper "A")
 	(lib_symbols)
+	(bus
+		(pts
+			(xy 177.8 99.06) (xy 177.8 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa06bce0-d839-47ce-a8bc-0322297e581c")
+	)
+	(bus
+		(pts
+			(xy 177.8 99.06) (xy 172.72 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab22e281-dee5-4a95-bc91-2005134636be")
+	)
+	(bus
+		(pts
+			(xy 172.72 77.47) (xy 180.34 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab427232-5a10-4a69-91fa-8b65963cdd81")
+	)
+	(bus
+		(pts
+			(xy 172.72 80.01) (xy 177.8 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7b966a6-b3bf-45da-800a-f6dcf25209cc")
+	)
+	(bus
+		(pts
+			(xy 180.34 77.47) (xy 180.34 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0b59821-b16b-4fb2-a928-305a6e59dadf")
+	)
+	(bus
+		(pts
+			(xy 180.34 101.6) (xy 172.72 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd9f6d1d-ce77-4488-8568-178baaff96bd")
+	)
 	(sheet
-		(at 123.19 93.98)
-		(size 52.07 30.48)
+		(at 120.65 93.98)
+		(size 52.07 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +82,7 @@
 		)
 		(uuid "2bc018ee-2cce-4689-b37f-298321e25f19")
 		(property "Sheetname" "peripherals"
-			(at 123.19 93.2684 0)
+			(at 120.65 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,12 +91,32 @@
 			)
 		)
 		(property "Sheetfile" "peripherals.kicad_sch"
-			(at 123.19 125.0446 0)
+			(at 120.65 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "PE_Pins" bidirectional
+			(at 172.72 101.6 0)
+			(uuid "a197cc25-bd28-496c-95a1-1a1523438bae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PF_Pins" bidirectional
+			(at 172.72 99.06 0)
+			(uuid "eeefb2d6-968e-4303-9ccb-53a8b9be2145")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -48,8 +128,8 @@
 		)
 	)
 	(sheet
-		(at 57.15 49.53)
-		(size 53.34 36.83)
+		(at 120.65 52.07)
+		(size 52.07 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -64,7 +144,7 @@
 		)
 		(uuid "3d77bd3a-af67-406a-aaa2-1f0342e5c06d")
 		(property "Sheetname" "mcu"
-			(at 57.15 48.8184 0)
+			(at 120.65 51.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,12 +153,32 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 57.15 86.9446 0)
+			(at 120.65 85.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "PE_Pins" bidirectional
+			(at 172.72 77.47 0)
+			(uuid "f64505df-de06-473c-aa73-f1ac586f8a01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PF_Pins" bidirectional
+			(at 172.72 80.01 0)
+			(uuid "45f4c6b7-ab03-4c90-af7b-2b20f4cf80dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -90,8 +190,8 @@
 		)
 	)
 	(sheet
-		(at 57.15 93.98)
-		(size 53.34 30.48)
+		(at 58.42 93.98)
+		(size 52.07 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -106,7 +206,7 @@
 		)
 		(uuid "791837e1-0a88-4cee-9e08-e44e0b3e2001")
 		(property "Sheetname" "power"
-			(at 57.15 93.2684 0)
+			(at 58.42 93.2684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +215,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 57.15 125.0446 0)
+			(at 58.42 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -132,8 +232,8 @@
 		)
 	)
 	(sheet
-		(at 123.19 49.53)
-		(size 52.07 36.83)
+		(at 58.42 52.07)
+		(size 52.07 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -148,7 +248,7 @@
 		)
 		(uuid "8c6cc8cf-9a2c-4b78-a3d6-518f2b49554f")
 		(property "Sheetname" "ethernet"
-			(at 123.19 48.8184 0)
+			(at 58.42 51.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,7 +257,7 @@
 			)
 		)
 		(property "Sheetfile" "ethernet.kicad_sch"
-			(at 123.19 86.9446 0)
+			(at 58.42 85.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,8 +274,8 @@
 		)
 	)
 	(sheet
-		(at 181.61 93.98)
-		(size 44.45 30.48)
+		(at 189.23 52.07)
+		(size 52.07 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -190,7 +290,7 @@
 		)
 		(uuid "f758c19f-a19d-4214-8717-e2817252528b")
 		(property "Sheetname" "usb to uart"
-			(at 181.61 93.2684 0)
+			(at 189.23 51.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -199,7 +299,7 @@
 			)
 		)
 		(property "Sheetfile" "usb_to_uart.kicad_sch"
-			(at 181.61 125.0446 0)
+			(at 189.23 85.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
