@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-schematics=(
+boards=(
     stm
     DAQ_dev_board
     power_systems
@@ -10,7 +10,7 @@ schematics=(
 
 mkdir -p pdfs
 
-for sch in "${schematics[@]}"; do
+for sch in "${boards[@]}"; do
     kicad-cli sch export pdf \
         "$(find . -name "$sch.kicad_sch")" \
         --output "pdfs/$sch"
