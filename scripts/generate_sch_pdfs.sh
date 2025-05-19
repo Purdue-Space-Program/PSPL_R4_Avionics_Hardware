@@ -13,5 +13,5 @@ mkdir -p pdfs
 for sch in "${boards[@]}"; do
     kicad-cli sch export pdf \
         "$(find . -name "$sch.kicad_sch")" \
-        --output "pdfs/$sch"
+        --output "pdfs/$sch.pdf"
 done

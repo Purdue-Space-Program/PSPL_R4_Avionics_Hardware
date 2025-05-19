@@ -1,6 +1,10 @@
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
 
+# Production files
+pdfs
+prod
+
 # MacOS file system artifact
 .DS_Store
 
