@@ -11,21 +11,12 @@ on:
 jobs:
   export:
     runs-on: ubuntu-latest
+    container:
+          image: cjschoet/kicad-cli:latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Cache KiCad CLI .deb packages
-        uses: actions/cache@v4
-        with:
-          path: /var/cache/apt/archives/*.deb
-          key: ${{ runner.os }}-kicad-cli-ppa-${{ hashFiles('.github/actions/install-kicad-cli/action.yml') }}
-          restore-keys: |
-            ${{ runner.os }}-kicad-cli-ppa-
-
-      - name: Install KiCad CLI
-        uses: ./.github/actions/install-kicad-cli
 
       - name: Export selected schematics to PDF
         shell: bash
