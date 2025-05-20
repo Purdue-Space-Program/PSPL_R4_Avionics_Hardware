@@ -8,10 +8,12 @@ on:
       - '*'
 
 jobs:
-  export:
+  export-schematics:
     uses: ./.github/workflows/export-schematic-pdfs.yml
     with:
       artifact-name: schematics-pdfs-${{ github.sha }}
+
+  export-prod-files:
     uses: ./.github/workflows/export-pcb-prod.yml
     with:
       artifact-name: prod-files-${{ github.sha }}
