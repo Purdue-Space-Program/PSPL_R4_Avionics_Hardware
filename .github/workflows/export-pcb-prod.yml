@@ -1,4 +1,4 @@
-name: Export Schematics to PDF
+name: Export PCB production files
 
 on:
   workflow_call:
@@ -17,12 +17,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Export selected schematics to PDF
+      - name: Export selected PCB production files
         shell: bash
-        run: ./scripts/generate_sch_pdfs.sh
+        run: ./scripts/generate_pcb_prod.sh
 
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
         with:
           name: ${{ inputs.artifact-name }}
-          path: pdfs/*.pdf
+          path: prod/*
