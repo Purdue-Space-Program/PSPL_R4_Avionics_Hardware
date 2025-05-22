@@ -7,6 +7,126 @@
 	(lib_symbols)
 	(bus
 		(pts
+			(xy 187.96 109.22) (xy 187.96 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0877c0a2-a2b4-4c1a-bbef-5e72146f7029")
+	)
+	(bus
+		(pts
+			(xy 172.72 111.76) (xy 190.5 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "179c7655-2995-4804-a661-975e9581d804")
+	)
+	(bus
+		(pts
+			(xy 172.72 104.14) (xy 182.88 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ab24e20-4a6b-4907-a62f-229af758f2a8")
+	)
+	(bus
+		(pts
+			(xy 172.72 69.85) (xy 187.96 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b69237a-be13-4d6c-96fd-b504559716b0")
+	)
+	(bus
+		(pts
+			(xy 175.26 96.52) (xy 172.72 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4730f6c4-adfa-4083-97fd-11e70fb87ccf")
+	)
+	(bus
+		(pts
+			(xy 172.72 67.31) (xy 190.5 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b671cd4-b3f6-4f40-b3de-bc4fa70b2472")
+	)
+	(bus
+		(pts
+			(xy 172.72 82.55) (xy 175.26 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6413f7b1-e222-4f18-bd5d-9aa0a491345a")
+	)
+	(bus
+		(pts
+			(xy 182.88 104.14) (xy 182.88 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "695b80e0-f9d9-4ee8-8d0b-27d7a349608d")
+	)
+	(bus
+		(pts
+			(xy 190.5 67.31) (xy 190.5 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77653f8d-c504-44f7-928e-3ef258bccb63")
+	)
+	(bus
+		(pts
+			(xy 185.42 72.39) (xy 185.42 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c6d7980-a5e3-47bd-9a7c-217d782773fa")
+	)
+	(bus
+		(pts
+			(xy 172.72 72.39) (xy 185.42 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a6ed583-ff4e-4705-9155-b5dec6fde6b4")
+	)
+	(bus
+		(pts
+			(xy 172.72 109.22) (xy 187.96 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e612855-6257-4f75-813e-8c8636fb1cba")
+	)
+	(bus
+		(pts
 			(xy 177.8 99.06) (xy 177.8 80.01)
 		)
 		(stroke
@@ -37,6 +157,16 @@
 	)
 	(bus
 		(pts
+			(xy 172.72 106.68) (xy 185.42 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb2b3aeb-948f-4041-8e39-d3bac10958dd")
+	)
+	(bus
+		(pts
 			(xy 172.72 80.01) (xy 177.8 80.01)
 		)
 		(stroke
@@ -64,6 +194,26 @@
 			(type default)
 		)
 		(uuid "dd9f6d1d-ce77-4488-8568-178baaff96bd")
+	)
+	(bus
+		(pts
+			(xy 172.72 74.93) (xy 182.88 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e83a5716-474d-4f6f-bf51-f5485851bccc")
+	)
+	(bus
+		(pts
+			(xy 175.26 82.55) (xy 175.26 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "effdb9f5-3922-41ab-aed0-91332c3661f0")
 	)
 	(sheet
 		(at 120.65 93.98)
@@ -112,6 +262,56 @@
 		(pin "PF_Pins" bidirectional
 			(at 172.72 99.06 0)
 			(uuid "eeefb2d6-968e-4303-9ccb-53a8b9be2145")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PG_Pins" bidirectional
+			(at 172.72 96.52 0)
+			(uuid "3c5555f5-c739-4676-ae01-883f8fe93c5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PD_Pins" bidirectional
+			(at 172.72 104.14 0)
+			(uuid "31b4c7bb-ec45-4605-926e-0c4c05c2f1dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PC_Pins" bidirectional
+			(at 172.72 106.68 0)
+			(uuid "a30fe16e-fa7d-44a4-9466-7f9435bbbcc3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PB_Pins" bidirectional
+			(at 172.72 109.22 0)
+			(uuid "2d940724-a17d-4726-bed9-45ee0ba13c71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PA_Pins" bidirectional
+			(at 172.72 111.76 0)
+			(uuid "5725c804-87c2-4470-bd37-6c26f9620653")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,6 +374,56 @@
 		(pin "PF_Pins" bidirectional
 			(at 172.72 80.01 0)
 			(uuid "45f4c6b7-ab03-4c90-af7b-2b20f4cf80dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PG_Pins" bidirectional
+			(at 172.72 82.55 0)
+			(uuid "49e6027e-9da4-4536-aa95-17a12138b279")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PD_Pins" bidirectional
+			(at 172.72 74.93 0)
+			(uuid "feddd85b-d196-49f1-b510-a758b8b1fef8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PC_Pins" bidirectional
+			(at 172.72 72.39 0)
+			(uuid "a0455a22-04bc-4648-b32d-7cb1b270e291")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PB_Pins" bidirectional
+			(at 172.72 69.85 0)
+			(uuid "3607a77c-bc3d-419b-96f3-5d52b46b382b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PA_Pins" bidirectional
+			(at 172.72 67.31 0)
+			(uuid "1df32d9a-9e34-4727-a53c-c62147340ea3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -274,7 +524,7 @@
 		)
 	)
 	(sheet
-		(at 189.23 52.07)
+		(at 196.85 52.07)
 		(size 52.07 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -290,7 +540,7 @@
 		)
 		(uuid "f758c19f-a19d-4214-8717-e2817252528b")
 		(property "Sheetname" "usb to uart"
-			(at 189.23 51.3584 0)
+			(at 196.85 51.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -299,7 +549,7 @@
 			)
 		)
 		(property "Sheetfile" "usb_to_uart.kicad_sch"
-			(at 189.23 85.6746 0)
+			(at 196.85 85.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
