@@ -6878,6 +6878,16 @@
 		)
 		(uuid "5dceb7fe-ae60-4216-af40-321d78808807")
 	)
+	(text "Resonator with integrated capacitors\nDatasheet, 6.3.10, figure 24"
+		(exclude_from_sim no)
+		(at 249.174 204.216 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7216dee0-2843-4283-a8e7-f3cb91c17352")
+	)
 	(text "MCU Debug\n"
 		(exclude_from_sim no)
 		(at 287.274 161.798 0)
