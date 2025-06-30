@@ -415,6 +415,14 @@
     [
       "73f65191-0ee8-4208-aecd-529c04a963fa",
       "PSU"
+    ],
+    [
+      "41783f59-43e8-499c-b7d8-f4f3c08fd097",
+      "USB to UART"
+    ],
+    [
+      "1bd68df2-0b87-4dbc-ad0e-182ba6091b40",
+      "MCU"
     ]
   ],
   "text_variables": {}

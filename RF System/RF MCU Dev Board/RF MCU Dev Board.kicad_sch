@@ -6,6 +6,48 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 168.91 47.625)
+		(size 45.72 31.115)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1bd68df2-0b87-4dbc-ad0e-182ba6091b40")
+		(property "Sheetname" "MCU"
+			(at 168.91 46.9134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 168.91 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RF MCU Dev Board"
+				(path "/f920e93b-95ee-4af6-9f82-c0622995e5f2"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 109.22 47.625)
 		(size 45.72 31.115)
 		(exclude_from_sim no)
