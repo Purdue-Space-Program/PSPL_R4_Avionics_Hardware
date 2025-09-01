@@ -14577,7 +14577,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1u"
 			(at 311.15 92.7099 0)
 			(effects
 				(font
@@ -14840,7 +14840,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 365.76 101.5999 0)
 			(effects
 				(font
@@ -15674,7 +15674,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "15p"
 			(at 234.95 180.34 90)
 			(effects
 				(font
@@ -15808,8 +15808,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Crystal"
-			(at 217.932 192.532 90)
+		(property "Value" "ABS05-32.768KHZ-T"
+			(at 204.978 191.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15946,7 +15946,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 377.19 118.1099 0)
 			(effects
 				(font
@@ -16016,7 +16016,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 365.76 118.1099 0)
 			(effects
 				(font
@@ -16086,7 +16086,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 354.33 101.5999 0)
 			(effects
 				(font
@@ -16290,7 +16290,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 344.17 118.1099 0)
 			(effects
 				(font
@@ -16359,7 +16359,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "6p"
 			(at 48.26 76.2 90)
 			(effects
 				(font
@@ -16560,7 +16560,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 388.62 118.1099 0)
 			(effects
 				(font
@@ -16869,7 +16869,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "6p"
 			(at 48.26 93.98 90)
 			(effects
 				(font
@@ -17139,7 +17139,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 85.09 76.1999 0)
 			(effects
 				(font
@@ -17345,7 +17345,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 377.19 101.5999 0)
 			(effects
 				(font
@@ -17415,7 +17415,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 298.45 59.6899 0)
 			(effects
 				(font
@@ -17474,7 +17474,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8b520076-4fcf-4dc7-9958-e753dfebafed")
 		(property "Reference" "Y3"
 			(at 67.31 85.2168 90)
@@ -17484,8 +17483,8 @@
 				)
 			)
 		)
-		(property "Value" "Crystal_GND24"
-			(at 67.31 87.7568 90)
+		(property "Value" "25MHz"
+			(at 49.276 85.852 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17637,7 +17636,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "15p"
 			(at 234.95 193.04 90)
 			(effects
 				(font
@@ -18039,7 +18038,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 400.05 118.1099 0)
 			(effects
 				(font
@@ -18175,7 +18174,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1u"
 			(at 311.15 59.6899 0)
 			(effects
 				(font
@@ -18444,7 +18443,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 344.17 101.5999 0)
 			(effects
 				(font
@@ -18514,7 +18513,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 388.62 101.5999 0)
 			(effects
 				(font
@@ -18584,7 +18583,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 354.33 118.1099 0)
 			(effects
 				(font
@@ -19162,7 +19161,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 298.45 92.7099 0)
 			(effects
 				(font
@@ -19298,7 +19297,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1u"
 			(at 411.48 101.5999 0)
 			(effects
 				(font
@@ -19368,7 +19367,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 400.05 101.5999 0)
 			(effects
 				(font
@@ -19504,7 +19503,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4u7"
 			(at 411.48 118.1099 0)
 			(effects
 				(font
@@ -19641,7 +19640,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "200k"
 			(at 66.04 91.4399 0)
 			(effects
 				(font

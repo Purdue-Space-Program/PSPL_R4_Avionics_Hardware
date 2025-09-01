@@ -1758,6 +1758,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "cap values determined by crystal selection\n"
+		(exclude_from_sim no)
+		(at 24.384 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8a16c3f1-7574-498b-a3dc-cdd80584e966")
+	)
 	(junction
 		(at 185.42 62.23)
 		(diameter 0)
@@ -6178,10 +6188,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cf2b82d5-6292-4622-81fe-c0035b06e5c9")
 		(property "Reference" "C29"
-			(at 43.18 104.14 90)
+			(at 43.18 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6189,7 +6198,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 43.18 106.68 90)
+			(at 43.18 115.824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6382,10 +6391,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eecf470d-0245-407c-982b-ae229d11d158")
 		(property "Reference" "C28"
-			(at 43.18 93.98 90)
+			(at 43.18 95.504 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6393,7 +6401,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 43.18 96.52 90)
+			(at 43.18 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
