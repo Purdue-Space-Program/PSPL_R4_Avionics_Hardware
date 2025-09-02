@@ -15299,7 +15299,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UDFN18_517BV_ONS"
+		(property "Footprint" ""
 			(at 345.44 218.44 0)
 			(effects
 				(font
@@ -18210,7 +18210,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-23-5_DBV_TEX"
+		(property "Footprint" ""
 			(at 344.17 60.96 0)
 			(effects
 				(font
@@ -18425,7 +18425,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SO-8_STM"
+		(property "Footprint" "ST485BN:SO-8_STM"
 			(at 468.63 60.96 0)
 			(effects
 				(font

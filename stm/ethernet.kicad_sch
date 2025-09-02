@@ -5484,7 +5484,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ARJM11A1-009-AB-EW2_ABR"
+		(property "Footprint" ""
 			(at 199.39 49.53 0)
 			(effects
 				(font
