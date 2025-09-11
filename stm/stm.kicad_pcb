@@ -2931,7 +2931,7 @@
 	(footprint "Capacitor_SMD:CP_Elec_6.3x7.7"
 		(layer "F.Cu")
 		(uuid "5f0b4776-dab4-49c6-bcba-10a41f0d61b2")
-		(at 107.1325 104.14)
+		(at 95 104)
 		(descr "SMD capacitor, aluminum electrolytic, Nichicon, 6.3x7.7mm")
 		(tags "capacitor electrolytic")
 		(property "Reference" "C30"
