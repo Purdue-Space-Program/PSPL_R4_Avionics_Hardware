@@ -6334,7 +6334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 119.126 200.914 90)
 			(effects
 				(font
@@ -6451,7 +6451,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0409d381-9de6-4cd6-b4ed-694c0973329c")
-		(property "Reference" "10uF1"
+		(property "Reference" "C7"
 			(at 90.17 100.584 90)
 			(effects
 				(font
@@ -6459,7 +6459,7 @@
 				)
 			)
 		)
-		(property "Value" "C4"
+		(property "Value" "10uF"
 			(at 90.17 98.552 90)
 			(effects
 				(font
@@ -6503,7 +6503,7 @@
 		(instances
 			(project "DAQ_dev_board"
 				(path "/a39f2c3e-c1f4-493f-bbb6-b1b089f205f8"
-					(reference "10uF1")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6585,7 +6585,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1dc50ed1-9c06-43dd-a247-d5f746c38fbd")
-		(property "Reference" "C4"
+		(property "Reference" "C11"
 			(at 176.784 47.244 0)
 			(effects
 				(font
@@ -6637,7 +6637,7 @@
 		(instances
 			(project "DAQ_dev_board"
 				(path "/a39f2c3e-c1f4-493f-bbb6-b1b089f205f8"
-					(reference "C4")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -6873,7 +6873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 340.106 52.324 90)
 			(effects
 				(font
@@ -7011,7 +7011,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 119.126 222.504 90)
 			(effects
 				(font
@@ -7214,7 +7214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 347.726 52.324 90)
 			(effects
 				(font
@@ -7282,7 +7282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 53.594 117.094 90)
 			(effects
 				(font
@@ -7596,7 +7596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 355.346 52.324 90)
 			(effects
 				(font
@@ -7666,7 +7666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 154.686 47.244 90)
 			(effects
 				(font
@@ -7914,7 +7914,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62274c51-ce18-4490-9220-7b1df51c65c2")
-		(property "Reference" "1nF2"
+		(property "Reference" "C5"
 			(at 59.182 128.27 90)
 			(effects
 				(font
@@ -7922,7 +7922,7 @@
 				)
 			)
 		)
-		(property "Value" "C2"
+		(property "Value" "1nF"
 			(at 57.15 128.27 90)
 			(effects
 				(font
@@ -7966,7 +7966,7 @@
 		(instances
 			(project "DAQ_dev_board"
 				(path "/a39f2c3e-c1f4-493f-bbb6-b1b089f205f8"
-					(reference "1nF2")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -8541,7 +8541,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8bc419f6-2cf7-43aa-a6f5-6e693f2b1e8d")
-		(property "Reference" "C5"
+		(property "Reference" "C12"
 			(at 186.944 47.244 0)
 			(effects
 				(font
@@ -8593,7 +8593,7 @@
 		(instances
 			(project "DAQ_dev_board"
 				(path "/a39f2c3e-c1f4-493f-bbb6-b1b089f205f8"
-					(reference "C5")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -8625,7 +8625,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 280.924 47.244 90)
 			(effects
 				(font
@@ -8695,7 +8695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 324.866 52.324 90)
 			(effects
 				(font
@@ -8945,7 +8945,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aca69c57-dd09-43c5-8545-9ae6730e4cf4")
-		(property "Reference" "C7"
+		(property "Reference" "C14"
 			(at 219.964 65.024 0)
 			(effects
 				(font
@@ -8997,7 +8997,7 @@
 		(instances
 			(project "DAQ_dev_board"
 				(path "/a39f2c3e-c1f4-493f-bbb6-b1b089f205f8"
-					(reference "C7")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -9144,7 +9144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b30a1a56-373f-45a0-9555-f7d80554c88d")
-		(property "Reference" "C6"
+		(property "Reference" "C13"
 			(at 207.01 61.3409 0)
 			(effects
 				(font
@@ -9162,7 +9162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 204.1652 67.31 0)
 			(effects
 				(font
@@ -9198,7 +9198,7 @@
 		(instances
 			(project ""
 				(path "/a39f2c3e-c1f4-493f-bbb6-b1b089f205f8"
-					(reference "C6")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -9213,7 +9213,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3a5548e-f9f0-4571-a868-864552c2a436")
-		(property "Reference" "1nF1"
+		(property "Reference" "C4"
 			(at 59.182 110.49 90)
 			(effects
 				(font
@@ -9221,7 +9221,7 @@
 				)
 			)
 		)
-		(property "Value" "C3"
+		(property "Value" "1nF"
 			(at 57.15 110.49 90)
 			(effects
 				(font
@@ -9265,7 +9265,7 @@
 		(instances
 			(project ""
 				(path "/a39f2c3e-c1f4-493f-bbb6-b1b089f205f8"
-					(reference "1nF1")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -9297,7 +9297,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 35.814 110.744 90)
 			(effects
 				(font
@@ -9542,7 +9542,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 309.626 52.324 90)
 			(effects
 				(font
@@ -9724,7 +9724,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9b96aae-7b83-4ff7-aa24-19a58a189d8e")
-		(property "Reference" "1nF3"
+		(property "Reference" "C6"
 			(at 62.992 147.32 90)
 			(effects
 				(font
@@ -9732,7 +9732,7 @@
 				)
 			)
 		)
-		(property "Value" "C1"
+		(property "Value" "1nF"
 			(at 60.96 147.32 90)
 			(effects
 				(font
@@ -9776,7 +9776,7 @@
 		(instances
 			(project "DAQ_dev_board"
 				(path "/a39f2c3e-c1f4-493f-bbb6-b1b089f205f8"
-					(reference "1nF3")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -9924,7 +9924,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cca8d615-0e4c-44ae-8e11-01f9c4cd82c7")
-		(property "Reference" "0.1uF1"
+		(property "Reference" "C8"
 			(at 90.17 112.014 90)
 			(effects
 				(font
@@ -9932,7 +9932,7 @@
 				)
 			)
 		)
-		(property "Value" "C5"
+		(property "Value" "0.1uF"
 			(at 90.17 109.982 90)
 			(effects
 				(font
@@ -9976,7 +9976,7 @@
 		(instances
 			(project "DAQ_dev_board"
 				(path "/a39f2c3e-c1f4-493f-bbb6-b1b089f205f8"
-					(reference "0.1uF1")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -10253,7 +10253,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e46cde08-4009-4c46-ae21-ac302d650c41")
-		(property "Reference" "0.1uF2"
+		(property "Reference" "C9"
 			(at 94.996 153.67 90)
 			(effects
 				(font
@@ -10261,7 +10261,7 @@
 				)
 			)
 		)
-		(property "Value" "C6"
+		(property "Value" "0.1uF"
 			(at 97.028 153.67 90)
 			(effects
 				(font
@@ -10305,7 +10305,7 @@
 		(instances
 			(project "DAQ_dev_board"
 				(path "/a39f2c3e-c1f4-493f-bbb6-b1b089f205f8"
-					(reference "0.1uF2")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -10320,7 +10320,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e697ebe4-9ee7-47cf-97b5-5246f58f5066")
-		(property "Reference" "10uF2"
+		(property "Reference" "C10"
 			(at 106.426 153.67 90)
 			(effects
 				(font
@@ -10328,7 +10328,7 @@
 				)
 			)
 		)
-		(property "Value" "C7"
+		(property "Value" "10uF"
 			(at 108.458 153.67 90)
 			(effects
 				(font
@@ -10372,7 +10372,7 @@
 		(instances
 			(project "DAQ_dev_board"
 				(path "/a39f2c3e-c1f4-493f-bbb6-b1b089f205f8"
-					(reference "10uF2")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -10494,7 +10494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 332.486 52.324 90)
 			(effects
 				(font
@@ -10562,7 +10562,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 53.594 137.414 90)
 			(effects
 				(font
@@ -10699,7 +10699,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 317.246 52.324 90)
 			(effects
 				(font

@@ -1,0 +1,38 @@
+name: Publish Schematic PDFs on Release
+
+on:
+  push:
+    tags:
+      - '*'
+
+permissions:
+  contents: write
+  pull-requests: read
+  actions: read
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download PDFs from CI
+        uses: dawidd6/action-download-artifact@v2
+        with:
+          github_token: ${{ secrets.CI_TOKEN }}
+          workflow: commit.yml
+          workflow_conclusion: success
+          branch: main
+          path: pdfs
+
+      - name: List downloaded PDFs
+        run: |
+          find pdfs -type f -name "*.pdf" | sort
+          echo "Found PDF files:"
+          ls -la pdfs/**/*.pdf || echo "No PDFs found"
+
+      - name: Create GitHub Release & upload assets
+        uses: ncipollo/release-action@v1
+        with:
+          tag: ${{ github.ref_name }}
+          artifacts: "pdfs/**/*.pdf"
+          body: |
+            Auto-generated schematic PDFs for **${{ github.ref_name }}**

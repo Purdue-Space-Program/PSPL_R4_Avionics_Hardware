@@ -1,0 +1,28 @@
+name: Export PCB production files
+
+on:
+  workflow_call:
+    inputs:
+      artifact-name:
+        type: string
+        required: true
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    container:
+          image: cjschoet/kicad-cli:latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Export selected PCB production files
+        shell: bash
+        run: ./scripts/generate_pcb_prod.sh
+
+      - name: Upload Production File artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ inputs.artifact-name }}
+          path: prod/*.zip

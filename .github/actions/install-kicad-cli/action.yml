@@ -1,0 +1,11 @@
+name: "Install KiCad CLI"
+description: "Adds the KiCad PPA and installs only kicad-cli"
+runs:
+  using: "composite"
+  steps:
+    - run: sudo add-apt-repository --yes ppa:kicad/kicad-9.0-releases
+      shell: bash
+    - run: sudo apt-get update
+      shell: bash
+    - run: sudo apt-get install --yes --no-install-recommends kicad
+      shell: bash

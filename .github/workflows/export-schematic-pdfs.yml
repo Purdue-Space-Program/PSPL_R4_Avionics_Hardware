@@ -1,0 +1,28 @@
+name: Export Schematics to PDF
+
+on:
+  workflow_call:
+    inputs:
+      artifact-name:
+        type: string
+        required: true
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    container:
+          image: cjschoet/kicad-cli:latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Export selected schematics to PDF
+        shell: bash
+        run: ./scripts/generate_sch_pdfs.sh
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ inputs.artifact-name }}
+          path: pdfs/*.pdf
