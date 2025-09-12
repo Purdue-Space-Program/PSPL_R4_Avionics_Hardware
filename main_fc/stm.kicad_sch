@@ -16244,7 +16244,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ST485BDR:SO-8_STM"
+		(property "Footprint" "avi_footprint:SO-8_STM-M"
 			(at 464.82 48.26 0)
 			(effects
 				(font

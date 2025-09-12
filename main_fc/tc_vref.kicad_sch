@@ -998,7 +998,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ul_ADS1158IRTCR:R_8_ADI"
+		(property "Footprint" "avi_footprint:R_8_ADI-M"
 			(at 109.22 104.14 0)
 			(effects
 				(font
