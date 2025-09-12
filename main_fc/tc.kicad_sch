@@ -1222,26 +1222,6 @@
 		)
 		(uuid "faf16234-1747-447a-9066-3757a2ead3f4")
 	)
-	(label "+"
-		(at 105.41 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0806a71a-b359-4452-ba2a-e098daf22573")
-	)
-	(label "-"
-		(at 105.41 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b303d153-1b0e-4524-8c58-bdf2731c98c9")
-	)
 	(hierarchical_label "TC_INPUT+"
 		(shape input)
 		(at 105.41 93.98 180)

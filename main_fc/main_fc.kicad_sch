@@ -342,6 +342,208 @@
 		)
 	)
 	(sheet
+		(at 152.4 76.2)
+		(size 25.4 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "34c1f26c-3df4-4125-a8f6-1389a218b9eb")
+		(property "Sheetname" "ADC1"
+			(at 152.4 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc.kicad_sch"
+			(at 152.4 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AIN0" input
+			(at 152.4 78.74 180)
+			(uuid "1e4d2ef0-e5e0-48a4-8639-6bcd901f8c99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN1" input
+			(at 152.4 81.28 180)
+			(uuid "a1fd4bcf-d6c9-43e1-9875-54fcc743abab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN2" input
+			(at 152.4 83.82 180)
+			(uuid "62b3fd3e-c547-4a66-9600-b9aca32d4ac3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN3" input
+			(at 152.4 86.36 180)
+			(uuid "6f4dec66-4031-45b8-863e-674158fe7080")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN4" input
+			(at 152.4 88.9 180)
+			(uuid "d992b5c7-7b1d-4d8a-8f52-968f341bfde3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN5" input
+			(at 152.4 91.44 180)
+			(uuid "834eb1ec-a698-4038-b498-9e9699242d9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN6" input
+			(at 152.4 93.98 180)
+			(uuid "ba7fa287-ec83-443f-aaa8-dcf4331d3319")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN7" input
+			(at 152.4 96.52 180)
+			(uuid "3fc1d2e8-8e22-4756-be73-f8ac3ea1b93b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN8" input
+			(at 152.4 99.06 180)
+			(uuid "540e74b3-c9a6-4bc1-a1b7-96543a15fa46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN9" input
+			(at 152.4 101.6 180)
+			(uuid "ebffc99a-a2f2-47e7-9998-70937e65aa09")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN10" input
+			(at 152.4 104.14 180)
+			(uuid "f58e8011-2425-48d1-8958-8e32e8e4e699")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN11" input
+			(at 152.4 106.68 180)
+			(uuid "c6831afa-58bf-4077-9a85-118b2832bb1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN12" input
+			(at 152.4 109.22 180)
+			(uuid "3b313397-a780-4776-a146-4dfc5942cbe1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN13" input
+			(at 152.4 111.76 180)
+			(uuid "3f10491f-0f7c-457a-8b91-51bb91e1e90c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN14" input
+			(at 152.4 114.3 180)
+			(uuid "1ead82ed-e39c-45dc-8709-da79e56901c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN15" input
+			(at 152.4 116.84 180)
+			(uuid "40fbac57-e35c-434f-a916-360cfda93cec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "main_fc"
+				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 25.4 76.2)
 		(size 12.7 16.51)
 		(exclude_from_sim no)
@@ -506,8 +708,8 @@
 		)
 	)
 	(sheet
-		(at 25.4 25.4)
-		(size 12.7 12.7)
+		(at 114.3 76.2)
+		(size 25.4 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -521,8 +723,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "a4566ebe-5842-42c2-9e3b-4323b966403d")
-		(property "Sheetname" "ADC1"
-			(at 25.4 24.6884 0)
+		(property "Sheetname" "ADC0"
+			(at 114.3 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -531,12 +733,172 @@
 			)
 		)
 		(property "Sheetfile" "adc.kicad_sch"
-			(at 25.4 38.6846 0)
+			(at 114.3 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "AIN0" input
+			(at 114.3 78.74 180)
+			(uuid "22e3dfe7-53c9-43d5-9770-6724bc2ec8be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN1" input
+			(at 114.3 81.28 180)
+			(uuid "3bfb3ce0-2cfa-4f18-9010-e431486ef560")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN2" input
+			(at 114.3 83.82 180)
+			(uuid "955596db-1d3f-4372-a728-a883d88885cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN3" input
+			(at 114.3 86.36 180)
+			(uuid "a6c8e2e4-e7ba-43a1-8a19-4dda4e634055")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN4" input
+			(at 114.3 88.9 180)
+			(uuid "4392abe3-b696-4e52-99a6-6ab8648b1b95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN5" input
+			(at 114.3 91.44 180)
+			(uuid "9b07aec0-7e9a-425f-a76e-0e9155b40ca2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN6" input
+			(at 114.3 93.98 180)
+			(uuid "5586cf7e-d8d6-45ce-a3d9-8955159a5c85")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN7" input
+			(at 114.3 96.52 180)
+			(uuid "d5a4bd13-4199-4051-8bb6-f0e27ca1d0bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN8" input
+			(at 114.3 99.06 180)
+			(uuid "0c2297b8-3bdf-49bc-a6d2-5612edd1c7ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN9" input
+			(at 114.3 101.6 180)
+			(uuid "45a9e12d-709b-4bb6-94d1-4e6baf21c987")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN10" input
+			(at 114.3 104.14 180)
+			(uuid "e3148dfd-d678-45fd-ae6c-6fbc28f2fd6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN11" input
+			(at 114.3 106.68 180)
+			(uuid "92e7049d-8105-4d26-8a65-7120b1cf4ea4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN12" input
+			(at 114.3 109.22 180)
+			(uuid "3963c484-b5ff-4c8d-8a88-b262dc88386a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN13" input
+			(at 114.3 111.76 180)
+			(uuid "1c0aa2c2-91c8-47ee-bef1-4baf884996d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN14" input
+			(at 114.3 114.3 180)
+			(uuid "3ac7dda5-e071-4c65-8ece-16df25d98f4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN15" input
+			(at 114.3 116.84 180)
+			(uuid "f906373a-978a-491b-aad5-383bb4453fc8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -595,48 +957,6 @@
 			(project "main_fc"
 				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 50.8 25.4)
-		(size 12.7 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "a7dd3222-4369-4cd0-b99f-654e2822078d")
-		(property "Sheetname" "ADC2"
-			(at 50.8 24.6884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "adc.kicad_sch"
-			(at 50.8 38.6846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "main_fc"
-				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964"
-					(page "8")
 				)
 			)
 		)
@@ -863,7 +1183,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "ce2fe30e-424d-4eba-ab23-4fe60d294bf6")
-		(property "Sheetname" "TC"
+		(property "Sheetname" "TC0"
 			(at 25.4 50.0884 0)
 			(effects
 				(font

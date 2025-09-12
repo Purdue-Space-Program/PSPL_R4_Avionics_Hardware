@@ -43,12 +43,12 @@
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
-        "silk_text_upright": false,
+        "silk_text_size_h": 0.5,
+        "silk_text_size_v": 0.5,
+        "silk_text_thickness": 0.0625,
+        "silk_text_upright": true,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [],
@@ -634,11 +634,11 @@
     ],
     [
       "a4566ebe-5842-42c2-9e3b-4323b966403d",
-      "ADC1"
+      "ADC0"
     ],
     [
       "ce2fe30e-424d-4eba-ab23-4fe60d294bf6",
-      "TC"
+      "TC0"
     ],
     [
       "a49bae17-fa63-4253-a1a4-787b012d478b",
@@ -657,8 +657,8 @@
       "USB_to_UART"
     ],
     [
-      "a7dd3222-4369-4cd0-b99f-654e2822078d",
-      "ADC2"
+      "34c1f26c-3df4-4125-a8f6-1389a218b9eb",
+      "ADC1"
     ],
     [
       "56cd4900-f101-4efb-b5f0-4980026460ff",
