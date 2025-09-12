@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "2e5bfe72-277e-40a6-babb-0928c11aa964")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols)
 	(label "BUF_2V5"
 		(at 88.9 57.15 0)
@@ -94,6 +94,88 @@
 			(justify right bottom)
 		)
 		(uuid "d750308d-6ff2-479a-b67d-b8a1fed5a2e0")
+	)
+	(sheet
+		(at 25.4 203.2)
+		(size 12.7 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0623c7a4-3489-48a8-b4fd-fc769b8a46ae")
+		(property "Sheetname" "PT_Divider2"
+			(at 25.4 202.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pt_divider.kicad_sch"
+			(at 25.4 220.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INPUT+" input
+			(at 25.4 205.74 180)
+			(uuid "b223a63d-f116-47e6-bcd3-d15b8d3eb2bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INPUT-" input
+			(at 25.4 209.55 180)
+			(uuid "623db6b3-f951-48ae-8489-1e9787dbe101")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUTPUT+" input
+			(at 38.1 213.36 0)
+			(uuid "3957f819-1ee2-42f5-9cd3-7edb5275f05e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUTPUT-" input
+			(at 38.1 217.17 0)
+			(uuid "1c766da3-7f2d-4566-8199-e48628c3aa39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "main_fc"
+				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964"
+					(page "17")
+				)
+			)
+		)
 	)
 	(sheet
 		(at 50.8 127)
@@ -342,7 +424,7 @@
 		)
 	)
 	(sheet
-		(at 152.4 76.2)
+		(at 203.2 22.86)
 		(size 25.4 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -358,7 +440,7 @@
 		)
 		(uuid "34c1f26c-3df4-4125-a8f6-1389a218b9eb")
 		(property "Sheetname" "ADC1"
-			(at 152.4 75.4884 0)
+			(at 203.2 22.1484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -367,7 +449,7 @@
 			)
 		)
 		(property "Sheetfile" "adc.kicad_sch"
-			(at 152.4 127.5846 0)
+			(at 203.2 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -376,7 +458,7 @@
 			)
 		)
 		(pin "AIN0" input
-			(at 152.4 78.74 180)
+			(at 203.2 25.4 180)
 			(uuid "1e4d2ef0-e5e0-48a4-8639-6bcd901f8c99")
 			(effects
 				(font
@@ -386,7 +468,7 @@
 			)
 		)
 		(pin "AIN1" input
-			(at 152.4 81.28 180)
+			(at 203.2 27.94 180)
 			(uuid "a1fd4bcf-d6c9-43e1-9875-54fcc743abab")
 			(effects
 				(font
@@ -396,7 +478,7 @@
 			)
 		)
 		(pin "AIN2" input
-			(at 152.4 83.82 180)
+			(at 203.2 30.48 180)
 			(uuid "62b3fd3e-c547-4a66-9600-b9aca32d4ac3")
 			(effects
 				(font
@@ -406,7 +488,7 @@
 			)
 		)
 		(pin "AIN3" input
-			(at 152.4 86.36 180)
+			(at 203.2 33.02 180)
 			(uuid "6f4dec66-4031-45b8-863e-674158fe7080")
 			(effects
 				(font
@@ -416,7 +498,7 @@
 			)
 		)
 		(pin "AIN4" input
-			(at 152.4 88.9 180)
+			(at 203.2 35.56 180)
 			(uuid "d992b5c7-7b1d-4d8a-8f52-968f341bfde3")
 			(effects
 				(font
@@ -426,7 +508,7 @@
 			)
 		)
 		(pin "AIN5" input
-			(at 152.4 91.44 180)
+			(at 203.2 38.1 180)
 			(uuid "834eb1ec-a698-4038-b498-9e9699242d9d")
 			(effects
 				(font
@@ -436,7 +518,7 @@
 			)
 		)
 		(pin "AIN6" input
-			(at 152.4 93.98 180)
+			(at 203.2 40.64 180)
 			(uuid "ba7fa287-ec83-443f-aaa8-dcf4331d3319")
 			(effects
 				(font
@@ -446,7 +528,7 @@
 			)
 		)
 		(pin "AIN7" input
-			(at 152.4 96.52 180)
+			(at 203.2 43.18 180)
 			(uuid "3fc1d2e8-8e22-4756-be73-f8ac3ea1b93b")
 			(effects
 				(font
@@ -456,7 +538,7 @@
 			)
 		)
 		(pin "AIN8" input
-			(at 152.4 99.06 180)
+			(at 203.2 45.72 180)
 			(uuid "540e74b3-c9a6-4bc1-a1b7-96543a15fa46")
 			(effects
 				(font
@@ -466,7 +548,7 @@
 			)
 		)
 		(pin "AIN9" input
-			(at 152.4 101.6 180)
+			(at 203.2 48.26 180)
 			(uuid "ebffc99a-a2f2-47e7-9998-70937e65aa09")
 			(effects
 				(font
@@ -476,7 +558,7 @@
 			)
 		)
 		(pin "AIN10" input
-			(at 152.4 104.14 180)
+			(at 203.2 50.8 180)
 			(uuid "f58e8011-2425-48d1-8958-8e32e8e4e699")
 			(effects
 				(font
@@ -486,7 +568,7 @@
 			)
 		)
 		(pin "AIN11" input
-			(at 152.4 106.68 180)
+			(at 203.2 53.34 180)
 			(uuid "c6831afa-58bf-4077-9a85-118b2832bb1d")
 			(effects
 				(font
@@ -496,7 +578,7 @@
 			)
 		)
 		(pin "AIN12" input
-			(at 152.4 109.22 180)
+			(at 203.2 55.88 180)
 			(uuid "3b313397-a780-4776-a146-4dfc5942cbe1")
 			(effects
 				(font
@@ -506,7 +588,7 @@
 			)
 		)
 		(pin "AIN13" input
-			(at 152.4 111.76 180)
+			(at 203.2 58.42 180)
 			(uuid "3f10491f-0f7c-457a-8b91-51bb91e1e90c")
 			(effects
 				(font
@@ -516,7 +598,7 @@
 			)
 		)
 		(pin "AIN14" input
-			(at 152.4 114.3 180)
+			(at 203.2 60.96 180)
 			(uuid "1ead82ed-e39c-45dc-8709-da79e56901c8")
 			(effects
 				(font
@@ -526,7 +608,7 @@
 			)
 		)
 		(pin "AIN15" input
-			(at 152.4 116.84 180)
+			(at 203.2 63.5 180)
 			(uuid "40fbac57-e35c-434f-a916-360cfda93cec")
 			(effects
 				(font
@@ -538,7 +620,7 @@
 		(instances
 			(project "main_fc"
 				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964"
-					(page "8")
+					(page "3")
 				)
 			)
 		)
@@ -626,6 +708,88 @@
 		)
 	)
 	(sheet
+		(at 50.8 177.8)
+		(size 12.7 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5b77ee74-a914-43f5-b3e4-ef71a6a6a535")
+		(property "Sheetname" "PT_Divider1"
+			(at 50.8 177.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pt_divider.kicad_sch"
+			(at 50.8 194.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INPUT+" input
+			(at 50.8 180.34 180)
+			(uuid "04a2fab7-3a74-4fc3-a61d-4eb6d97be2c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INPUT-" input
+			(at 50.8 184.15 180)
+			(uuid "71cdb635-c562-48db-ba47-f9fcab3e7f06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUTPUT+" input
+			(at 63.5 187.96 0)
+			(uuid "4cedfb88-fdcf-44e8-9348-483773922f3b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUTPUT-" input
+			(at 63.5 191.77 0)
+			(uuid "e6d0c2c2-cacb-4d00-aaa5-58a5a6fde98a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "main_fc"
+				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 50.8 101.6)
 		(size 12.7 16.51)
 		(exclude_from_sim no)
@@ -708,7 +872,171 @@
 		)
 	)
 	(sheet
-		(at 114.3 76.2)
+		(at 101.6 203.2)
+		(size 12.7 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9fb7b1de-e17e-40f6-8483-889c14817b16")
+		(property "Sheetname" "PT_Divider8"
+			(at 101.6 202.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pt_divider.kicad_sch"
+			(at 101.6 220.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INPUT+" input
+			(at 101.6 205.74 180)
+			(uuid "9d508814-9d65-4dd8-9456-63a809bc036a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INPUT-" input
+			(at 101.6 209.55 180)
+			(uuid "871ad637-70d9-4c54-a06b-c10ce1eac39f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUTPUT+" input
+			(at 114.3 213.36 0)
+			(uuid "a37f29dd-e60b-49a7-8bc6-f55b061d7cfb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUTPUT-" input
+			(at 114.3 217.17 0)
+			(uuid "05374a49-0794-4166-896c-be21f1359d2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "main_fc"
+				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964"
+					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 228.6)
+		(size 12.7 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a3dbcd12-218e-4c3f-9884-bdb3e47374a7")
+		(property "Sheetname" "PT_Divider4"
+			(at 25.4 227.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pt_divider.kicad_sch"
+			(at 25.4 245.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INPUT+" input
+			(at 25.4 231.14 180)
+			(uuid "5543012f-cdb2-4728-9f19-25ea4f782420")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INPUT-" input
+			(at 25.4 234.95 180)
+			(uuid "0f532dd2-6372-4779-827a-d8b45f99030d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUTPUT+" input
+			(at 38.1 238.76 0)
+			(uuid "d394c4d4-36ae-4d09-bea3-c82133d88592")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUTPUT-" input
+			(at 38.1 242.57 0)
+			(uuid "aebc3bf0-6144-40ac-8c30-62f2d0e39a77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "main_fc"
+				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 22.86)
 		(size 25.4 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -724,7 +1052,7 @@
 		)
 		(uuid "a4566ebe-5842-42c2-9e3b-4323b966403d")
 		(property "Sheetname" "ADC0"
-			(at 114.3 75.4884 0)
+			(at 165.1 22.1484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -733,7 +1061,7 @@
 			)
 		)
 		(property "Sheetfile" "adc.kicad_sch"
-			(at 114.3 127.5846 0)
+			(at 165.1 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -742,7 +1070,7 @@
 			)
 		)
 		(pin "AIN0" input
-			(at 114.3 78.74 180)
+			(at 165.1 25.4 180)
 			(uuid "22e3dfe7-53c9-43d5-9770-6724bc2ec8be")
 			(effects
 				(font
@@ -752,7 +1080,7 @@
 			)
 		)
 		(pin "AIN1" input
-			(at 114.3 81.28 180)
+			(at 165.1 27.94 180)
 			(uuid "3bfb3ce0-2cfa-4f18-9010-e431486ef560")
 			(effects
 				(font
@@ -762,7 +1090,7 @@
 			)
 		)
 		(pin "AIN2" input
-			(at 114.3 83.82 180)
+			(at 165.1 30.48 180)
 			(uuid "955596db-1d3f-4372-a728-a883d88885cc")
 			(effects
 				(font
@@ -772,7 +1100,7 @@
 			)
 		)
 		(pin "AIN3" input
-			(at 114.3 86.36 180)
+			(at 165.1 33.02 180)
 			(uuid "a6c8e2e4-e7ba-43a1-8a19-4dda4e634055")
 			(effects
 				(font
@@ -782,7 +1110,7 @@
 			)
 		)
 		(pin "AIN4" input
-			(at 114.3 88.9 180)
+			(at 165.1 35.56 180)
 			(uuid "4392abe3-b696-4e52-99a6-6ab8648b1b95")
 			(effects
 				(font
@@ -792,7 +1120,7 @@
 			)
 		)
 		(pin "AIN5" input
-			(at 114.3 91.44 180)
+			(at 165.1 38.1 180)
 			(uuid "9b07aec0-7e9a-425f-a76e-0e9155b40ca2")
 			(effects
 				(font
@@ -802,7 +1130,7 @@
 			)
 		)
 		(pin "AIN6" input
-			(at 114.3 93.98 180)
+			(at 165.1 40.64 180)
 			(uuid "5586cf7e-d8d6-45ce-a3d9-8955159a5c85")
 			(effects
 				(font
@@ -812,7 +1140,7 @@
 			)
 		)
 		(pin "AIN7" input
-			(at 114.3 96.52 180)
+			(at 165.1 43.18 180)
 			(uuid "d5a4bd13-4199-4051-8bb6-f0e27ca1d0bb")
 			(effects
 				(font
@@ -822,7 +1150,7 @@
 			)
 		)
 		(pin "AIN8" input
-			(at 114.3 99.06 180)
+			(at 165.1 45.72 180)
 			(uuid "0c2297b8-3bdf-49bc-a6d2-5612edd1c7ea")
 			(effects
 				(font
@@ -832,7 +1160,7 @@
 			)
 		)
 		(pin "AIN9" input
-			(at 114.3 101.6 180)
+			(at 165.1 48.26 180)
 			(uuid "45a9e12d-709b-4bb6-94d1-4e6baf21c987")
 			(effects
 				(font
@@ -842,7 +1170,7 @@
 			)
 		)
 		(pin "AIN10" input
-			(at 114.3 104.14 180)
+			(at 165.1 50.8 180)
 			(uuid "e3148dfd-d678-45fd-ae6c-6fbc28f2fd6c")
 			(effects
 				(font
@@ -852,7 +1180,7 @@
 			)
 		)
 		(pin "AIN11" input
-			(at 114.3 106.68 180)
+			(at 165.1 53.34 180)
 			(uuid "92e7049d-8105-4d26-8a65-7120b1cf4ea4")
 			(effects
 				(font
@@ -862,7 +1190,7 @@
 			)
 		)
 		(pin "AIN12" input
-			(at 114.3 109.22 180)
+			(at 165.1 55.88 180)
 			(uuid "3963c484-b5ff-4c8d-8a88-b262dc88386a")
 			(effects
 				(font
@@ -872,7 +1200,7 @@
 			)
 		)
 		(pin "AIN13" input
-			(at 114.3 111.76 180)
+			(at 165.1 58.42 180)
 			(uuid "1c0aa2c2-91c8-47ee-bef1-4baf884996d8")
 			(effects
 				(font
@@ -882,7 +1210,7 @@
 			)
 		)
 		(pin "AIN14" input
-			(at 114.3 114.3 180)
+			(at 165.1 60.96 180)
 			(uuid "3ac7dda5-e071-4c65-8ece-16df25d98f4f")
 			(effects
 				(font
@@ -892,7 +1220,7 @@
 			)
 		)
 		(pin "AIN15" input
-			(at 114.3 116.84 180)
+			(at 165.1 63.5 180)
 			(uuid "f906373a-978a-491b-aad5-383bb4453fc8")
 			(effects
 				(font
@@ -962,6 +1290,88 @@
 		)
 	)
 	(sheet
+		(at 50.8 228.6)
+		(size 12.7 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a6181799-cbdf-45e5-b75b-a5434ac31b5b")
+		(property "Sheetname" "PT_Divider9"
+			(at 50.8 227.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pt_divider.kicad_sch"
+			(at 50.8 245.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INPUT+" input
+			(at 50.8 231.14 180)
+			(uuid "ced7a52d-b23f-4476-ab1a-d86e444e3866")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INPUT-" input
+			(at 50.8 234.95 180)
+			(uuid "6e99b9c3-0445-4f52-95a4-1b82b42bebec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUTPUT+" input
+			(at 63.5 238.76 0)
+			(uuid "207eaa9e-fac8-41b4-88d3-1da4cb67c56c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUTPUT-" input
+			(at 63.5 242.57 0)
+			(uuid "11deb822-ef79-41e9-8451-e113a3812f0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "main_fc"
+				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 127 25.4)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
@@ -999,6 +1409,88 @@
 			(project "main_fc"
 				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 203.2)
+		(size 12.7 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "af347030-16d4-40ea-b2f2-86a8306807f5")
+		(property "Sheetname" "PT_Divider3"
+			(at 50.8 202.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pt_divider.kicad_sch"
+			(at 50.8 220.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INPUT+" input
+			(at 50.8 205.74 180)
+			(uuid "61144ac2-1833-4dd3-9882-99c8ff4b6d95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INPUT-" input
+			(at 50.8 209.55 180)
+			(uuid "7a6f7ab4-e1f1-499f-8302-96be0c79fb25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUTPUT+" input
+			(at 63.5 213.36 0)
+			(uuid "ee02366d-336c-4946-8f54-fcbb9a03677c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUTPUT-" input
+			(at 63.5 217.17 0)
+			(uuid "11ab0434-6b4b-4c70-bc04-2aa5fbc2081d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "main_fc"
+				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964"
+					(page "19")
 				)
 			)
 		)
@@ -1244,7 +1736,89 @@
 		(instances
 			(project "main_fc"
 				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964"
-					(page "3")
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 177.8)
+		(size 12.7 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dd225d42-a959-41ce-bf10-b2074e771391")
+		(property "Sheetname" "PT_Divider5"
+			(at 76.2 177.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pt_divider.kicad_sch"
+			(at 76.2 194.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INPUT+" input
+			(at 76.2 180.34 180)
+			(uuid "eb4b4bcd-82ff-4ee3-876a-25d1ea84139f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INPUT-" input
+			(at 76.2 184.15 180)
+			(uuid "ae1d1eef-92ff-4cf1-badc-31323682ff7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUTPUT+" input
+			(at 88.9 187.96 0)
+			(uuid "75deb2ca-d2a0-4d3c-b134-5c1fdf6eba15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUTPUT-" input
+			(at 88.9 191.77 0)
+			(uuid "000a5c28-edbb-477d-9606-c7eba0638404")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "main_fc"
+				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964"
+					(page "21")
 				)
 			)
 		)
@@ -1329,6 +1903,252 @@
 			(project "main_fc"
 				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 177.8)
+		(size 12.7 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f29c1d9b-cdd1-433a-929a-0c43887a2918")
+		(property "Sheetname" "PT_Divider0"
+			(at 25.4 177.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pt_divider.kicad_sch"
+			(at 25.4 194.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INPUT+" input
+			(at 25.4 180.34 180)
+			(uuid "f0f89d95-82bc-4aca-9e3f-768620bdc53c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INPUT-" input
+			(at 25.4 184.15 180)
+			(uuid "88a14fee-2e4b-4f88-bf46-1646d08be3d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUTPUT+" input
+			(at 38.1 187.96 0)
+			(uuid "cb1c5a74-c89f-4c1e-9a32-e1397eeb8851")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUTPUT-" input
+			(at 38.1 191.77 0)
+			(uuid "742e14a6-9b5c-4092-aaa9-4be21134b4b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "main_fc"
+				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 203.2)
+		(size 12.7 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f6855efb-35f7-496d-9fa9-30d71d922eaa")
+		(property "Sheetname" "PT_Divider7"
+			(at 76.2 202.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pt_divider.kicad_sch"
+			(at 76.2 220.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INPUT+" input
+			(at 76.2 205.74 180)
+			(uuid "4a229db9-ed60-4fd8-86bb-90cd7943e23c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INPUT-" input
+			(at 76.2 209.55 180)
+			(uuid "ad930490-32f6-4666-bd08-730b73564969")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUTPUT+" input
+			(at 88.9 213.36 0)
+			(uuid "d212978d-dd56-49b7-84ac-5101a46b0d7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUTPUT-" input
+			(at 88.9 217.17 0)
+			(uuid "a8d308e9-bb8b-4707-ac02-946f52381846")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "main_fc"
+				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964"
+					(page "23")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 177.8)
+		(size 12.7 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fa3bc39c-2863-4d9d-813a-0640fc4bb220")
+		(property "Sheetname" "PT_Divider6"
+			(at 101.6 177.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pt_divider.kicad_sch"
+			(at 101.6 194.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INPUT+" input
+			(at 101.6 180.34 180)
+			(uuid "aef9c7a3-51d3-4e13-b134-35cf32ca68bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INPUT-" input
+			(at 101.6 184.15 180)
+			(uuid "d71f72fc-694f-4b0c-ab0b-60d01cb2c293")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUTPUT+" input
+			(at 114.3 187.96 0)
+			(uuid "21b766b2-2372-47a7-b388-fe9eb907051a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUTPUT-" input
+			(at 114.3 191.77 0)
+			(uuid "f38c40bf-df7c-4bee-b2ee-99680186b566")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "main_fc"
+				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964"
+					(page "22")
 				)
 			)
 		)
