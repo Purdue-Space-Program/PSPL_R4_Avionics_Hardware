@@ -43,21 +43,15 @@
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
-        "silk_text_upright": false,
+        "silk_text_size_h": 0.5,
+        "silk_text_size_v": 0.5,
+        "silk_text_thickness": 0.0625,
+        "silk_text_upright": true,
         "zones": {
           "min_clearance": 0.0
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -123,11 +117,11 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.1,
+        "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -135,8 +129,8 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.15,
-        "min_track_width": 0.16,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -186,11 +180,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.2,
-        0.5
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -217,12 +207,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -445,7 +430,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -466,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "IMU Dev Board.kicad_pro",
+    "filename": "main_fc.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -575,12 +560,30 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -611,7 +614,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "SPICE",
+    "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -626,8 +629,104 @@
   },
   "sheets": [
     [
-      "4221b7f7-e99a-4b14-8f0b-1e51b0a97db4",
+      "2e5bfe72-277e-40a6-babb-0928c11aa964",
       "Root"
+    ],
+    [
+      "a4566ebe-5842-42c2-9e3b-4323b966403d",
+      "ADC0"
+    ],
+    [
+      "34c1f26c-3df4-4125-a8f6-1389a218b9eb",
+      "ADC1"
+    ],
+    [
+      "a49bae17-fa63-4253-a1a4-787b012d478b",
+      "TC_Vref"
+    ],
+    [
+      "e96609bc-dbc9-4cb0-9094-d58c944cef19",
+      "STM"
+    ],
+    [
+      "ee27335b-19fb-40ee-b548-f13966a2bc82",
+      "PHY"
+    ],
+    [
+      "acf68788-bc39-4e66-824a-e6e1af3717de",
+      "USB_to_UART"
+    ],
+    [
+      "ce2fe30e-424d-4eba-ab23-4fe60d294bf6",
+      "TC0"
+    ],
+    [
+      "56cd4900-f101-4efb-b5f0-4980026460ff",
+      "TC1"
+    ],
+    [
+      "21ee656c-7f17-4714-8bce-a7e3e3126d93",
+      "TC2"
+    ],
+    [
+      "b00a60d1-a6fd-4a41-bdd1-5271f7dc77ee",
+      "TC3"
+    ],
+    [
+      "c7576994-4b0e-45d3-a6d6-664408f5f781",
+      "TC4"
+    ],
+    [
+      "3301cbe5-2527-4d61-b1d0-e3153281d4c7",
+      "TC5"
+    ],
+    [
+      "91e8ab3a-b987-4146-b202-11a979b42490",
+      "TC6"
+    ],
+    [
+      "070729ba-fd4e-4657-8531-e0f12af4ede0",
+      "TC7"
+    ],
+    [
+      "f29c1d9b-cdd1-433a-929a-0c43887a2918",
+      "PT_Divider0"
+    ],
+    [
+      "0623c7a4-3489-48a8-b4fd-fc769b8a46ae",
+      "PT_Divider2"
+    ],
+    [
+      "5b77ee74-a914-43f5-b3e4-ef71a6a6a535",
+      "PT_Divider1"
+    ],
+    [
+      "af347030-16d4-40ea-b2f2-86a8306807f5",
+      "PT_Divider3"
+    ],
+    [
+      "a3dbcd12-218e-4c3f-9884-bdb3e47374a7",
+      "PT_Divider4"
+    ],
+    [
+      "dd225d42-a959-41ce-bf10-b2074e771391",
+      "PT_Divider5"
+    ],
+    [
+      "fa3bc39c-2863-4d9d-813a-0640fc4bb220",
+      "PT_Divider6"
+    ],
+    [
+      "f6855efb-35f7-496d-9fa9-30d71d922eaa",
+      "PT_Divider7"
+    ],
+    [
+      "9fb7b1de-e17e-40f6-8483-889c14817b16",
+      "PT_Divider8"
+    ],
+    [
+      "a6181799-cbdf-45e5-b75b-a5434ac31b5b",
+      "PT_Divider9"
     ]
   ],
   "text_variables": {}
