@@ -17259,7 +17259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX13448EESD_:SOIC127P600X175-14N"
+		(property "Footprint" "MAX13448EESD:SOIC127P600X175-14N"
 			(at 490.22 67.31 0)
 			(effects
 				(font
