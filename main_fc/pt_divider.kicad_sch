@@ -381,7 +381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3954962c-24c3-40fd-880b-4409ad4e09f2")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR0143"
 			(at 93.98 76.2 0)
 			(effects
 				(font
@@ -431,11 +431,11 @@
 		(instances
 			(project "main_fc"
 				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964/0623c7a4-3489-48a8-b4fd-fc769b8a46ae"
-					(reference "#PWR082")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964/5b77ee74-a914-43f5-b3e4-ef71a6a6a535"
-					(reference "#PWR084")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964/9fb7b1de-e17e-40f6-8483-889c14817b16"
@@ -459,15 +459,15 @@
 					(unit 1)
 				)
 				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964/f29c1d9b-cdd1-433a-929a-0c43887a2918"
-					(reference "#PWR080")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964/f6855efb-35f7-496d-9fa9-30d71d922eaa"
-					(reference "#PWR0155")
+					(reference "#PWR0157")
 					(unit 1)
 				)
 				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964/fa3bc39c-2863-4d9d-813a-0640fc4bb220"
-					(reference "#PWR0157")
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -483,7 +483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ffa5f16-06a8-4104-8b98-401b75e95f55")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR0142"
 			(at 69.85 76.2 0)
 			(effects
 				(font
@@ -533,11 +533,11 @@
 		(instances
 			(project "main_fc"
 				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964/0623c7a4-3489-48a8-b4fd-fc769b8a46ae"
-					(reference "#PWR081")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964/5b77ee74-a914-43f5-b3e4-ef71a6a6a535"
-					(reference "#PWR083")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964/9fb7b1de-e17e-40f6-8483-889c14817b16"
@@ -560,12 +560,16 @@
 					(reference "#PWR0152")
 					(unit 1)
 				)
+				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964/f29c1d9b-cdd1-433a-929a-0c43887a2918"
+					(reference "#PWR0142")
+					(unit 1)
+				)
 				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964/f6855efb-35f7-496d-9fa9-30d71d922eaa"
-					(reference "#PWR0154")
+					(reference "#PWR0156")
 					(unit 1)
 				)
 				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964/fa3bc39c-2863-4d9d-813a-0640fc4bb220"
-					(reference "#PWR0156")
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -667,11 +671,11 @@
 					(unit 1)
 				)
 				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964/f6855efb-35f7-496d-9fa9-30d71d922eaa"
-					(reference "R93")
+					(reference "R97")
 					(unit 1)
 				)
 				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964/fa3bc39c-2863-4d9d-813a-0640fc4bb220"
-					(reference "R97")
+					(reference "R93")
 					(unit 1)
 				)
 			)
@@ -773,11 +777,11 @@
 					(unit 1)
 				)
 				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964/f6855efb-35f7-496d-9fa9-30d71d922eaa"
-					(reference "R92")
+					(reference "R96")
 					(unit 1)
 				)
 				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964/fa3bc39c-2863-4d9d-813a-0640fc4bb220"
-					(reference "R96")
+					(reference "R92")
 					(unit 1)
 				)
 			)
@@ -879,11 +883,11 @@
 					(unit 1)
 				)
 				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964/f6855efb-35f7-496d-9fa9-30d71d922eaa"
-					(reference "R91")
+					(reference "R95")
 					(unit 1)
 				)
 				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964/fa3bc39c-2863-4d9d-813a-0640fc4bb220"
-					(reference "R95")
+					(reference "R91")
 					(unit 1)
 				)
 			)
@@ -899,7 +903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e32e3fec-eb32-47fd-8dc9-85c55a0638e6")
-		(property "Reference" "R"
+		(property "Reference" "R66"
 			(at 72.39 52.0699 0)
 			(effects
 				(font
@@ -980,12 +984,16 @@
 					(reference "R86")
 					(unit 1)
 				)
+				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964/f29c1d9b-cdd1-433a-929a-0c43887a2918"
+					(reference "R66")
+					(unit 1)
+				)
 				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964/f6855efb-35f7-496d-9fa9-30d71d922eaa"
-					(reference "R90")
+					(reference "R94")
 					(unit 1)
 				)
 				(path "/2e5bfe72-277e-40a6-babb-0928c11aa964/fa3bc39c-2863-4d9d-813a-0640fc4bb220"
-					(reference "R94")
+					(reference "R90")
 					(unit 1)
 				)
 			)
