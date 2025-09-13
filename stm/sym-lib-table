@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "2025-09-02_01-37-02")(type "KiCad")(uri "C:/Users/Aryaan/Downloads/ST485BN/KiCADv6/2025-09-02_01-37-02.kicad_sym")(options "")(descr ""))
   (lib (name "2025-09-03_13-52-52")(type "KiCad")(uri "C:/Users/Aryaan/Downloads/ST485BDR/KiCADv6/2025-09-03_13-52-52.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX13448EESD")(type "KiCad")(uri "${KIPRJMOD}/symbols/MAX13448EESD_.kicad_sym")(options "")(descr ""))
 )

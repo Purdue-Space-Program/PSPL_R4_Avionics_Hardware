@@ -5,280 +5,6 @@
 	(uuid "bfe7fa5f-7411-4a25-9dbc-228b906026ac")
 	(paper "C")
 	(lib_symbols
-		(symbol "2025-09-03_13-52-52:ST485BDR"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CR"
-				(at 20.32 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "ST485BDR"
-				(at 20.32 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "SO-8_STM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/st485b.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "ST485BDR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SO-8_STM SO-8_STM-M SO-8_STM-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ST485BDR_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -12.7)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -12.7) (xy 33.02 -12.7)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 -12.7) (xy 33.02 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin output line
-					(at 0 0 0)
-					(length 7.62)
-					(name "RO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "*RE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "DE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -7.62 0)
-					(length 7.62)
-					(name "DI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 40.64 0 180)
-					(length 7.62)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 40.64 -2.54 180)
-					(length 7.62)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 40.64 -5.08 180)
-					(length 7.62)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 40.64 -7.62 180)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:SD_Card_Receptacle"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2690,6 +2416,742 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MAX13448EESD:MAX13448EESD_"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "MAX13448EESD_"
+				(at -7.62 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "MAX13448EESD_:SOIC127P600X175-14N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "E2_MAX" "0.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PACKAGE_ID" "6188"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "B_NOM" "0.42"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "EMAX" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "D_MAX" "8.75"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PACKAGE_TYPE" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "L1_MAX" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "E1_NOM" "3.9"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "L1_NOM" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "A1_NOM" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "B_MIN" "0.35"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "E1_MIN" "3.8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "VACANCIES" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "B_MAX" "0.49"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "EMIN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "D2_MAX" "0.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "ENOM" "1.27"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "D_NOM" "8.65"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "E2_MIN" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "L_MAX" "1.27"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "A_MAX" "1.75"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "D1_MAX" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "D2_MIN" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "D1_NOM" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "D1_MIN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "A_NOM" "1.75"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "E2_NOM" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "A_MIN" "1.75"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "D2_NOM" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "DNOM" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "DMIN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "E_NOM" "6.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "DMAX" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC 7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PIN_COUNT" "14.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "L_NOM" "0.835"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Maxim Integrated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "A1_MIN" "0.1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "E1_MAX" "4.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "A1_MAX" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "E_MIN" "5.8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "L1_MIN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "D_MIN" "8.55"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PINS" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "L_MIN" "0.4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "E_MAX" "6.2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "MAX13448EESD__0_0"
+				(rectangle
+					(start -7.62 -15.24)
+					(end 7.62 15.24)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -12.7 7.62 0)
+					(length 5.08)
+					(name "DE"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "DI"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "B"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "~{RE}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 12.7 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 7.62 180)
+					(length 5.08)
+					(name "Y"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "Z"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "RO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -10.16 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -12.7 180)
+					(length 5.08)
+					(name "GND__1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -7020,131 +7482,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -7758,14 +8095,6 @@
 	(no_connect
 		(at 307.34 201.93)
 		(uuid "2e47c077-afd3-4e41-ae66-9033abbcba45")
-	)
-	(no_connect
-		(at 466.09 63.5)
-		(uuid "5535a8d1-8396-42e9-af47-a4ae2be4ad24")
-	)
-	(no_connect
-		(at 466.09 66.04)
-		(uuid "5d0a903c-a331-4724-a32b-eaa67f67ab12")
 	)
 	(no_connect
 		(at 320.04 189.23)
@@ -9590,16 +9919,6 @@
 	)
 	(wire
 		(pts
-			(xy 514.35 66.04) (xy 514.35 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38a73197-9ae7-4099-9902-96ed5f95cc4a")
-	)
-	(wire
-		(pts
 			(xy 176.53 93.98) (xy 204.47 93.98)
 		)
 		(stroke
@@ -10080,16 +10399,6 @@
 	)
 	(wire
 		(pts
-			(xy 514.35 62.23) (xy 516.89 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5323f0fd-36c6-45ac-8f6c-709ddac86002")
-	)
-	(wire
-		(pts
 			(xy 331.47 92.71) (xy 331.47 96.52)
 		)
 		(stroke
@@ -10097,16 +10406,6 @@
 			(type default)
 		)
 		(uuid "53ffcdcc-9f5d-4299-a520-07d0d5df8e0b")
-	)
-	(wire
-		(pts
-			(xy 510.54 60.96) (xy 506.73 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5472fa96-f1d8-4df9-9306-f719ba848f4c")
 	)
 	(wire
 		(pts
@@ -10447,16 +10746,6 @@
 			(type default)
 		)
 		(uuid "6e741bf9-8a8d-48e9-8e11-cda7d11ce3bd")
-	)
-	(wire
-		(pts
-			(xy 514.35 63.5) (xy 514.35 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e9890b6-8d4f-4da6-bb5d-a10b50e44e12")
 	)
 	(wire
 		(pts
@@ -10830,16 +11119,6 @@
 	)
 	(wire
 		(pts
-			(xy 506.73 66.04) (xy 514.35 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "836de926-99dc-49d3-8cb1-44cec3d1d531")
-	)
-	(wire
-		(pts
 			(xy 341.63 383.54) (xy 341.63 381)
 		)
 		(stroke
@@ -10877,16 +11156,6 @@
 			(type default)
 		)
 		(uuid "859963b6-1397-4809-9b1e-e3237baf1c6a")
-	)
-	(wire
-		(pts
-			(xy 506.73 63.5) (xy 514.35 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86071b6d-b3e4-479c-b1f4-5b6cf3c20937")
 	)
 	(wire
 		(pts
@@ -10980,16 +11249,6 @@
 	)
 	(wire
 		(pts
-			(xy 510.54 57.15) (xy 510.54 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c75ed4c-324f-4d20-bad2-ac2487e23c44")
-	)
-	(wire
-		(pts
 			(xy 341.63 66.04) (xy 341.63 63.5)
 		)
 		(stroke
@@ -10997,16 +11256,6 @@
 			(type default)
 		)
 		(uuid "8e3e8f45-a450-44ab-929f-168b7d9094f9")
-	)
-	(wire
-		(pts
-			(xy 514.35 67.31) (xy 516.89 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e62780b-eeca-4cfe-b908-bdc9a074bb63")
 	)
 	(wire
 		(pts
@@ -11550,16 +11799,6 @@
 	)
 	(wire
 		(pts
-			(xy 510.54 68.58) (xy 510.54 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9f455fe-6c47-4991-bc01-d831adb10627")
-	)
-	(wire
-		(pts
 			(xy 90.17 154.94) (xy 100.33 154.94)
 		)
 		(stroke
@@ -12020,16 +12259,6 @@
 	)
 	(wire
 		(pts
-			(xy 459.74 68.58) (xy 466.09 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2337c23-a609-42bd-8762-5541c6005316")
-	)
-	(wire
-		(pts
 			(xy 176.53 129.54) (xy 204.47 129.54)
 		)
 		(stroke
@@ -12347,26 +12576,6 @@
 			(type default)
 		)
 		(uuid "d72fa837-5562-446a-8796-78058bba109f")
-	)
-	(wire
-		(pts
-			(xy 506.73 68.58) (xy 510.54 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d796c569-36d3-4d8e-8670-adb698af22f6")
-	)
-	(wire
-		(pts
-			(xy 459.74 60.96) (xy 466.09 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7b23f8b-34ff-4790-b158-a2b0467a5ad9")
 	)
 	(wire
 		(pts
@@ -14434,30 +14643,6 @@
 			)
 		)
 	)
-	(global_label "UART4_TXD-"
-		(shape input)
-		(at 516.89 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "4cfbb476-77f9-4b5c-9c15-7d6f1c91b1b9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 532.2045 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ETH_CRS_DV"
 		(shape input)
 		(at 179.07 86.36 0)
@@ -14493,30 +14678,6 @@
 		(uuid "5b8ad635-2fe5-4954-b574-0d247e4b1de0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 191.4289 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART4_TXD+"
-		(shape input)
-		(at 516.89 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "5f1c66a2-da06-49dd-b3b3-b369e095ba89")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 532.2045 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14737,30 +14898,6 @@
 		(uuid "987df382-294c-4e34-9434-b1baab07dfc2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 320.9254 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART4_RXD"
-		(shape input)
-		(at 459.74 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "9dfd224e-a9df-464a-9c15-32d10c00abac")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 445.6955 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15010,30 +15147,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART4_TXD"
-		(shape input)
-		(at 459.74 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "fa94f59b-d3f7-4769-a126-f42e998a1bcb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 445.9979 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -16713,94 +16826,6 @@
 		)
 	)
 	(symbol
-		(lib_id "2025-09-03_13-52-52:ST485BDR")
-		(at 466.09 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47312140-03c7-463e-91ed-9c0a30c7789a")
-		(property "Reference" "CR3"
-			(at 486.41 50.8 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "ST485BDR"
-			(at 486.41 53.34 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "ST485BDR:SO-8_STM"
-			(at 466.09 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/st485b.pdf"
-			(at 466.09 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 466.09 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "55d6eeb9-8be7-46ed-867e-b026f2391f6e")
-		)
-		(pin "2"
-			(uuid "6ac0b39f-5992-4b1f-9c9f-c60cb973cc56")
-		)
-		(pin "4"
-			(uuid "ab70e3b5-a59f-4be9-ba43-f09eccd3d799")
-		)
-		(pin "7"
-			(uuid "5c1a23f2-0f46-480e-87d5-4c47f9f054ec")
-		)
-		(pin "8"
-			(uuid "377c96ae-90dc-4fc5-a0ac-ef3c763bb95e")
-		)
-		(pin "1"
-			(uuid "aeb2bfc0-6908-4313-a251-0a7f397eef77")
-		)
-		(pin "6"
-			(uuid "aec93a8c-a176-4597-85c2-eaa3da89d0af")
-		)
-		(pin "3"
-			(uuid "b3407c9b-fb55-461d-afd2-9a9cd3fd8a70")
-		)
-		(instances
-			(project ""
-				(path "/8c38e4ab-00b4-41d2-ba83-c24ee9e4f60d/3d77bd3a-af67-406a-aaa2-1f0342e5c06d"
-					(reference "CR3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 350.52 100.33 0)
 		(unit 1)
@@ -17203,6 +17228,572 @@
 			(project "stm"
 				(path "/8c38e4ab-00b4-41d2-ba83-c24ee9e4f60d/3d77bd3a-af67-406a-aaa2-1f0342e5c06d"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MAX13448EESD:MAX13448EESD_")
+		(at 490.22 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b596c1d-f9db-4205-8c70-a707d445b1ec")
+		(property "Reference" "U6"
+			(at 490.22 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX13448EESD_"
+			(at 490.22 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MAX13448EESD_:SOIC127P600X175-14N"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "E2_MAX" "0.0"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" "6188"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "B_NOM" "0.42"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "EMAX" ""
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_MAX" "8.75"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE_TYPE" ""
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_MAX" ""
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "E1_NOM" "3.9"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_NOM" ""
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A1_NOM" "None"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "B_MIN" "0.35"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "E1_MIN" "3.8"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VACANCIES" ""
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "B_MAX" "0.49"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "EMIN" ""
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D2_MAX" "0.0"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "ENOM" "1.27"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_NOM" "8.65"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "E2_MIN" "None"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_MAX" "1.27"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_MAX" "1.75"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D1_MAX" ""
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D2_MIN" "None"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D1_NOM" ""
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D1_MIN" ""
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_NOM" "1.75"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "E2_NOM" "None"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A_MIN" "1.75"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D2_NOM" "None"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "0"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DNOM" ""
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DMIN" ""
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "E_NOM" "6.0"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DMAX" ""
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PIN_COUNT" "14.0"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_NOM" "0.835"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Maxim Integrated"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A1_MIN" "0.1"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "E1_MAX" "4.0"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "A1_MAX" "None"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "E_MIN" "5.8"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L1_MIN" ""
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "D_MIN" "8.55"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PINS" ""
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "L_MIN" "0.4"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "E_MAX" "6.2"
+			(at 490.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "6dc068f3-9feb-4040-a28d-8d9ecd774fbf")
+		)
+		(pin "5"
+			(uuid "96614e0c-9598-43eb-82e6-6b3ea01d88ac")
+		)
+		(pin "2"
+			(uuid "7f64fe6c-76b8-4a68-b935-0aed15af7048")
+		)
+		(pin "7"
+			(uuid "1d04b259-5417-48bd-9219-4b8175a66401")
+		)
+		(pin "12"
+			(uuid "3e323e33-d5b8-4e09-9924-de6943299e6e")
+		)
+		(pin "4"
+			(uuid "6ec42a8b-114e-49be-b528-4de8a38930f0")
+		)
+		(pin "10"
+			(uuid "25223851-2bb4-42b3-8879-b4c3dffc86ea")
+		)
+		(pin "6"
+			(uuid "5fb1343d-07db-4fff-8780-aa62d9d703e2")
+		)
+		(pin "3"
+			(uuid "95108524-9409-445b-909a-057329236029")
+		)
+		(pin "11"
+			(uuid "cfb3de10-707c-4d89-83e6-90e05789c1e8")
+		)
+		(pin "14"
+			(uuid "a48ae20f-9c75-4829-85e4-193c1abc1b9e")
+		)
+		(instances
+			(project ""
+				(path "/8c38e4ab-00b4-41d2-ba83-c24ee9e4f60d/3d77bd3a-af67-406a-aaa2-1f0342e5c06d"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -18621,72 +19212,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 510.54 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5143cc9-5655-467b-92eb-8dfa1bc0b3fe")
-		(property "Reference" "#PWR029"
-			(at 510.54 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 510.54 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 510.54 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 510.54 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 510.54 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c5691571-02d0-4e31-8b24-5b83ae7cf955")
-		)
-		(instances
-			(project "stm"
-				(path "/8c38e4ab-00b4-41d2-ba83-c24ee9e4f60d/3d77bd3a-af67-406a-aaa2-1f0342e5c06d"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 416.56 109.22 0)
 		(unit 1)
@@ -19734,72 +20259,6 @@
 			(project "stm"
 				(path "/8c38e4ab-00b4-41d2-ba83-c24ee9e4f60d/3d77bd3a-af67-406a-aaa2-1f0342e5c06d"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 510.54 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d69088ab-74fa-4b43-9ba4-de586a2eb522")
-		(property "Reference" "#PWR028"
-			(at 510.54 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 510.54 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 510.54 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 510.54 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 510.54 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2d79419e-793d-4c94-9f70-df59231fa2e5")
-		)
-		(instances
-			(project "stm"
-				(path "/8c38e4ab-00b4-41d2-ba83-c24ee9e4f60d/3d77bd3a-af67-406a-aaa2-1f0342e5c06d"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
