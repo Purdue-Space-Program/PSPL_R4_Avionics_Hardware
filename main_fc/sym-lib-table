@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "avi_lib")(type "KiCad")(uri "/home/charles/projects/pspl/copperhead/PSPL_R4_Avionics_Hardware/libs/symbols/avi_lib.kicad_sym")(options "")(descr ""))
+  (lib (name "avi_lib")(type "KiCad")(uri "${KICAD_PSP_PROJECT}/libs/symbols/avi_lib.kicad_sym")(options "")(descr ""))
 )

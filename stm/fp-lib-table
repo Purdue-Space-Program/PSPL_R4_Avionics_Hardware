@@ -3,4 +3,5 @@
   (lib (name "ST485BN")(type "KiCad")(uri "C:/Users/Aryaan/Downloads/ST485BN.pretty")(options "")(descr ""))
   (lib (name "ST485BDR")(type "KiCad")(uri "C:/Users/Aryaan/Downloads/ST485BDR.pretty")(options "")(descr ""))
   (lib (name "MAX13448EESD")(type "KiCad")(uri "${KIPRJMOD}/footprints/MAX13448EESD.pretty")(options "")(descr ""))
+  (lib (name "ESD7008MUTAG")(type "KiCad")(uri "${KIPRJMOD}/footprints/ESD7008MUTAG.pretty")(options "")(descr ""))
 )
