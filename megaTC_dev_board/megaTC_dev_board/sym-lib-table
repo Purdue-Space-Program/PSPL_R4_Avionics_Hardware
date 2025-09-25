@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "avi_lib")(type "KiCad")(uri "C:/Users/moses/Documents/PCBs/PSPL_R4_Avionics_Hardware/libs/symbols/avi_lib.kicad_sym")(options "")(descr ""))
   (lib (name "LTC2984")(type "KiCad")(uri "C:/Users/moses/Documents/PCBs/PSPL_R4_Avionics_Hardware/libs/symbols/2025-09-23_21-35-29.kicad_sym")(options "")(descr ""))
+  (lib (name "TPD4E1B06DCKR")(type "KiCad")(uri "C:/Users/moses/Documents/PCBs/PSPL_R4_Avionics_Hardware/libs/symbols/TPD4E1B06DCKR.kicad_sym")(options "")(descr ""))
 )
