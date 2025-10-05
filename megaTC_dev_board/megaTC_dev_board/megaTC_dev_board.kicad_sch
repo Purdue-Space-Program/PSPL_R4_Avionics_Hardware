@@ -5218,6 +5218,28 @@
 	)
 	(global_label "COMMON"
 		(shape input)
+		(at 351.79 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ae74421-027d-4625-8f44-a6b96c02a562")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 362.9395 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COMMON"
+		(shape input)
 		(at 154.94 186.69 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5652,28 +5674,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CH8"
-		(shape input)
-		(at 351.79 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "732a988b-ed1b-43c8-8543-864715662d77")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 358.5852 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
