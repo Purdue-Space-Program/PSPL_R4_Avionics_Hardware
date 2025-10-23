@@ -1,0 +1,393 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "df8c1a7e-4fc3-41c2-820a-87b9c79f4956")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "SCLK"
+		(shape input)
+		(at 50.8 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e4e5cef-5b62-4d3e-8aae-919c6b82b10f")
+	)
+	(hierarchical_label "IN10"
+		(shape input)
+		(at 25.4 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b628cf0-d87d-477e-a984-f75699ab85f3")
+	)
+	(hierarchical_label "GPIO5"
+		(shape input)
+		(at 63.5 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1c029af2-b2bf-4448-958c-9330903c8304")
+	)
+	(hierarchical_label "AVSS"
+		(shape input)
+		(at 38.1 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e4a5b7c-7fe5-409d-9c38-6068269be108")
+	)
+	(hierarchical_label "IN9"
+		(shape input)
+		(at 25.4 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2128780b-245b-4f40-9da6-5846f75cebb2")
+	)
+	(hierarchical_label "GPIO7"
+		(shape input)
+		(at 63.5 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24796d8d-7fdb-4d7e-807a-783042219b96")
+	)
+	(hierarchical_label "GPIO4"
+		(shape input)
+		(at 63.5 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2804444d-72f4-480e-b14b-8f7ea66b9186")
+	)
+	(hierarchical_label "DIN"
+		(shape input)
+		(at 50.8 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c37af0e-b3cc-4fd4-8dc6-2e707af792ca")
+	)
+	(hierarchical_label "IN7"
+		(shape input)
+		(at 25.4 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2db0d644-68b7-4cd8-8bdb-def0a6ff40ee")
+	)
+	(hierarchical_label "VREFN"
+		(shape input)
+		(at 38.1 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3fc6add5-524f-45b8-a336-f5dd54b6efcf")
+	)
+	(hierarchical_label "DGND"
+		(shape input)
+		(at 38.1 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3ff1d3e7-9995-4793-aa2d-47d48cd88a39")
+	)
+	(hierarchical_label "AINCOM"
+		(shape input)
+		(at 38.1 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46a1edd0-c1d1-4e53-9903-3f5f9d6e5fec")
+	)
+	(hierarchical_label "IN0"
+		(shape input)
+		(at 25.4 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ac8b864-3ca5-485a-a1c3-a3b6799c2d6c")
+	)
+	(hierarchical_label "GPIO2"
+		(shape input)
+		(at 63.5 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c74f7f1-02dc-474b-9444-e37a9d34ca96")
+	)
+	(hierarchical_label "IN2"
+		(shape input)
+		(at 25.4 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59386055-e2e2-4e2a-ad84-b7c357200a06")
+	)
+	(hierarchical_label "GPIO6"
+		(shape input)
+		(at 63.5 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "685c97e1-454b-4bd2-88f7-59a6f27550ce")
+	)
+	(hierarchical_label "AVDD"
+		(shape input)
+		(at 38.1 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "691f51d0-1fa6-4cb6-b3d0-e64e6ebd31a8")
+	)
+	(hierarchical_label "IN12"
+		(shape input)
+		(at 25.4 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a5b24dc-248e-4921-84c4-45b925886787")
+	)
+	(hierarchical_label "GPIO3"
+		(shape input)
+		(at 63.5 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b2df276-842d-4716-8dd7-964ce7b563d5")
+	)
+	(hierarchical_label "GPIO1"
+		(shape input)
+		(at 63.5 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b9a9fa9-bac7-4a9b-a947-845b3f125162")
+	)
+	(hierarchical_label "IN3"
+		(shape input)
+		(at 25.4 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6f18a56a-fad2-421e-8987-752442078a04")
+	)
+	(hierarchical_label "IN11"
+		(shape input)
+		(at 25.4 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7ebfd613-1651-45f4-99aa-0be16da484cf")
+	)
+	(hierarchical_label "IN13"
+		(shape input)
+		(at 25.4 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86ff382e-329d-4c74-9fe8-4de38de2912e")
+	)
+	(hierarchical_label "IN8"
+		(shape input)
+		(at 25.4 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8beaaa1f-6030-424e-bdb1-1b67e7214627")
+	)
+	(hierarchical_label "VREFP"
+		(shape input)
+		(at 38.1 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93dce55c-e9e4-42d6-ba27-2bdc6a787a2a")
+	)
+	(hierarchical_label "IN14"
+		(shape input)
+		(at 25.4 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b914a6b-b300-4049-9432-40b4327583ba")
+	)
+	(hierarchical_label "IN1"
+		(shape input)
+		(at 25.4 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1eeb59a-ab49-40e5-a45e-5fef72b78446")
+	)
+	(hierarchical_label "IN6"
+		(shape input)
+		(at 25.4 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "afadfd29-8ecf-477a-b129-28946ad1f1d9")
+	)
+	(hierarchical_label "IN15"
+		(shape input)
+		(at 25.4 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4baac65-4062-492d-a1be-7319c323a737")
+	)
+	(hierarchical_label "IN4"
+		(shape input)
+		(at 25.4 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b672bd88-df95-4187-a06d-17190bc42126")
+	)
+	(hierarchical_label "CS"
+		(shape input)
+		(at 50.8 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be375e66-342b-44bb-8438-9b1b66cccfa7")
+	)
+	(hierarchical_label "IN5"
+		(shape input)
+		(at 25.4 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d9a3edf3-dc31-49dd-b869-e9a75d5be1af")
+	)
+	(hierarchical_label "DOUT"
+		(shape input)
+		(at 50.8 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "decb7231-af66-44b5-9e53-28a6840af88c")
+	)
+	(hierarchical_label "DVDD"
+		(shape input)
+		(at 38.1 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f16f74f4-a1ab-40e1-9ef4-03de0b0e2b9c")
+	)
+	(hierarchical_label "GPIO0"
+		(shape input)
+		(at 63.5 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f41825a8-8926-45ff-94ad-bd4f8296fd01")
+	)
+)

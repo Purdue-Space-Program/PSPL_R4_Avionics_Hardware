@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "avi_lib")(type "KiCad")(uri "/home/charles/projects/pspl/copperhead/PSPL_R4_Avionics_Hardware/libs/footprints/avi_footprint.pretty")(options "")(descr ""))
+)
