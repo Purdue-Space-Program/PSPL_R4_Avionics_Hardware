@@ -5064,22 +5064,22 @@
 	)
 	(global_label "CH12"
 		(shape input)
-		(at 303.53 109.22 180)
+		(at 351.79 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "0eb5a1f9-86d8-408b-95aa-f7f8257e7005")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 295.5253 109.22 0)
+			(at 359.7947 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5416,22 +5416,22 @@
 	)
 	(global_label "CH10"
 		(shape input)
-		(at 351.79 85.09 0)
+		(at 303.53 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "4e34895c-1e77-4bbe-8ad0-cb37fc90bf05")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 359.7947 85.09 0)
+			(at 295.5253 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
