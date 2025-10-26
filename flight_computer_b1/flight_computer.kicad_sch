@@ -4073,7 +4073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-25_Socket_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm"
+		(property "Footprint" "Connector_Dsub:DSUB-25_Socket_Vertical_P2.77x2.84mm_MountingHoles"
 			(at 205.74 97.79 0)
 			(effects
 				(font
