@@ -2,33 +2,33 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "120a953e-b70e-44b8-b6e8-50fdf19a8d9d")
+	(uuid "e70da8a2-0fc3-419c-b561-457dee788d61")
 	(paper "A4")
 	(lib_symbols
-		(symbol "avi_lib:MIC94161YCS-TR"
+		(symbol "avi_lib:ST490ABDR"
 			(pin_names
 				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 27.94 10.16 0)
+			(property "Reference" "CR"
+				(at 20.32 10.16 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "MIC94161YCS-TR"
-				(at 27.94 7.62 0)
+			(property "Value" "ST490ABDR"
+				(at 20.32 7.62 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "WLCSP-6_MCH"
+			(property "Footprint" "SO-8_STM"
 				(at 0 0 0)
 				(effects
 					(font
@@ -38,7 +38,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "MIC94161YCS-TR"
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/st490ab.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -65,7 +65,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "MIC94161YCS-TR"
+			(property "ki_keywords" "ST490ABDR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -74,7 +74,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "WLCSP-6_MCH"
+			(property "ki_fp_filters" "SO-8_STM SO-8_STM-M SO-8_STM-L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -83,13 +83,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "MIC94161YCS-TR_0_1"
+			(symbol "ST490ABDR_0_1"
 				(polyline
 					(pts
-						(xy 7.0993 0) (xy 6.0579 0.5207)
+						(xy 7.62 5.08) (xy 7.62 -12.7)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -98,10 +98,10 @@
 				)
 				(polyline
 					(pts
-						(xy 7.0993 0) (xy 6.0579 -0.5207)
+						(xy 7.62 -12.7) (xy 33.02 -12.7)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -110,10 +110,10 @@
 				)
 				(polyline
 					(pts
-						(xy 7.0993 -2.54) (xy 6.0579 -2.0193)
+						(xy 33.02 5.08) (xy 7.62 5.08)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -122,147 +122,27 @@
 				)
 				(polyline
 					(pts
-						(xy 7.0993 -2.54) (xy 6.0579 -3.0607)
+						(xy 33.02 -12.7) (xy 33.02 5.08)
 					)
 					(stroke
-						(width 0.2032)
+						(width 0.127)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 7.0993 -5.08) (xy 6.0579 -4.5593)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.0993 -5.08) (xy 6.0579 -5.6007)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -10.16) (xy 48.26 -10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 48.26 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 48.26 -10.16) (xy 48.26 5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 48.7807 -2.0193) (xy 49.8221 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 48.7807 -3.0607) (xy 49.8221 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 48.7807 -4.5593) (xy 49.8221 -5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 48.7807 -5.6007) (xy 49.8221 -5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
+				(pin power_in line
 					(at 0 0 0)
 					(length 7.62)
-					(name "VIN"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -270,17 +150,17 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 0 -2.54 0)
 					(length 7.62)
-					(name "VIN"
+					(name "R"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B2"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -291,14 +171,14 @@
 				(pin input line
 					(at 0 -5.08 0)
 					(length 7.62)
-					(name "EN"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "C2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -307,7 +187,7 @@
 					)
 				)
 				(pin power_in line
-					(at 55.88 0 180)
+					(at 0 -7.62 0)
 					(length 7.62)
 					(name "GND"
 						(effects
@@ -316,7 +196,43 @@
 							)
 						)
 					)
-					(number "C1"
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 40.64 0 180)
+					(length 7.62)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 40.64 -2.54 180)
+					(length 7.62)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -325,16 +241,16 @@
 					)
 				)
 				(pin output line
-					(at 55.88 -2.54 180)
+					(at 40.64 -5.08 180)
 					(length 7.62)
-					(name "VOUT"
+					(name "Z"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B1"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -343,16 +259,16 @@
 					)
 				)
 				(pin output line
-					(at 55.88 -5.08 180)
+					(at 40.64 -7.62 180)
 					(length 7.62)
-					(name "VOUT"
+					(name "Y"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A1"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -465,122 +381,95 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "ideal diode controller"
-		(exclude_from_sim no)
-		(at 134.62 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3c8c6c7d-304a-499f-b60c-da696bd92210")
-	)
-	(junction
-		(at 106.68 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56b59c26-d9f5-415d-8078-6fd8ad3835c8")
-	)
-	(junction
-		(at 162.56 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76128308-19eb-47dc-a7c1-3992daf8a51c")
-	)
-	(wire
-		(pts
-			(xy 162.56 92.71) (xy 162.56 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2250b229-36ae-43a0-a580-757242b90c5f")
-	)
-	(wire
-		(pts
-			(xy 106.68 92.71) (xy 106.68 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fa9c3f6-bd1e-47b1-87d7-851a32d6f800")
-	)
-	(wire
-		(pts
-			(xy 162.56 95.25) (xy 165.1 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "693d3ce8-c73b-44f3-9f16-dc9870c0b940")
-	)
-	(wire
-		(pts
-			(xy 106.68 90.17) (xy 106.68 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b9cd553-0275-4fd5-9c54-3171f1c11598")
-	)
-	(wire
-		(pts
-			(xy 100.33 92.71) (xy 106.68 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d9fb6d3-429b-40fc-925d-16e0e7fdde89")
-	)
-	(wire
-		(pts
-			(xy 163.83 90.17) (xy 162.56 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acf75e15-22e4-4a9b-8f58-2b2460bd4f08")
-	)
-	(hierarchical_label "5V"
+	(hierarchical_label "UART_TX"
 		(shape input)
-		(at 100.33 92.71 180)
+		(at 137.16 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "0c3f76a1-66d1-40fe-b6c1-c49d5008222b")
+		(uuid "1e3845d7-1812-45db-b87f-6f51ea1377de")
 	)
-	(hierarchical_label "5V_ISO"
+	(hierarchical_label "UART_RX"
 		(shape input)
-		(at 165.1 95.25 0)
+		(at 137.16 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1e3845d7-1812-45db-b87f-6f51ea1377df")
+	)
+	(hierarchical_label "RS485_TX+"
+		(shape input)
+		(at 177.8 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "c1c4bb6c-9850-4939-b9b5-c34dd3c38fc4")
+		(uuid "3fd56a24-989c-43bd-8b1b-cef27d1d5881")
+	)
+	(hierarchical_label "RS485_TX-"
+		(shape input)
+		(at 177.8 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3fd56a24-989c-43bd-8b1b-cef27d1d5882")
+	)
+	(hierarchical_label "RS485_RX+"
+		(shape input)
+		(at 177.8 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3fd56a24-989c-43bd-8b1b-cef27d1d5883")
+	)
+	(hierarchical_label "RS485_RX-"
+		(shape input)
+		(at 177.8 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3fd56a24-989c-43bd-8b1b-cef27d1d5884")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 137.16 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ef15080-0b30-4d9d-bb47-63fe77c2d5fd")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 163.83 90.17 90)
+		(at 137.16 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "17958b05-99ea-429b-8736-0cd33da9d7ba")
-		(property "Reference" "#PWR055"
-			(at 170.18 90.17 0)
+		(uuid "13656419-d56f-4d21-9b1e-acfe94256170")
+		(property "Reference" "#PWR056"
+			(at 137.16 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -589,16 +478,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 90.1699 90)
+			(at 137.16 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 90.17 0)
+			(at 137.16 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -607,7 +495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 90.17 0)
+			(at 137.16 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -616,7 +504,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 90.17 0)
+			(at 137.16 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -625,45 +513,45 @@
 			)
 		)
 		(pin "1"
-			(uuid "3a47a2d7-14b9-454f-bd1f-4bb838ba14c5")
+			(uuid "6311f00f-3f74-454b-b1b6-e33339162b0e")
 		)
 		(instances
-			(project "flight_computer"
-				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/4c75cebc-ee68-4292-a47b-c723457cf341"
-					(reference "#PWR055")
+			(project ""
+				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/7fe62967-9424-47cf-ae6f-da5e7ca252e6"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "avi_lib:MIC94161YCS-TR")
-		(at 106.68 90.17 0)
+		(lib_id "avi_lib:ST490ABDR")
+		(at 137.16 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b5c35adf-ac1e-4a15-b180-c9eb31f5eb36")
-		(property "Reference" "U7"
-			(at 134.62 80.01 0)
+		(uuid "368f5b87-3795-4c52-bd15-4609639b5388")
+		(property "Reference" "CR5"
+			(at 157.48 81.28 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "MIC94161YCS-TR"
-			(at 134.62 82.55 0)
+		(property "Value" "ST490ABDR"
+			(at 157.48 83.82 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "avi_lib:MIC94161YCS_TR"
-			(at 106.68 90.17 0)
+		(property "Footprint" "SO-8_STM"
+			(at 137.16 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -672,8 +560,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "MIC94161YCS-TR"
-			(at 106.68 90.17 0)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/st490ab.pdf"
+			(at 137.16 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -683,7 +571,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 90.17 0)
+			(at 137.16 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -691,28 +579,34 @@
 				(hide yes)
 			)
 		)
-		(pin "C1"
-			(uuid "8c2a81e2-97ca-439a-80bf-2b76084cf6bc")
+		(pin "8"
+			(uuid "d2237a7e-958c-4c67-b0e5-d25ba1f6f3bd")
 		)
-		(pin "B2"
-			(uuid "9d4ad752-561f-483c-a073-f05c690a0655")
+		(pin "1"
+			(uuid "85811062-df80-4716-929a-cdc99119ca03")
 		)
-		(pin "C2"
-			(uuid "91a159d3-b69f-4711-9391-573de4194406")
+		(pin "2"
+			(uuid "83a8c215-f988-4657-9688-a0e4e9676b63")
 		)
-		(pin "A1"
-			(uuid "d2ecfa87-bd22-4dd8-91bf-fa744e441212")
+		(pin "4"
+			(uuid "5153e33e-bef3-431a-8373-9bfc39708608")
 		)
-		(pin "B1"
-			(uuid "65808180-dc9f-4f26-b467-99bd8835d825")
+		(pin "7"
+			(uuid "6078bd6f-73f0-470d-a394-7b440c73d95c")
 		)
-		(pin "A2"
-			(uuid "87e215a3-44dd-4032-9370-7957c792347a")
+		(pin "3"
+			(uuid "1338e75d-9f7b-4e11-beeb-cd945275483e")
+		)
+		(pin "6"
+			(uuid "6e08dc8d-de31-4c0a-886e-bbf35ff29750")
+		)
+		(pin "5"
+			(uuid "2841d315-e690-470c-9f66-087c1b8820c1")
 		)
 		(instances
-			(project "flight_computer"
-				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/4c75cebc-ee68-4292-a47b-c723457cf341"
-					(reference "U7")
+			(project ""
+				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/7fe62967-9424-47cf-ae6f-da5e7ca252e6"
+					(reference "CR5")
 					(unit 1)
 				)
 			)

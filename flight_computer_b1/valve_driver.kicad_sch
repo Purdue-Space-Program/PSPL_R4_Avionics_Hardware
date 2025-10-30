@@ -1266,7 +1266,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd3ac4e4-2a85-4160-92b5-3c828c129c8f")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR026"
 			(at 168.91 96.52 0)
 			(effects
 				(font
@@ -1317,19 +1317,19 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/299e6e4e-fa99-4a32-b6f8-bfb69183cdb6"
-					(reference "#PWR025")
+					(reference "#PWR029")
 					(unit 1)
 				)
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/5194abae-c8be-4cd7-ad0b-bc3c23906e67"
-					(reference "#PWR024")
+					(reference "#PWR028")
 					(unit 1)
 				)
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/58440afa-797c-48ee-969a-78f200833b9c"
-					(reference "#PWR022")
+					(reference "#PWR026")
 					(unit 1)
 				)
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/c7d93d3e-13a6-4d19-92d1-c9cec54c255f"
-					(reference "#PWR023")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
