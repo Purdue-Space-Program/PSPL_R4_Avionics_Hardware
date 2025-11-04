@@ -9,7 +9,7 @@
     (property "Footprint" "RTC0048A-IPC_A" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "ADS1158IRTCR" (id 3) (at 0 0 0)
+    (property "Datasheet" "https://www.ti.com/lit/gpn/ads1158" (id 3) (at 0 0 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "ki_keywords" "ADS1158IRTCR" (id 4) (at 0 0 0)
