@@ -685,6 +685,22 @@
     [
       "00c9b4ff-cb6a-4993-bc35-d246e0dd3763",
       "battery_step_down"
+    ],
+    [
+      "7a3d1526-99d0-419f-a948-c7b1ba02f0c1",
+      "power_switchover"
+    ],
+    [
+      "f3991181-a3ee-4766-b2bc-0a67569fe7f0",
+      "power_terminals"
+    ],
+    [
+      "9a323530-b26f-4be4-a990-f961872eab59",
+      "voltage_sensing"
+    ],
+    [
+      "066042d9-14fd-4e29-ac30-cea570129951",
+      "sense_terminals"
     ]
   ],
   "text_variables": {}

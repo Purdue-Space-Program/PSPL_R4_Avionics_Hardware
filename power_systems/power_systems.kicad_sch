@@ -5,8 +5,42 @@
 	(uuid "a359a980-6c20-4d06-addb-a7e1b17d83ec")
 	(paper "A2")
 	(lib_symbols)
+	(no_connect
+		(at 259.08 143.51)
+		(uuid "e58385ac-7939-47b2-9a72-44086b5f1fea")
+	)
+	(wire
+		(pts
+			(xy 214.63 105.41) (xy 232.41 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d2ed7aa-d43e-480e-b603-58d304e158a1")
+	)
+	(wire
+		(pts
+			(xy 214.63 110.49) (xy 232.41 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f02e5c-cef2-4084-997a-154cb8a486fb")
+	)
+	(wire
+		(pts
+			(xy 214.63 100.33) (xy 232.41 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7117cfa-94e0-4b80-9ed1-c132e54da902")
+	)
 	(sheet
-		(at 229.87 127)
+		(at 234.95 130.81)
 		(size 24.13 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +56,7 @@
 		)
 		(uuid "00c9b4ff-cb6a-4993-bc35-d246e0dd3763")
 		(property "Sheetname" "battery_step_down"
-			(at 229.87 126.2884 0)
+			(at 234.95 130.0984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +65,7 @@
 			)
 		)
 		(property "Sheetfile" "battery_step_down.kicad_sch"
-			(at 229.87 154.2546 0)
+			(at 234.95 158.0646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39,9 +73,9 @@
 				(justify left top)
 			)
 		)
-		(pin "24V" input
-			(at 254 139.7 0)
-			(uuid "6ec59ac0-6771-42ef-81ee-5bb6d689d889")
+		(pin "POWER_GOOD" output
+			(at 259.08 143.51 0)
+			(uuid "a282cf18-e1aa-4491-a0db-af545891e889")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,19 +83,71 @@
 				(justify right)
 			)
 		)
-		(pin "POWER_GOOD" input
-			(at 254 144.78 0)
-			(uuid "26392f55-79f9-44f0-bd6d-9c2f1ef14708")
+		(instances
+			(project "power_systems"
+				(path "/a359a980-6c20-4d06-addb-a7e1b17d83ec"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 232.41 92.71)
+		(size 33.02 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "066042d9-14fd-4e29-ac30-cea570129951")
+		(property "Sheetname" "sense_terminals"
+			(at 232.41 91.9984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left bottom)
 			)
 		)
-		(pin "VBAT" input
-			(at 229.87 140.97 180)
-			(uuid "a575de2e-b2e7-47f1-8e6b-abb2352885c0")
+		(property "Sheetfile" "sense_terminals.kicad_sch"
+			(at 232.41 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GSE_SENSE" input
+			(at 232.41 100.33 180)
+			(uuid "fcfc7935-a2d3-42b1-a16b-b3d97dcfe3bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUCK_SENSE" input
+			(at 232.41 105.41 180)
+			(uuid "f31bcadd-a138-4970-be99-7bd7d4c9ccd9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOUT_SENSE" input
+			(at 232.41 110.49 180)
+			(uuid "b678d9ea-b5ad-4e9d-8b71-985f65728d48")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72,7 +158,163 @@
 		(instances
 			(project "power_systems"
 				(path "/a359a980-6c20-4d06-addb-a7e1b17d83ec"
-					(page "2")
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 276.86 130.81)
+		(size 33.02 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7a3d1526-99d0-419f-a948-c7b1ba02f0c1")
+		(property "Sheetname" "power_switchover"
+			(at 276.86 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_switchover.kicad_sch"
+			(at 276.86 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "power_systems"
+				(path "/a359a980-6c20-4d06-addb-a7e1b17d83ec"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 184.15 92.71)
+		(size 30.48 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9a323530-b26f-4be4-a990-f961872eab59")
+		(property "Sheetname" "voltage_sensing"
+			(at 184.15 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "voltage_sensing.kicad_sch"
+			(at 184.15 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GSE_SENSE" output
+			(at 214.63 100.33 0)
+			(uuid "f182edd3-f902-47f0-b0db-6106d90a5da8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUCK_SENSE" output
+			(at 214.63 105.41 0)
+			(uuid "9060cad7-3b51-425d-98bf-5a8faf37fa38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VOUT_SENSE" output
+			(at 214.63 110.49 0)
+			(uuid "ec8c73fc-b8ec-4e25-8809-0c48b0ce44b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "power_systems"
+				(path "/a359a980-6c20-4d06-addb-a7e1b17d83ec"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 184.15 130.81)
+		(size 30.48 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f3991181-a3ee-4766-b2bc-0a67569fe7f0")
+		(property "Sheetname" "power_terminals"
+			(at 184.15 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_terminals.kicad_sch"
+			(at 184.15 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "power_systems"
+				(path "/a359a980-6c20-4d06-addb-a7e1b17d83ec"
+					(page "4")
 				)
 			)
 		)
