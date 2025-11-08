@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "df8c1a7e-4fc3-41c2-820a-87b9c79f4956")
 	(paper "A4")
+	(title_block
+		(date "2025-11-05")
+		(rev "1")
+		(company "Purdue Space Program Liquids")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:MCP6001-OT"
 			(pin_names
@@ -2345,6 +2350,29 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 52.07 118.11)
+		(end 92.71 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8a8e0ddb-950c-4c62-aa3c-dac621f0c582)
+	)
+	(text "Input impedance of the ADC is 65kohms\nso any impedance on the signal input\n(such as what we have on literally\nevery channel) needs buffered."
+		(exclude_from_sim no)
+		(at 52.07 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "481ccf9c-81a8-444a-98bb-003e91c193f3")
 	)
 	(junction
 		(at 115.57 55.88)

@@ -653,10 +653,10 @@
     ],
     [
       "45d05398-45d2-4c5e-8eda-8a352ba114a9",
-      "24_5_converter"
+      "24_5_buck"
     ],
     [
-      "8aea0051-4aed-45f2-b614-e796cf49681b",
+      "34945868-6852-46e7-a8d4-5e3f8002b8c3",
       "pt_div1"
     ],
     [
@@ -664,23 +664,23 @@
       "pt_div0"
     ],
     [
-      "26ded1de-aab4-4b42-833a-b6d44c8e9eb9",
+      "73a51a3d-81dd-4040-b3cc-e730b743b15f",
       "pt_div2"
     ],
     [
-      "fdc50b92-98e5-4d44-9c7e-7c0b05ed980b",
+      "85b36c18-d803-490f-b4ab-4259b3933022",
       "pt_div3"
     ],
     [
-      "4aa2b71a-7c43-4e59-8eca-789ddf7efd6e",
+      "879cdff6-bb6e-493b-b474-9f815b14de5d",
       "pt_div4"
     ],
     [
-      "171f4624-4de9-4a46-956f-c88a19b826a3",
+      "961d21fe-e370-4973-887b-543b86c7de80",
       "pt_div5"
     ],
     [
-      "a57e4882-9ecd-40a0-81e5-ec203fc7b2ac",
+      "0534dcb5-2444-4ee2-a2c9-9971304c6a15",
       "pt_div6"
     ],
     [
@@ -689,11 +689,39 @@
     ],
     [
       "4c75cebc-ee68-4292-a47b-c723457cf341",
-      "5V_iso"
+      "5V_diode"
     ],
     [
       "7fe62967-9424-47cf-ae6f-da5e7ca252e6",
       "rs485"
+    ],
+    [
+      "620cf1fc-ff4d-47fa-ab04-d5fa47e47558",
+      "5x_div0"
+    ],
+    [
+      "de2783c8-9f85-4a38-b63f-fdf618754a5a",
+      "5x_div1"
+    ],
+    [
+      "029c0f5b-a791-4164-8d50-d62e9084bdcb",
+      "5x_div2"
+    ],
+    [
+      "ef83cc16-0363-45ff-9c72-b8e322ba88b6",
+      "5x_div3"
+    ],
+    [
+      "928b9f1b-24ea-477b-818e-bdb9528e433c",
+      "5x_div4"
+    ],
+    [
+      "73ecdfe5-1123-4217-8df2-7ecc56cfe43e",
+      "mux0"
+    ],
+    [
+      "4025abfc-a6bf-4171-88b8-c419fa084ae6",
+      "2x_div0"
     ]
   ],
   "text_variables": {}
