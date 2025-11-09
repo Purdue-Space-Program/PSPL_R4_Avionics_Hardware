@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -754,26 +754,6 @@
     [
       "7fe62967-9424-47cf-ae6f-da5e7ca252e6",
       "rs485"
-    ],
-    [
-      "620cf1fc-ff4d-47fa-ab04-d5fa47e47558",
-      "5x_div0"
-    ],
-    [
-      "de2783c8-9f85-4a38-b63f-fdf618754a5a",
-      "5x_div1"
-    ],
-    [
-      "029c0f5b-a791-4164-8d50-d62e9084bdcb",
-      "5x_div2"
-    ],
-    [
-      "ef83cc16-0363-45ff-9c72-b8e322ba88b6",
-      "5x_div3"
-    ],
-    [
-      "928b9f1b-24ea-477b-818e-bdb9528e433c",
-      "5x_div4"
     ],
     [
       "73ecdfe5-1123-4217-8df2-7ecc56cfe43e",

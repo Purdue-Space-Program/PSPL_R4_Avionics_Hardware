@@ -1003,7 +1003,7 @@
 	)
 	(text "Excitation return will be 24V until\nthe MOSFET is enabled because low-side\nswitching is being used."
 		(exclude_from_sim no)
-		(at 173.99 77.47 0)
+		(at 101.6 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1065,6 +1065,12 @@
 		(uuid "7d9c97dc-05f6-406e-a508-a97e299d6f25")
 	)
 	(junction
+		(at 181.61 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91d5bac1-6a20-4377-851f-5da4ccee432d")
+	)
+	(junction
 		(at 147.32 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1112,6 +1118,26 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 64.77) (xy 212.09 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b66c217-6bde-4369-993d-ea33a0f4a5a4")
+	)
+	(wire
+		(pts
+			(xy 181.61 90.17) (xy 181.61 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aeca115-0dd2-4aaf-a018-e489c612bb15")
+	)
+	(wire
+		(pts
 			(xy 147.32 58.42) (xy 147.32 64.77)
 		)
 		(stroke
@@ -1132,13 +1158,43 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 77.47) (xy 147.32 77.47)
+			(xy 181.61 105.41) (xy 181.61 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3d5b7ca-2439-42b4-8ab8-9d0b872b0a23")
+	)
+	(wire
+		(pts
+			(xy 142.24 77.47) (xy 147.32 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b782b035-4b62-4eb9-86fc-c2316aabad43")
+	)
+	(wire
+		(pts
+			(xy 186.69 92.71) (xy 181.61 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c03d23f1-1c29-47d4-93be-9f550ac08029")
+	)
+	(wire
+		(pts
+			(xy 147.32 77.47) (xy 181.61 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5910186-6239-491d-8120-b49f7b58c4f8")
 	)
 	(wire
 		(pts
@@ -1162,6 +1218,26 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 77.47) (xy 181.61 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0870ec4-6e4d-4f9b-b0a5-3c17d6f92e6a")
+	)
+	(wire
+		(pts
+			(xy 181.61 92.71) (xy 181.61 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2737510-dd3f-465f-9d11-72099c315b52")
+	)
+	(wire
+		(pts
 			(xy 129.54 87.63) (xy 139.7 87.63)
 		)
 		(stroke
@@ -1180,6 +1256,17 @@
 		)
 		(uuid "f3926c5b-fc00-4df2-96f4-d7da84eb9997")
 	)
+	(hierarchical_label "CONTINUITY"
+		(shape input)
+		(at 186.69 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e70a53f-1a02-4d67-b5da-ccf5d5657ffd")
+	)
 	(hierarchical_label "ENABLE"
 		(shape input)
 		(at 111.76 87.63 180)
@@ -1191,14 +1278,25 @@
 		)
 		(uuid "5f2cd789-c616-4391-b1ef-15943998193b")
 	)
-	(hierarchical_label "EXCITATION_RETURN"
+	(hierarchical_label "EXCITATION"
 		(shape input)
-		(at 152.4 77.47 0)
+		(at 212.09 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
+		)
+		(uuid "8b54a108-895e-416b-9fab-e6e0ecdc9cb3")
+	)
+	(hierarchical_label "EXCITATION_RETURN"
+		(shape input)
+		(at 142.24 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
 		(uuid "d6ed54e4-9d97-4351-92fd-5c4d2bce9229")
 	)
@@ -1378,6 +1476,84 @@
 				)
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/c7d93d3e-13a6-4d19-92d1-c9cec54c255f"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 212.09 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33fb92ac-d149-48d4-8436-fd2ff19a33c3")
+		(property "Reference" "#PWR014"
+			(at 212.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 212.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 212.09 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a276299-f2e7-4ac6-a082-826e222d83db")
+		)
+		(instances
+			(project "flight_computer"
+				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/299e6e4e-fa99-4a32-b6f8-bfb69183cdb6"
+					(reference "#PWR059")
+					(unit 1)
+				)
+				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/5194abae-c8be-4cd7-ad0b-bc3c23906e67"
+					(reference "#PWR058")
+					(unit 1)
+				)
+				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/58440afa-797c-48ee-969a-78f200833b9c"
+					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/c7d93d3e-13a6-4d19-92d1-c9cec54c255f"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -1593,6 +1769,174 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 181.61 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8cb16ebf-2c33-4805-abf3-56ab31c6d5b0")
+		(property "Reference" "#PWR01"
+			(at 181.61 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "059eab03-bf44-4630-a72a-2286bd209339")
+		)
+		(instances
+			(project "flight_computer"
+				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/299e6e4e-fa99-4a32-b6f8-bfb69183cdb6"
+					(reference "#PWR07")
+					(unit 1)
+				)
+				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/5194abae-c8be-4cd7-ad0b-bc3c23906e67"
+					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/58440afa-797c-48ee-969a-78f200833b9c"
+					(reference "#PWR01")
+					(unit 1)
+				)
+				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/c7d93d3e-13a6-4d19-92d1-c9cec54c255f"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.61 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4ffc631-4e50-4f05-8c92-85831f9ecd76")
+		(property "Reference" "R60"
+			(at 184.15 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k"
+			(at 184.15 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 179.832 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 181.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY PART N" ""
+			(at 181.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5344c808-63a3-46e2-a72e-4200331ce3cf")
+		)
+		(pin "1"
+			(uuid "73573fca-a643-4802-b643-edfc4bcce377")
+		)
+		(instances
+			(project "flight_computer"
+				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/299e6e4e-fa99-4a32-b6f8-bfb69183cdb6"
+					(reference "R66")
+					(unit 1)
+				)
+				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/5194abae-c8be-4cd7-ad0b-bc3c23906e67"
+					(reference "R64")
+					(unit 1)
+				)
+				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/58440afa-797c-48ee-969a-78f200833b9c"
+					(reference "R60")
+					(unit 1)
+				)
+				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/c7d93d3e-13a6-4d19-92d1-c9cec54c255f"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 147.32 58.42 0)
 		(unit 1)
@@ -1665,6 +2009,97 @@
 				)
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/c7d93d3e-13a6-4d19-92d1-c9cec54c255f"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.61 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4bd4b6f-1081-4158-b9be-ee09f6726d01")
+		(property "Reference" "R61"
+			(at 184.15 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 184.15 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 179.832 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 181.61 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY PART N" "YAG1237CT-ND"
+			(at 181.61 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "df6ad603-68c3-4253-a65b-3e9f9b61bd34")
+		)
+		(pin "1"
+			(uuid "e97de2d5-75bf-47d2-bb64-541ef20fbd7a")
+		)
+		(instances
+			(project "flight_computer"
+				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/299e6e4e-fa99-4a32-b6f8-bfb69183cdb6"
+					(reference "R67")
+					(unit 1)
+				)
+				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/5194abae-c8be-4cd7-ad0b-bc3c23906e67"
+					(reference "R65")
+					(unit 1)
+				)
+				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/58440afa-797c-48ee-969a-78f200833b9c"
+					(reference "R61")
+					(unit 1)
+				)
+				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/c7d93d3e-13a6-4d19-92d1-c9cec54c255f"
+					(reference "R63")
 					(unit 1)
 				)
 			)
