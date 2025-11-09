@@ -1174,6 +1174,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY PART N" ""
+			(at 167.64 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "974c242e-5483-4d5d-b09f-0445eab95820")
 		)
@@ -1310,6 +1319,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY PART N" ""
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "82d00fcc-6f00-4faf-b9a9-913ee1f17380")
 		)
@@ -1371,6 +1389,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 181.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY PART N" ""
 			(at 181.61 87.63 0)
 			(effects
 				(font
@@ -1646,6 +1673,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY PART N" ""
+			(at 190.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7036ba64-12c6-4622-a60d-812d2bf4bb7d")
 		)
@@ -1708,6 +1744,15 @@
 			)
 		)
 		(property "Description" "4.5-V to 36-V, 3-A synchronous buck converter with 40-µA IQ, SOT-23-6"
+			(at 118.11 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY PART N" "296-LMR51430XDDCRCT-ND"
 			(at 118.11 82.55 0)
 			(effects
 				(font
@@ -1837,6 +1882,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY PART N" "445-174172-1-ND"
+			(at 152.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67fc7375-e10b-4da1-9c61-f1312c8c20d4")
 		)
@@ -1899,6 +1953,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 167.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY PART N" ""
 			(at 167.64 97.79 0)
 			(effects
 				(font
@@ -2042,6 +2105,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY PART N" ""
+			(at 96.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b5a76be2-5e8f-4fab-b43d-faf5c2dc1efd")
 		)
@@ -2103,6 +2175,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 134.62 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY PART N" ""
+			(at 134.62 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,0 +1,102 @@
+(footprint "Screw_Shunt"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6e12468f-2fa8-4b71-8748-e5b413373d71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Screw_Shunt"
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7c88a15a-24e4-4080-af27-f2e338335e30")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8128f5e-0a96-4c10-bdb4-5a2266c62b6e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Designed for M1 screw."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1bd7481d-dc09-4e1c-94c7-c729d4ebc346")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 3 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "76d54215-2187-44c6-8a27-c62ff2e2a78d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "86737442-8a66-4ef7-9a1b-6b541639d60d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 2.7 2.7)
+		(drill 2.7)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "614dd897-8d83-4c90-b13a-d458f470797c")
+	)
+	(pad "1" smd roundrect
+		(at -2.575 0)
+		(size 1.85 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "e2d8e5b3-27cc-4e53-812b-1505bfbd74f3")
+	)
+	(pad "2" smd roundrect
+		(at 2.575 0)
+		(size 1.85 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "2c6c440c-7f08-44a5-8f5b-f976dda19843")
+	)
+	(embedded_fonts no)
+)

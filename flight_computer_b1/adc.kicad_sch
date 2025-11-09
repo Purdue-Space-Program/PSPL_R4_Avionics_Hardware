@@ -2489,6 +2489,10 @@
 		(uuid "f9956905-aafc-4aa0-a6b7-a5ca7fb06e89")
 	)
 	(no_connect
+		(at 181.61 121.92)
+		(uuid "51e9b5ee-22b3-416c-9302-9c4feaa553e8")
+	)
+	(no_connect
 		(at 167.64 111.76)
 		(uuid "b443318e-bc1e-401b-9ffb-5d349f1be7ca")
 	)
@@ -3713,6 +3717,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY PART N" ""
+			(at 63.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "66362ce0-b31c-4641-8d56-d82ad203daf6")
 		)
@@ -3783,6 +3796,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY PART N" ""
+			(at 45.72 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "633fece9-3356-42ca-a5d3-f47c738f99c3")
 		)
@@ -3843,6 +3865,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 199.39 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY PART N" ""
+			(at 199.39 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3920,6 +3951,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY PART N" ""
+			(at 45.72 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "86a2a584-e3b8-496e-b284-b495aeaf904f")
 		)
@@ -3982,6 +4022,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 124.46 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY PART N" "ADS1158IRTCR-ND"
 			(at 124.46 55.88 0)
 			(effects
 				(font
@@ -4191,6 +4240,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 199.39 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY PART N" ""
+			(at 199.39 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4461,6 +4519,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY PART N" ""
+			(at 73.66 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ed7f1ad-531d-425b-b0e8-d86cf576cd78")
 		)
@@ -4521,6 +4588,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 182.88 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY PART N" ""
+			(at 182.88 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4595,6 +4671,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY PART N" ""
+			(at 106.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1393490b-4d30-4691-b664-473b5dd9c29e")
 		)
@@ -4657,6 +4742,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 95.25 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY PART N" ""
 			(at 95.25 62.23 0)
 			(effects
 				(font
@@ -4792,6 +4886,15 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, SOT-23-5"
+			(at 71.12 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY PART N" "MCP6001T-I/OTCT-ND"
 			(at 71.12 152.4 0)
 			(effects
 				(font
@@ -4943,6 +5046,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY PART N" "MCP6001T-I/OTCT-ND"
+			(at 71.12 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "dcfc91d0-c1ee-4e73-9833-1d66cb944c86")
 		)
@@ -5059,6 +5171,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY PART N" "SER2407CT-ND"
+			(at 186.69 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

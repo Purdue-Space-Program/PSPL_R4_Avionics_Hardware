@@ -420,6 +420,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY PART N" "YAG1237CT-ND"
+			(at 142.24 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ace2ae63-aec5-44ad-b4ee-94ada809ab13")
 		)
@@ -482,6 +491,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 142.24 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY PART N" "YAG1237CT-ND"
 			(at 142.24 97.79 0)
 			(effects
 				(font

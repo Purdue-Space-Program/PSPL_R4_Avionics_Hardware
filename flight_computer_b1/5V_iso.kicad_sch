@@ -707,6 +707,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY PART N" ""
+			(at 106.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "C1"
 			(uuid "8c2a81e2-97ca-439a-80bf-2b76084cf6bc")
 		)

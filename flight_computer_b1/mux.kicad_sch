@@ -1578,6 +1578,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY PART N" "296-9226-1-ND"
+			(at 135.89 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "21"
 			(uuid "8a982656-c2b6-4e02-a118-0660a59a9715")
 		)

@@ -1259,6 +1259,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY PART N" "497-16919-1-ND"
+			(at 147.32 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ba1acd8e-0efb-4003-bdab-7eddc50076a2")
 		)
@@ -1338,6 +1347,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY PART N" ""
+			(at 120.65 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e98bd147-0319-4615-93da-8eaf719b8c45")
 		)
@@ -1410,6 +1428,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 138.43 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY PART N" "YAG1237CT-ND"
+			(at 138.43 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1519,6 +1546,15 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 144.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY PART N" "IRLML6344TRPBFCT-ND"
+			(at 144.78 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
