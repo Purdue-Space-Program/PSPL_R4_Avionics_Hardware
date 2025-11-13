@@ -664,7 +664,7 @@
 		(uuid "d3852dca-eaad-48fe-9342-2e0f7ee93a02")
 	)
 	(hierarchical_label "+5V_ISO"
-		(shape input)
+		(shape output)
 		(at 160.02 102.87 0)
 		(effects
 			(font
@@ -694,7 +694,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17958b05-99ea-429b-8736-0cd33da9d7ba")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR062"
 			(at 109.22 128.27 0)
 			(effects
 				(font
@@ -745,7 +745,7 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/4c75cebc-ee68-4292-a47b-c723457cf341"
-					(reference "#PWR055")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -760,7 +760,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5833289e-bf17-4c86-9b55-8221a4eb9447")
-		(property "Reference" "R59"
+		(property "Reference" "R48"
 			(at 134.62 77.47 90)
 			(effects
 				(font
@@ -821,7 +821,7 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/4c75cebc-ee68-4292-a47b-c723457cf341"
-					(reference "R59")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -837,7 +837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9160defc-2ca4-45dc-8355-f206ab54e378")
-		(property "Reference" "U12"
+		(property "Reference" "U9"
 			(at 134.62 88.9 0)
 			(effects
 				(font
@@ -909,7 +909,7 @@
 		(instances
 			(project ""
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/4c75cebc-ee68-4292-a47b-c723457cf341"
-					(reference "U12")
+					(reference "U9")
 					(unit 1)
 				)
 			)

@@ -754,6 +754,12 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 135.89 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9ecef42-9aff-4b7e-9e17-bad9a0fede1e")
+	)
 	(bus_entry
 		(at 114.3 73.66)
 		(size 2.54 2.54)
@@ -1020,6 +1026,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 116.84) (xy 127 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d1b4b41-7517-4fa0-a9bf-df97be7973bf")
+	)
+	(wire
+		(pts
 			(xy 116.84 106.68) (xy 127 106.68)
 		)
 		(stroke
@@ -1160,6 +1176,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 125.73) (xy 135.89 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7799524-2628-44fc-906b-27e4293e1425")
+	)
+	(wire
+		(pts
 			(xy 116.84 86.36) (xy 127 86.36)
 		)
 		(stroke
@@ -1220,16 +1246,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 116.84) (xy 127 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce6d1836-0bca-455f-8044-a853f1ee1d13")
-	)
-	(wire
-		(pts
 			(xy 116.84 96.52) (xy 127 96.52)
 		)
 		(stroke
@@ -1237,6 +1253,16 @@
 			(type default)
 		)
 		(uuid "d76a6056-23df-45d1-a880-df680ef8f83c")
+	)
+	(wire
+		(pts
+			(xy 121.92 125.73) (xy 135.89 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f46afe79-3d0a-4170-b68c-a52b693fe02a")
 	)
 	(wire
 		(pts
@@ -1250,7 +1276,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 123.19) (xy 135.89 129.54)
+			(xy 135.89 123.19) (xy 135.89 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1267,6 +1293,16 @@
 			(type default)
 		)
 		(uuid "f9c35c9a-cd2c-4f0f-a37b-d623387ccb56")
+	)
+	(wire
+		(pts
+			(xy 121.92 116.84) (xy 121.92 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd248189-61eb-48c6-ae1a-01d351fda63c")
 	)
 	(bus
 		(pts
@@ -1470,17 +1506,6 @@
 		)
 		(uuid "1e677f22-4cf9-44e3-a16f-b7e33d7b99f9")
 	)
-	(hierarchical_label "~{enable}"
-		(shape input)
-		(at 116.84 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "613e0158-c739-445f-9069-1c7cf0ee0566")
-	)
 	(hierarchical_label "select2"
 		(shape input)
 		(at 116.84 109.22 180)
@@ -1514,7 +1539,7 @@
 		)
 		(uuid "82e52264-b660-43c1-86fd-622135eb7ba9")
 	)
-	(hierarchical_label "output"
+	(hierarchical_label "OUTPUT"
 		(shape input)
 		(at 156.21 82.55 0)
 		(effects
@@ -1677,7 +1702,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "916c6f6d-7952-4e52-b2ac-45f581caf648")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR065"
 			(at 135.89 54.61 0)
 			(effects
 				(font
@@ -1728,7 +1753,7 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/73ecdfe5-1123-4217-8df2-7ecc56cfe43e"
-					(reference "#PWR064")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -1744,7 +1769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcc3c7e8-493c-4625-abaf-1c8ef60380f3")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR066"
 			(at 135.89 135.89 0)
 			(effects
 				(font
@@ -1794,7 +1819,7 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/73ecdfe5-1123-4217-8df2-7ecc56cfe43e"
-					(reference "#PWR063")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)

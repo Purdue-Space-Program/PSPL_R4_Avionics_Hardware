@@ -141,23 +141,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "CR"
-				(at 5.08 4.445 0)
+			(property "Reference" "CR2"
+				(at 6.3501 -3.81 90)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify right)
 				)
 			)
-			(property "Value" "MBRS360T3G"
-				(at 5.08 -3.81 0)
+			(property "Value" "STPS360AF"
+				(at 3.8101 -3.81 90)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify right)
 				)
 			)
-			(property "Footprint" "DIODE_SMC_7P15X6P25_ONS"
+			(property "Footprint" "Diode_SMD:D_SOD-128"
 				(at 0 0 0)
 				(effects
 					(font
@@ -167,7 +169,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "MBRS360T3G"
+			(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/group3/06/00/c2/7f/e8/20/4a/81/DM00306268/files/DM00306268.pdf/jcr:content/translations/en.DM00306268.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -179,6 +181,15 @@
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DIGIKEY PART N" "497-16919-1-ND"
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -468,25 +479,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+			(property "Reference" "U3"
+				(at 6.35 1.2701 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 					(justify left)
 				)
 			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "IRLML6344TRPBF"
+				(at 6.35 -1.2699 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 2.54 0)
 				(effects
 					(font
@@ -533,6 +544,15 @@
 			)
 			(property "Sim.Pins" "1=D 2=G 3=S"
 				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DIGIKEY PART N" "IRLML6344TRPBFCT-ND"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -727,7 +747,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -745,7 +765,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -763,7 +783,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1098,6 +1118,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 64.77) (xy 212.09 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f1eabb3-d531-4468-846c-ac3b8ceb1f48")
+	)
+	(wire
+		(pts
 			(xy 129.54 105.41) (xy 129.54 87.63)
 		)
 		(stroke
@@ -1115,16 +1145,6 @@
 			(type default)
 		)
 		(uuid "62c5544f-cd1c-4215-a3b4-a1e27116411c")
-	)
-	(wire
-		(pts
-			(xy 212.09 64.77) (xy 212.09 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b66c217-6bde-4369-993d-ea33a0f4a5a4")
 	)
 	(wire
 		(pts
@@ -1155,6 +1175,16 @@
 			(type default)
 		)
 		(uuid "a873f121-2c39-4d0f-81cc-849ba73be691")
+	)
+	(wire
+		(pts
+			(xy 217.17 64.77) (xy 212.09 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8fe9c0b-a171-42a6-a77c-0cc9d5dd12b0")
 	)
 	(wire
 		(pts
@@ -1279,8 +1309,8 @@
 		(uuid "5f2cd789-c616-4391-b1ef-15943998193b")
 	)
 	(hierarchical_label "EXCITATION"
-		(shape input)
-		(at 212.09 64.77 0)
+		(shape output)
+		(at 217.17 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1445,7 +1475,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIGIKEY PART N" ""
+		(property "DIGIKEY PART N" "541-100HCT-ND"
 			(at 120.65 87.63 90)
 			(effects
 				(font
@@ -1463,11 +1493,11 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/299e6e4e-fa99-4a32-b6f8-bfb69183cdb6"
-					(reference "R7")
+					(reference "R13")
 					(unit 1)
 				)
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/5194abae-c8be-4cd7-ad0b-bc3c23906e67"
-					(reference "R5")
+					(reference "R9")
 					(unit 1)
 				)
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/58440afa-797c-48ee-969a-78f200833b9c"
@@ -1475,7 +1505,7 @@
 					(unit 1)
 				)
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/c7d93d3e-13a6-4d19-92d1-c9cec54c255f"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -1491,7 +1521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33fb92ac-d149-48d4-8436-fd2ff19a33c3")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR028"
 			(at 212.09 63.5 0)
 			(effects
 				(font
@@ -1541,19 +1571,19 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/299e6e4e-fa99-4a32-b6f8-bfb69183cdb6"
-					(reference "#PWR059")
+					(reference "#PWR040")
 					(unit 1)
 				)
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/5194abae-c8be-4cd7-ad0b-bc3c23906e67"
-					(reference "#PWR058")
+					(reference "#PWR036")
 					(unit 1)
 				)
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/58440afa-797c-48ee-969a-78f200833b9c"
-					(reference "#PWR014")
+					(reference "#PWR028")
 					(unit 1)
 				)
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/c7d93d3e-13a6-4d19-92d1-c9cec54c255f"
-					(reference "#PWR057")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -1629,11 +1659,11 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/299e6e4e-fa99-4a32-b6f8-bfb69183cdb6"
-					(reference "R8")
+					(reference "R14")
 					(unit 1)
 				)
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/5194abae-c8be-4cd7-ad0b-bc3c23906e67"
-					(reference "R6")
+					(reference "R10")
 					(unit 1)
 				)
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/58440afa-797c-48ee-969a-78f200833b9c"
@@ -1641,7 +1671,7 @@
 					(unit 1)
 				)
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/c7d93d3e-13a6-4d19-92d1-c9cec54c255f"
-					(reference "R4")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -1777,7 +1807,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8cb16ebf-2c33-4805-abf3-56ab31c6d5b0")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR027"
 			(at 181.61 111.76 0)
 			(effects
 				(font
@@ -1827,19 +1857,19 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/299e6e4e-fa99-4a32-b6f8-bfb69183cdb6"
-					(reference "#PWR07")
+					(reference "#PWR039")
 					(unit 1)
 				)
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/5194abae-c8be-4cd7-ad0b-bc3c23906e67"
-					(reference "#PWR06")
+					(reference "#PWR035")
 					(unit 1)
 				)
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/58440afa-797c-48ee-969a-78f200833b9c"
-					(reference "#PWR01")
+					(reference "#PWR027")
 					(unit 1)
 				)
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/c7d93d3e-13a6-4d19-92d1-c9cec54c255f"
-					(reference "#PWR05")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -1855,7 +1885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4ffc631-4e50-4f05-8c92-85831f9ecd76")
-		(property "Reference" "R60"
+		(property "Reference" "R3"
 			(at 184.15 85.0899 0)
 			(effects
 				(font
@@ -1918,19 +1948,19 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/299e6e4e-fa99-4a32-b6f8-bfb69183cdb6"
-					(reference "R66")
+					(reference "R15")
 					(unit 1)
 				)
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/5194abae-c8be-4cd7-ad0b-bc3c23906e67"
-					(reference "R64")
+					(reference "R11")
 					(unit 1)
 				)
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/58440afa-797c-48ee-969a-78f200833b9c"
-					(reference "R60")
+					(reference "R3")
 					(unit 1)
 				)
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/c7d93d3e-13a6-4d19-92d1-c9cec54c255f"
-					(reference "R62")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -1946,7 +1976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7448529-d7fa-46a4-bd70-118123fae948")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR025"
 			(at 147.32 62.23 0)
 			(effects
 				(font
@@ -1996,19 +2026,19 @@
 		(instances
 			(project ""
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/299e6e4e-fa99-4a32-b6f8-bfb69183cdb6"
-					(reference "#PWR070")
+					(reference "#PWR037")
 					(unit 1)
 				)
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/5194abae-c8be-4cd7-ad0b-bc3c23906e67"
-					(reference "#PWR069")
+					(reference "#PWR033")
 					(unit 1)
 				)
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/58440afa-797c-48ee-969a-78f200833b9c"
-					(reference "#PWR067")
+					(reference "#PWR025")
 					(unit 1)
 				)
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/c7d93d3e-13a6-4d19-92d1-c9cec54c255f"
-					(reference "#PWR068")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -2024,7 +2054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4bd4b6f-1081-4158-b9be-ee09f6726d01")
-		(property "Reference" "R61"
+		(property "Reference" "R4"
 			(at 184.15 97.7899 0)
 			(effects
 				(font
@@ -2087,19 +2117,19 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/299e6e4e-fa99-4a32-b6f8-bfb69183cdb6"
-					(reference "R67")
+					(reference "R16")
 					(unit 1)
 				)
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/5194abae-c8be-4cd7-ad0b-bc3c23906e67"
-					(reference "R65")
+					(reference "R12")
 					(unit 1)
 				)
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/58440afa-797c-48ee-969a-78f200833b9c"
-					(reference "R61")
+					(reference "R4")
 					(unit 1)
 				)
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/c7d93d3e-13a6-4d19-92d1-c9cec54c255f"
-					(reference "R63")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -2165,11 +2195,11 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/299e6e4e-fa99-4a32-b6f8-bfb69183cdb6"
-					(reference "#PWR029")
+					(reference "#PWR038")
 					(unit 1)
 				)
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/5194abae-c8be-4cd7-ad0b-bc3c23906e67"
-					(reference "#PWR028")
+					(reference "#PWR034")
 					(unit 1)
 				)
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/58440afa-797c-48ee-969a-78f200833b9c"
@@ -2177,7 +2207,7 @@
 					(unit 1)
 				)
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/c7d93d3e-13a6-4d19-92d1-c9cec54c255f"
-					(reference "#PWR027")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)

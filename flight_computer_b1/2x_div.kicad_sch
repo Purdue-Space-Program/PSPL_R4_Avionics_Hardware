@@ -309,7 +309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "176ba143-8d2e-44c3-abb2-da1c4d1b313b")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR067"
 			(at 142.24 107.95 0)
 			(effects
 				(font
@@ -359,7 +359,7 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/4025abfc-a6bf-4171-88b8-c419fa084ae6"
-					(reference "#PWR065")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -375,7 +375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2d797b2-0cdc-46cd-971f-4cd35b8659e3")
-		(property "Reference" "R51"
+		(property "Reference" "R49"
 			(at 144.78 83.8199 0)
 			(effects
 				(font
@@ -438,7 +438,7 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/4025abfc-a6bf-4171-88b8-c419fa084ae6"
-					(reference "R51")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -454,7 +454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f05356ba-8f38-4682-9c8a-1c1a8983b362")
-		(property "Reference" "R52"
+		(property "Reference" "R50"
 			(at 144.78 96.5199 0)
 			(effects
 				(font
@@ -517,7 +517,7 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/4025abfc-a6bf-4171-88b8-c419fa084ae6"
-					(reference "R52")
+					(reference "R50")
 					(unit 1)
 				)
 			)

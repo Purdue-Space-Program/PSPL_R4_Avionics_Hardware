@@ -1847,7 +1847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bb9c81c-aabd-4d02-8d2a-653ca70d8b26")
-		(property "Reference" "R41"
+		(property "Reference" "R53"
 			(at 114.3 88.8999 0)
 			(effects
 				(font
@@ -1910,7 +1910,7 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/1be63f81-f9ac-4d7f-9cfb-3f22579c6b53"
-					(reference "R41")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -1926,7 +1926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2740a057-9ab9-4a37-90a3-ba6996531585")
-		(property "Reference" "R56"
+		(property "Reference" "R55"
 			(at 172.72 92.71 90)
 			(effects
 				(font
@@ -1942,7 +1942,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 172.72 100.838 90)
 			(effects
 				(font
@@ -1987,7 +1987,7 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/1be63f81-f9ac-4d7f-9cfb-3f22579c6b53"
-					(reference "R56")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -2002,7 +2002,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2aa6845a-af6b-474a-94f7-b4ddb6a608d9")
-		(property "Reference" "R53"
+		(property "Reference" "R51"
 			(at 52.07 93.98 90)
 			(effects
 				(font
@@ -2045,7 +2045,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIGIKEY PART N" ""
+		(property "DIGIKEY PART N" "541-100HCT-ND"
 			(at 52.07 91.44 90)
 			(effects
 				(font
@@ -2063,7 +2063,7 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/1be63f81-f9ac-4d7f-9cfb-3f22579c6b53"
-					(reference "R53")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -2079,7 +2079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c1b32af-806f-4e12-9c12-6cde9665d04c")
-		(property "Reference" "R58"
+		(property "Reference" "R57"
 			(at 196.85 71.1199 0)
 			(effects
 				(font
@@ -2097,7 +2097,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 192.532 72.39 90)
 			(effects
 				(font
@@ -2142,7 +2142,7 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/1be63f81-f9ac-4d7f-9cfb-3f22579c6b53"
-					(reference "R58")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -2267,7 +2267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "379d2acd-2a07-41a5-97be-df241f7bf91e")
-		(property "Reference" "R57"
+		(property "Reference" "R58"
 			(at 196.85 83.8199 0)
 			(effects
 				(font
@@ -2285,7 +2285,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 192.532 85.09 90)
 			(effects
 				(font
@@ -2330,7 +2330,7 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/1be63f81-f9ac-4d7f-9cfb-3f22579c6b53"
-					(reference "R57")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -2455,7 +2455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "578b575a-c766-4174-8c57-3f9d7e5ac59a")
-		(property "Reference" "R42"
+		(property "Reference" "R54"
 			(at 114.3 101.5999 0)
 			(effects
 				(font
@@ -2518,7 +2518,7 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/1be63f81-f9ac-4d7f-9cfb-3f22579c6b53"
-					(reference "R42")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -2534,7 +2534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6811bb7e-fe7a-4d37-bcae-e4927d9536f4")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR071"
 			(at 194.31 67.31 0)
 			(effects
 				(font
@@ -2584,7 +2584,7 @@
 		(instances
 			(project ""
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/1be63f81-f9ac-4d7f-9cfb-3f22579c6b53"
-					(reference "#PWR04")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -2599,7 +2599,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "725882c2-0677-49f2-9f57-755f7d114bb1")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR068"
 			(at 78.74 115.57 0)
 			(effects
 				(font
@@ -2650,7 +2650,7 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/1be63f81-f9ac-4d7f-9cfb-3f22579c6b53"
-					(reference "#PWR02")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -2665,7 +2665,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a7ea4e2-ca08-405c-b94d-bf0e904931f8")
-		(property "Reference" "R54"
+		(property "Reference" "R52"
 			(at 69.85 111.76 90)
 			(effects
 				(font
@@ -2726,7 +2726,7 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/1be63f81-f9ac-4d7f-9cfb-3f22579c6b53"
-					(reference "R54")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -2741,7 +2741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84cf9e28-8442-4c67-bac4-1a14e2fe680a")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR069"
 			(at 111.76 115.57 0)
 			(effects
 				(font
@@ -2791,7 +2791,7 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/1be63f81-f9ac-4d7f-9cfb-3f22579c6b53"
-					(reference "#PWR08")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -2892,7 +2892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adb712a9-5815-4dc3-ac21-cfb17ced0e4d")
-		(property "Reference" "R55"
+		(property "Reference" "R56"
 			(at 184.15 106.6799 0)
 			(effects
 				(font
@@ -2910,7 +2910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 179.832 107.95 90)
 			(effects
 				(font
@@ -2955,7 +2955,7 @@
 		(instances
 			(project ""
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/1be63f81-f9ac-4d7f-9cfb-3f22579c6b53"
-					(reference "R55")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -2971,7 +2971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d11f9723-bf85-420a-84fd-81d19b0d1d9d")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR070"
 			(at 181.61 123.19 0)
 			(effects
 				(font
@@ -3021,7 +3021,7 @@
 		(instances
 			(project ""
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/1be63f81-f9ac-4d7f-9cfb-3f22579c6b53"
-					(reference "#PWR03")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
