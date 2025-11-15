@@ -11384,6 +11384,49 @@
 			)
 		)
 	)
+	(sheet
+		(at 191.262 61.976)
+		(size 39.624 18.288)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dafce160-673b-4056-acfb-f0ec341d8d32")
+		(property "Sheetname" "Power Systems"
+			(at 191.262 61.2644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 191.262 80.8486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "flight_computer"
+				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05"
+					(page "20")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
