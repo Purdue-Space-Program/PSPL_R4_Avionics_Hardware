@@ -5638,7 +5638,7 @@
 		)
 		(uuid "008e8438-478c-434f-9ed0-8b2e287662c3")
 	)
-	(label "RS485_UART_RX"
+	(label "UART_ESC_RX"
 		(at 388.62 82.55 180)
 		(effects
 			(font
@@ -5708,7 +5708,7 @@
 		)
 		(uuid "068c09c9-fdbd-4028-b40a-bcf1cf20e461")
 	)
-	(label "RS485_UART_RX"
+	(label "UART_ESC_RX"
 		(at 285.75 191.77 0)
 		(effects
 			(font
@@ -6068,7 +6068,7 @@
 		)
 		(uuid "5aeedf96-b68f-48ac-9a70-706eb965104f")
 	)
-	(label "RS485_UART_TX"
+	(label "UART_ESC_TX"
 		(at 388.62 80.01 180)
 		(effects
 			(font
@@ -6188,7 +6188,7 @@
 		)
 		(uuid "7aa266cf-ff4a-46b8-86be-7c34067fcd5b")
 	)
-	(label "RS485_UART_TX"
+	(label "UART_ESC_RX"
 		(at 285.75 194.31 0)
 		(effects
 			(font
@@ -8624,7 +8624,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 171.45 144.78 0)
 			(effects
 				(font
@@ -8914,6 +8914,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 355.6 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY PART N" "277-6405-ND "
 			(at 355.6 24.13 0)
 			(effects
 				(font
@@ -9794,6 +9803,48 @@
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05"
 					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 80.01)
+		(size 12.7 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "280e86a1-3324-48d8-87d6-419f34121d97")
+		(property "Sheetname" "temperature0"
+			(at 215.9 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "temperature.kicad_sch"
+			(at 215.9 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "flight_computer"
+				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05"
+					(page "20")
 				)
 			)
 		)

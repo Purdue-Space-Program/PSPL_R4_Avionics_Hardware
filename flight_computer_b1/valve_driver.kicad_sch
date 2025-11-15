@@ -1431,6 +1431,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "2fd29de5-8582-4c39-b86d-03230218c349")
 		(property "Reference" "R1"
 			(at 120.65 90.17 90)
@@ -1597,6 +1598,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "43abd33e-d054-43e7-9040-6f80579a0672")
 		(property "Reference" "R2"
 			(at 138.43 107.95 90)
@@ -1806,6 +1808,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "8cb16ebf-2c33-4805-abf3-56ab31c6d5b0")
 		(property "Reference" "#PWR027"
 			(at 181.61 111.76 0)
@@ -2143,6 +2146,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "dd3ac4e4-2a85-4160-92b5-3c828c129c8f")
 		(property "Reference" "#PWR026"
 			(at 147.32 111.76 0)

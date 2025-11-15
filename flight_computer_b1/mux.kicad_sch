@@ -1559,7 +1559,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78c8830a-8a8f-44c2-8be1-78bcdbf10335")
-		(property "Reference" "U10"
+		(property "Reference" "U11"
 			(at 124.46 49.53 0)
 			(effects
 				(font
@@ -1687,7 +1687,7 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/73ecdfe5-1123-4217-8df2-7ecc56cfe43e"
-					(reference "U10")
+					(reference "U11")
 					(unit 1)
 				)
 			)
