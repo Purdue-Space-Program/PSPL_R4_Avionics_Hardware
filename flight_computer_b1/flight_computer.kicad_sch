@@ -6188,7 +6188,7 @@
 		)
 		(uuid "7aa266cf-ff4a-46b8-86be-7c34067fcd5b")
 	)
-	(label "UART_ESC_RX"
+	(label "UART_ESC_TX"
 		(at 285.75 194.31 0)
 		(effects
 			(font
