@@ -1,5 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "avi_lib")(type "KiCad")(uri "../libs/symbols/7443633300.kicad_sym")(options "")(descr ""))
-  (lib (name "LTC7801")(type "KiCad")(uri "../libs/symbols/LTC7801.kicad_sym")(options "")(descr ""))
+  (lib (name "LTC7801")(type "KiCad")(uri "../libs/symbols/2025-11-18_01-45-40.kicad_sym")(options "")(descr ""))
 )
