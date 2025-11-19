@@ -1014,6 +1014,1204 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "ISA170230C04LMDS"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q?"
+			(at 0 0.635 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ISA170230C04LMDS"
+			(at 0 -29.845 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SIPMOS Small-Signal Dual N and P Channel Enhancement Transistor"
+			(at 3.048 3.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ISA170230C04LMDS_0_1"
+			(rectangle
+				(start 0 0)
+				(end 15.24 -27.94)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "ISA170230C04LMDS_1_0"
+			(polyline
+				(pts
+					(xy 4.572 -5.334) (xy 4.572 -7.62)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.572 -7.62) (xy 0 -7.62)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.572 -7.62) (xy 4.572 -9.906)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.572 -18.034) (xy 4.572 -20.32)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.572 -20.32) (xy 0 -20.32)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.572 -20.32) (xy 4.572 -22.606)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -5.334) (xy 5.08 -5.842)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -5.842) (xy 5.08 -6.35)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -5.842) (xy 7.62 -5.842)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -7.112) (xy 5.08 -7.62)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -7.62) (xy 5.08 -8.128)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -7.62) (xy 7.62 -7.62)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -7.62) (xy 6.604 -8.128) (xy 6.604 -7.112)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -8.89) (xy 5.08 -9.398)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -9.398) (xy 5.08 -9.906)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -9.398) (xy 7.62 -9.398)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -18.034) (xy 5.08 -18.542)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -18.542) (xy 5.08 -19.05)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -18.542) (xy 7.62 -18.542)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -19.812) (xy 5.08 -20.32)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -20.32) (xy 5.08 -20.828)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -20.32) (xy 7.62 -20.32)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -21.59) (xy 5.08 -22.098)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -22.098) (xy 5.08 -22.606)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -22.098) (xy 7.62 -22.098)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -2.54) (xy 15.24 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -5.08) (xy 7.62 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -5.08) (xy 10.16 -5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -5.842) (xy 7.62 -5.08)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -7.62) (xy 7.62 -9.398)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -9.398) (xy 7.62 -10.16)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -10.16) (xy 7.62 -12.7)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -10.16) (xy 10.16 -10.16)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -12.7) (xy 15.24 -12.7)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -15.24) (xy 15.24 -15.24)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -17.78) (xy 7.62 -15.24)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -17.78) (xy 10.16 -17.78)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -18.542) (xy 7.62 -17.78)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -20.32) (xy 7.62 -22.098)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -20.32) (xy 6.096 -19.812) (xy 6.096 -20.828)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -22.098) (xy 7.62 -22.86)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -22.86) (xy 7.62 -25.4)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -22.86) (xy 10.16 -22.86)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -25.4) (xy 15.24 -25.4)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.144 -6.858) (xy 10.16 -6.858)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.144 -8.382) (xy 11.176 -8.382)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 9.144 -19.558) (xy 10.16 -21.082)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -5.08) (xy 10.16 -6.858)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -6.858) (xy 9.144 -8.382)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -6.858) (xy 10.16 -10.16)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -6.858) (xy 11.176 -6.858)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -21.082) (xy 9.144 -21.082)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -21.082) (xy 10.16 -17.78)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -21.082) (xy 11.176 -19.558)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -22.86) (xy 10.16 -21.082)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.176 -8.382) (xy 10.16 -6.858)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.176 -19.558) (xy 9.144 -19.558)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.176 -21.082) (xy 10.16 -21.082)
+				)
+				(stroke
+					(width 0.1778)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "7,8"
+				(at 18.415 -0.635 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify right top)
+				)
+			)
+			(text "5,6"
+				(at 18.415 -13.335 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify right top)
+				)
+			)
+			(pin passive line
+				(at -5.08 -7.62 0)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -20.32 0)
+				(length 5.08)
+				(name "4"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 -2.54 180)
+				(length 5.08)
+				(name "7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 -2.54 180)
+				(length 5.08)
+				(name "8"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 -12.7 180)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 -15.24 180)
+				(length 5.08)
+				(name "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 -15.24 180)
+				(length 5.08)
+				(name "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 -25.4 180)
+				(length 5.08)
+				(name "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "LM66200DRLR"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 20.32 10.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LM66200DRLR"
+			(at 20.32 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "SOT-5X3_DRL_TEX"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/lm66200"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "LM66200DRLR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOT-5X3_DRL_TEX SOT-5X3_DRL_TEX-M SOT-5X3_DRL_TEX-L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LM66200DRLR_0_1"
+			(polyline
+				(pts
+					(xy 7.62 5.08) (xy 7.62 -30.48)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -30.48) (xy 33.02 -30.48)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 33.02 5.08) (xy 7.62 5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 33.02 -30.48) (xy 33.02 5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at 0 0 0)
+				(length 7.62)
+				(name "ON"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -5.08 0)
+				(length 7.62)
+				(name "VIN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -7.62 0)
+				(length 7.62)
+				(name "VIN2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 0 -22.86 0)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 0 -25.4 0)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 40.64 0 180)
+				(length 7.62)
+				(name "ST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 40.64 -2.54 180)
+				(length 7.62)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 40.64 -5.08 180)
+				(length 7.62)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "MC-306_32.7680K-A0_ROHS"
 		(pin_names
 			(offset 1.016)

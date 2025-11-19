@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "0f35402c-c71b-42df-832c-6fab3623c698")
 	(paper "A4")
+	(title_block
+		(date "2025-11-05")
+		(rev "1")
+		(company "Purdue Space Program Liquids")
+	)
 	(lib_symbols
 		(symbol "CLF7045NIT_6R8N_D:CLF7045NIT-6R8N-D"
 			(pin_names
@@ -1124,7 +1129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16c6726e-0c7c-4a56-b829-ebc7d70ccf40")
-		(property "Reference" "R11"
+		(property "Reference" "R19"
 			(at 170.18 109.2199 0)
 			(effects
 				(font
@@ -1169,6 +1174,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY PART N" ""
+			(at 167.64 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "974c242e-5483-4d5d-b09f-0445eab95820")
 		)
@@ -1178,7 +1192,7 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/45d05398-45d2-4c5e-8eda-8a352ba114a9"
-					(reference "R11")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -1194,7 +1208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24a9c991-3aee-4bfd-9d55-3266d2139ca4")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR045"
 			(at 190.5 99.06 0)
 			(effects
 				(font
@@ -1244,7 +1258,7 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/45d05398-45d2-4c5e-8eda-8a352ba114a9"
-					(reference "#PWR034")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -1260,7 +1274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a5adcba-c8b1-4ed0-af76-9676a59871c0")
-		(property "Reference" "R9"
+		(property "Reference" "R17"
 			(at 170.18 87.6299 0)
 			(effects
 				(font
@@ -1305,6 +1319,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY PART N" ""
+			(at 167.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "82d00fcc-6f00-4faf-b9a9-913ee1f17380")
 		)
@@ -1314,7 +1337,7 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/45d05398-45d2-4c5e-8eda-8a352ba114a9"
-					(reference "R9")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -1374,6 +1397,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY PART N" ""
+			(at 181.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3d65829a-8478-4628-88dd-45c8e9c6043b")
 		)
@@ -1399,7 +1431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ad95a4c-11ec-497b-9f97-b66b2f737044")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR043"
 			(at 167.64 121.92 0)
 			(effects
 				(font
@@ -1449,7 +1481,7 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/45d05398-45d2-4c5e-8eda-8a352ba114a9"
-					(reference "#PWR032")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -1465,7 +1497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52f25e67-e4d9-4a42-af41-f2b748f856c2")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR044"
 			(at 181.61 99.06 0)
 			(effects
 				(font
@@ -1515,7 +1547,7 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/45d05398-45d2-4c5e-8eda-8a352ba114a9"
-					(reference "#PWR033")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -1531,7 +1563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71592640-5700-4a78-9496-6b2dd1b93374")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR041"
 			(at 96.52 96.52 0)
 			(effects
 				(font
@@ -1581,7 +1613,7 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/45d05398-45d2-4c5e-8eda-8a352ba114a9"
-					(reference "#PWR030")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -1641,6 +1673,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY PART N" ""
+			(at 190.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7036ba64-12c6-4622-a60d-812d2bf4bb7d")
 		)
@@ -1674,7 +1715,7 @@
 				)
 			)
 		)
-		(property "Value" "LMR51430XDDCR"
+		(property "Value" "LMR51430XFDDCR"
 			(at 118.11 74.93 0)
 			(effects
 				(font
@@ -1703,6 +1744,15 @@
 			)
 		)
 		(property "Description" "4.5-V to 36-V, 3-A synchronous buck converter with 40-µA IQ, SOT-23-6"
+			(at 118.11 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY PART N" "296-LMR51430XFDDCRCT-ND"
 			(at 118.11 82.55 0)
 			(effects
 				(font
@@ -1756,7 +1806,7 @@
 				)
 			)
 		)
-		(property "Value" "CLF7045NIT-6R8N-D"
+		(property "Value" "6.8uH"
 			(at 152.4 78.74 0)
 			(effects
 				(font
@@ -1783,7 +1833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CLF7045NIT-6R8N-D"
 			(at 152.4 82.55 0)
 			(effects
 				(font
@@ -1832,6 +1882,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY PART N" "445-174172-1-ND"
+			(at 152.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67fc7375-e10b-4da1-9c61-f1312c8c20d4")
 		)
@@ -1857,7 +1916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b059569-64a1-49b4-9812-c7a423967e26")
-		(property "Reference" "R10"
+		(property "Reference" "R18"
 			(at 170.18 96.5199 0)
 			(effects
 				(font
@@ -1902,6 +1961,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY PART N" ""
+			(at 167.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7953acbd-1702-46fe-bed3-b72841a1dcf4")
 		)
@@ -1911,7 +1979,7 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/45d05398-45d2-4c5e-8eda-8a352ba114a9"
-					(reference "R10")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -1927,7 +1995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98b41cb7-3aba-429f-ad2f-3ec189f60fae")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR042"
 			(at 118.11 96.52 0)
 			(effects
 				(font
@@ -1977,7 +2045,7 @@
 		(instances
 			(project "flight_computer"
 				(path "/b71a7b79-cdb5-4e38-a72c-0daaa3474f05/45d05398-45d2-4c5e-8eda-8a352ba114a9"
-					(reference "#PWR031")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -2029,6 +2097,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 96.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY PART N" ""
 			(at 96.52 85.09 0)
 			(effects
 				(font
@@ -2098,6 +2175,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 134.62 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY PART N" ""
+			(at 134.62 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
