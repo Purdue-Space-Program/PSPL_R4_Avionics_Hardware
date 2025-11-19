@@ -187,7 +187,10 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.3,
+        0.6,
+        1.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -692,15 +695,15 @@
     ],
     [
       "f3991181-a3ee-4766-b2bc-0a67569fe7f0",
-      "power_terminals"
+      "input_power_terminals"
     ],
     [
       "9a323530-b26f-4be4-a990-f961872eab59",
       "voltage_sensing"
     ],
     [
-      "066042d9-14fd-4e29-ac30-cea570129951",
-      "sense_terminals"
+      "5d9f5b18-0838-49e2-b674-990805e2ba52",
+      "output_power_terminals"
     ]
   ],
   "text_variables": {}
