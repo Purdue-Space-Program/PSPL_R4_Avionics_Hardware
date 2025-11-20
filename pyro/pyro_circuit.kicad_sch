@@ -2467,7 +2467,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIGIKEY PART N" "541-100HCT-ND"
+		(property "DIGIKEY PART N" "311-10.0KHRCT-ND"
 			(at 55.88 86.36 90)
 			(effects
 				(font
@@ -2546,7 +2546,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIGIKEY PART N" ""
+		(property "DIGIKEY PART N" "RMCF0603FT1K00CT-ND"
 			(at 189.23 100.33 0)
 			(effects
 				(font
@@ -2732,7 +2732,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIGIKEY PART N" ""
+		(property "DIGIKEY PART N" "RMCF0603FT1K00CT-ND"
 			(at 254 86.36 0)
 			(effects
 				(font
@@ -2811,7 +2811,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIGIKEY PART N" "YAG1237CT-ND"
+		(property "DIGIKEY PART N" "RMCF0603FT1K00CT-ND"
 			(at 114.3 97.79 0)
 			(effects
 				(font
@@ -2888,7 +2888,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIGIKEY PART N" ""
+		(property "DIGIKEY PART N" "311-10.0KHRCT-ND"
 			(at 181.61 91.44 90)
 			(effects
 				(font
@@ -3031,7 +3031,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIGIKEY PART N" ""
+		(property "DIGIKEY PART N" "2019-RK73B1JTTD202JCT-ND "
 			(at 241.3 86.36 0)
 			(effects
 				(font
@@ -3107,7 +3107,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIGIKEY PART N" ""
+		(property "DIGIKEY PART N" "RMCF0603FT1K00CT-ND"
 			(at 73.66 104.14 90)
 			(effects
 				(font
