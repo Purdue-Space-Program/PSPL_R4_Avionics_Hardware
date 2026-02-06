@@ -669,7 +669,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SO-8_STM"
+		(property "Footprint" "avi_footprint:SO-8_STM"
 			(at 137.16 91.44 0)
 			(effects
 				(font

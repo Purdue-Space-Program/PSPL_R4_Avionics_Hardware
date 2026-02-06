@@ -3318,7 +3318,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RTC0048A-IPC_A"
+		(property "Footprint" "avi_footprint:RTC0048A-IPC_A"
 			(at 124.46 55.88 0)
 			(effects
 				(font
