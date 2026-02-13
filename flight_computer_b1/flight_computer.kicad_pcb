@@ -33301,7 +33301,7 @@
 	(segment
 		(start 163.25 84.5)
 		(end 161.175 86.575)
-		(width 0.2)
+		(width 0.3)
 		(layer "F.Cu")
 		(net 31)
 		(uuid "3ff86a54-2b13-4147-b5fb-a6ea264f2e7e")
@@ -33669,7 +33669,7 @@
 	(segment
 		(start 161.175 86.575)
 		(end 150.855 96.895)
-		(width 0.2)
+		(width 0.3)
 		(layer "F.Cu")
 		(net 31)
 		(uuid "ba4e5dfe-f4c8-4c95-bcfb-849e712eefa9")
