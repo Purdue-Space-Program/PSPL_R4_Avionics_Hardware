@@ -10183,7 +10183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GND24V"
 			(at 346.71 31.75 0)
 			(effects
 				(font

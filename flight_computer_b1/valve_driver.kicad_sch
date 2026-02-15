@@ -2157,13 +2157,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 149.86 109.22 0)
+		(property "Value" "GND24V"
+			(at 147.32 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
